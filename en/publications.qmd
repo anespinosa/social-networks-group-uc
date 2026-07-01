@@ -1,20 +1,90 @@
 ---
 title: "Publications"
-subtitle: "Peer-reviewed articles, books, and working papers from the group"
+subtitle: "Peer-reviewed articles, books, and working papers by group members"
 ---
 
-<!-- TODO: populate with the group's publication list. Recommended format below;
-     consider generating this list from a shared BibTeX/Zotero library so it can
-     be regenerated automatically rather than maintained by hand. -->
-
-### 2026
-
-- Author(s). (2026). *Title of the article.* Journal Name. [DOI/link]
+<!-- Sourced from the Google Scholar profiles of Alejandro Espinosa-Rada, Karina Arias-Yurisch,
+     and Daniela Luengo-Aravena. TODO: add remaining group members' publications, and DOIs/links
+     where available. Consider regenerating this list from a shared BibTeX/Zotero library. -->
 
 ### 2025
 
-- Author(s). (2025). *Title of the article.* Journal Name. [DOI/link]
+- Espinosa-Rada, A., Lerner, J., & Fritz, C. (2025). Socio-cognitive networks between researchers: Investigating scientific dualities with the group-oriented relational hyperevent model. *Social Networks.*
+- Bellotti, E., & Espinosa-Rada, A. (2025). Scientific networks. In *Handbook of Culture and Social Networks.*
+- Vanhulst, J., Padilla, P., Espinosa-Rada, A., Cantillán, R., Velásquez, R., et al. (2025). The reflexive process in sustainability science: A short critical review. *Environmental Science & Policy.*
+- Ramos-Fuenzalida, C., Retamal-Soto, K., & Arias-Yurisch, K. (2025). Explaining partner selection in planned emergency management networks. *International Journal of Public Administration*, 1–13.
+- Arias-Yurisch, K., Retamal-Soto, K., & Ramos-Fuenzalida, C. (2025). Insights into collaborative networks in Latin American public administrations. In *Handbook of Public Management in Latin America and the Caribbean* (pp. 239–257).
+- Díaz, B., Luengo-Aravena, D., Barahona, P., & Felmer, P. (2025). Assessing the impact of online collaborative problem solving on a calculus class for first-year engineering students: A communities of practice lens. *Journal of Engineering Education, 114*(1), e20622.
+
+### 2024
+
+- Espinosa-Rada, A., Bellotti, E., Everett, M. G., & Stadtfeld, C. (2024). Co-evolution of a socio-cognitive scientific network: A case study of citation dynamics among astronomers. *Social Networks.*
+- Arias-Yurisch, K., Retamal-Soto, K., Ramos-Fuenzalida, C., & Espinosa-Rada, A. (2024). Participation in multiple policy venues in governance of Chile's Santiago Metropolitan Region: When institutional attributes can make the difference. *Policy Studies Journal, 52*(3), 583–602.
+- Arias-Yurisch, K., Retamal-Soto, K., & Ramos-Fuenzalida, C. (2024). The prevalence of a bonding strategy in COVID-19 response networks. *Regional Studies, 58*(2), 381–392.
+- Luengo-Aravena, D., Cabello, P., & Bachino, B. R. M. (2024). Online collaborative problem-solving as a tangible outcome of digital skills in technical and vocational higher education. *Computers & Education, 218*, 105079.
+- Sevilla, M. P., Luengo-Aravena, D., & Madero, C. (2024). Transitioning from industry to teaching in VET: profiles of VET teachers in Chile. *Education + Training, 66*(5), 477–493.
+
+### 2023
+
+- Ortiz Ruiz, F., & Espinosa-Rada, A. (Eds.). (2023). *Redes Sociales: teoría, métodos y aplicaciones en América Latina.* Centro de Investigaciones Sociológicas (CIS).
+- Espinosa-Rada, A. (2023). Usos contemporáneos de los modelos estocásticos orientados en el actor (SAOMs) para redes dinámicas. In *Redes Sociales: teoría, métodos y aplicaciones en América Latina.*
+- Ortiz Ruiz, F., & Espinosa-Rada, A. (2023). Las redes del mundo digital: noción, recolección de datos y análisis relacional. In *Redes Sociales: teoría, métodos y aplicaciones en América Latina.*
+- Ortiz Ruiz, F., & Espinosa-Rada, A. (2023). Ciencias de redes sociales en América Latina: énfasis y nuevas directrices en el campo de las ciencias sociales. In *Redes Sociales: teoría, métodos y aplicaciones en América Latina.*
+- Retamal-Soto, K., Arias-Yurisch, K., & Ramos-Fuenzalida, C. (2023). Inter-municipal governance networks: application of exponential random graph models in Los Lagos, Chile. *Revista de Administração Pública, 57*, e2022-0271.
+- Arias-Yurisch, K., Retamal-Soto, K., & Ramos-Fuenzalida, C. (2023). América Latina frente aos desafios da governança em rede. Fundação João Pinheiro.
+- Sevilla, M. P., Luengo-Aravena, D., & Farías, M. (2023). Gender gap in STEM pathways: The role of secondary curricula in a highly differentiated school system — the case of Chile. *International Journal of STEM Education, 10*(1), 58.
+
+### 2022
+
+- Espinosa-Rada, A., & Ortiz, F. (2022). Gender and researchers with institutional affiliations in the global south/north in social network science. *Applied Network Science.*
+- Espinosa-Rada, A. (2022). Modelos estocásticos orientados en el actor utilizando RSiena (I): Guión básico introductorio. *Redes. Revista hispana para el análisis de redes sociales.*
+- Espinosa-Rada, A. (2022). Modelos estocásticos orientados en el actor utilizando RSiena (II): Formato de los datos. *Redes. Revista hispana para el análisis de redes sociales.*
+- Uzaheta, A., & Espinosa-Rada, A. (2022). Modelos estocásticos orientados en el actor utilizando RSiena (IV): Formato de las variables. *Redes. Revista hispana para el análisis de redes sociales.*
+- Ramos Fuenzalida, C. P., Retamal Soto, K. M., & Arias Yurisch, K. A. (2022). Colaborar para gobernar en pandemia: El caso de la red de gobernanza intermunicipal de Santiago de Chile. *Estado, Gobierno y Gestión Pública, 20*(39).
+
+### 2021
+
+- Espinosa-Rada, A. (2021). *A network approach for the sociological study of science and knowledge: Modelling a dynamic multilevel network* [Doctoral dissertation, The University of Manchester].
+- Sevilla, M. P., Farías, M., & Luengo-Aravena, D. (2021). Patterns and persistence of educational mismatch: a trajectory approach using Chilean panel data. *Social Sciences, 10*(9), 333.
+
+### 2020
+
+- Le Foulon, C., Valenzuela, P., Alenda, S., & Espinosa, A. (2020). Metodología de la encuesta a dirigentes de Chile Vamos. In *Anatomía de la derecha chilena: Estado, mercado y valores en tiempos de cambio.*
+- Arias-Yurisch, K., Retamal-Soto, K., & Ramos-Fuenzalida, C. (2020). Covid-19: network effectiveness of intermunicipal self-organized response in Chile. *Transylvanian Review of Administrative Sciences, 16*(SI), 5–23.
+
+### 2019
+
+- Espinosa-Rada, A., Ortiz, F., & Cereceda, T. (2019). Astroinformática y prospección de la astronomía chilena: Sub-disciplina en el escenario global y desarrollo científico local. *CUHSO Cultura-Hombre-Sociedad.*
+- Arias-Yurisch, K., Retamal-Soto, K., & Ramos-Fuenzalida, C. (2019). Inter-municipal cooperation in Latin America: current situation and future research challenges. *Revista de Administração Pública, 53*, 575–591.
+- Arias-Yurisch, K., & Garrido-Vergara, L. (2019). What propels municipal governments to collaborate? The case of thematic environmental association in Chile. *Lex Localis: Journal of Local Self-Government, 17*(1).
+- Arias-Yurisch, K. (2019). Exploring public network's operation from a cultural approach: the case of an inter-local association in Chile. *Public Organization Review, 19*(1), 65–83.
+
+### 2018
+
+- González Torralbo, H., Ortiz Ruiz, F. J., & Espinosa Rada, A. N. (2018). Redes de parentesco en las familias de Santiago de Chile. *Redes: revista hispana para el análisis de redes sociales.*
+- Finnigan, K. S., Luengo-Aravena, D. E., & Garrison, K. M. (2018). Social network analysis methods in educational policy research. In *Complementary Research Methods for Educational Leadership and Policy Studies.*
+
+### 2016
+
+- Espinosa Rada, A. N., & Ortiz Ruiz, F. J. (2016). Autonomía jurisdiccional en el régimen regulatorio transnacional de la FIFA. *Redes. Revista hispana para el análisis de redes sociales.*
+
+### 2015
+
+- Valenzuela, F. A., Espinosa, A., Madero-Cabib, I., Moyano, C., & Ortiz, F. (2015). Museums of art as mechanisms of social inclusion and exclusion in art and in society: a case study in Chile. *Boletim do Museu Paraense Emílio Goeldi. Ciências Humanas.*
+
+### 2014
+
+- Castillo-Carniglia, A., Pizarro, E., Luengo, D., & Soto-Brandt, G. (2014). Alcohol use and self-reported violent events in Chile. *Adicciones, 26*(1), 46–53.
+
+### 2012
+
+- Arias Yurisch, K. (2012). Ideas, intentos y fracasos en el proceso modernización administrativa entre las dos administraciones de Ibáñez (1927–1958). *Universum (Talca), 27*(1), 13–27.
+
+### 2010
+
+- Arias Yurisch, K. (2010). Revisión de las estructuras político-administrativas territoriales en el Chile del siglo XIX. *Universum (Talca), 25*(1), 44–59.
+- Arias Yurisch, K. (2010). *Política pública cultural en Chile — revisión de las intervenciones del estado en el campo cultural en el siglo XX.* Universidad de Chile.
 
 ---
 
-<!-- TODO: link out to each researcher's Google Scholar / ORCID profile once confirmed. -->
+Full, up-to-date lists: [Alejandro Espinosa-Rada](https://scholar.google.com/citations?user=P-1AZOoAAAAJ&hl=en) · [Karina Arias-Yurisch](https://scholar.google.com/citations?user=glnCpMkAAAAJ&hl=en) · [Daniela Luengo-Aravena](https://scholar.google.com/citations?user=kxQ4SZoAAAAJ&hl=en) on Google Scholar.

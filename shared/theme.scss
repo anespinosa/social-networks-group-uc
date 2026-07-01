@@ -3,27 +3,32 @@
 // Brand palette (from Social Networks Group - UC flyer series)
 $navy:        #0a1f44;
 $navy-dark:   #061530;
-$gold:        #f2a93b;
+$gold:        #b9812e;
+$gold-bright: #f2a93b;
 $ink:         #1c2733;
-$body-bg:     #fbfbfd;
+$hairline:    #e2e4ea;
+$muted:       #5b6472;
+$body-bg:     #fdfdfc;
 $body-color:  $ink;
 
 $primary:     $navy;
-$link-color:  #b97a1a;
+$link-color:  #a06a1f;
 
 $font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-$headings-font-weight: 700;
+$headings-font-family: "Fraunces", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+$headings-font-weight: 600;
+$headings-color: $navy;
+$body-line-height: 1.68;
 
 $navbar-bg: $navy;
 $navbar-fg: #ffffff;
-$navbar-hl: $gold;
+$navbar-hl: $gold-bright;
 
 $footer-bg: $navy-dark;
-$footer-fg: rgba(255,255,255,0.75);
+$footer-fg: rgba(255,255,255,0.68);
 
 /*-- scss:rules --*/
 
-/* Node-graph accent colors, used only in the hero/illustrations */
 :root{
   --node-1: #4d8fd1;
   --node-2: #f2a93b;
@@ -35,107 +40,196 @@ $footer-fg: rgba(255,255,255,0.75);
   --snuc-gold: #f2a93b;
 }
 
-body { -webkit-font-smoothing: antialiased; }
+html { scroll-behavior: smooth; }
+body { -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
 
-.navbar-brand { font-weight: 700; letter-spacing: .01em; }
+#title-block-header{
+  border-bottom: 1px solid $hairline;
+  padding-bottom: 1.5rem;
+  margin-bottom: 2rem;
+}
+#title-block-header .title{
+  font-size: 2.1rem;
+  letter-spacing: -.01em;
+}
+#title-block-header .subtitle{
+  font-family: $headings-font-family;
+  font-style: italic;
+  color: $muted;
+  font-size: 1.1rem;
+  margin-top: .4rem;
+}
+/* index.qmd sets an empty title and uses its own hero instead */
+.page-layout-article #title-block-header{ display: none; }
 
+main.content{ max-width: 860px; }
+main.content > p{ font-size: 1.05rem; line-height: 1.7; color: $ink; }
+
+h2{
+  font-size: 1.55rem;
+  font-weight: 600;
+  margin-top: 3.25rem;
+  margin-bottom: 1.25rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid $hairline;
+  letter-spacing: -.01em;
+}
+h2:first-of-type{ margin-top: 2rem; }
+h3{ font-weight: 600; letter-spacing: -.005em; }
+
+/* ---------- Navbar ---------- */
+.navbar{
+  padding-top: .65rem;
+  padding-bottom: .65rem;
+  box-shadow: none;
+  border-bottom: 1px solid rgba(255,255,255,.08);
+}
+.navbar-brand{
+  font-family: $headings-font-family;
+  font-weight: 600;
+  font-size: 1.15rem;
+  letter-spacing: .01em;
+}
+.navbar .navbar-nav .nav-link{
+  font-size: .82rem;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  font-weight: 500;
+  padding-top: .55rem;
+  padding-bottom: .55rem;
+  opacity: .88;
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active{
+  opacity: 1;
+}
 .navbar .nav-link .lang-switch{
-  border: 1px solid rgba(255,255,255,.5);
-  border-radius: 999px;
-  padding: .25rem .85rem;
+  border: 1px solid rgba(255,255,255,.45);
+  border-radius: 2px;
+  padding: .3rem .8rem;
+  font-size: .74rem;
+  letter-spacing: .08em;
 }
 .navbar .nav-link:hover .lang-switch{
-  background: rgba(255,255,255,.12);
+  background: rgba(255,255,255,.1);
+  border-color: rgba(255,255,255,.75);
 }
 
 /* ---------- Hero ---------- */
 .snuc-hero{
   position: relative;
-  background: linear-gradient(180deg, $navy-dark 0%, $navy 65%, $navy 100%);
+  background: linear-gradient(165deg, $navy-dark 0%, $navy 60%, $navy 100%);
   color: #fff;
-  border-radius: 0;
-  margin: -1rem calc(50% - 50vw) 2.5rem calc(50% - 50vw);
-  padding: 4.5rem 1.5rem 5.5rem 1.5rem;
+  margin: -1rem calc(50% - 50vw) 3rem calc(50% - 50vw);
+  padding: 6rem 1.5rem 6.5rem 1.5rem;
   overflow: hidden;
+  border-bottom: 1px solid rgba($gold-bright, .35);
 }
 .snuc-hero canvas{
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
-  opacity: .55;
+  opacity: .5;
 }
 .snuc-hero .snuc-hero-inner{
   position: relative;
   z-index: 2;
-  max-width: 880px;
+  max-width: 760px;
   margin: 0 auto;
   text-align: center;
 }
 .snuc-hero .kicker{
   text-transform: uppercase;
-  letter-spacing: .12em;
-  font-size: .8rem;
-  color: $gold;
-  font-weight: 600;
-  margin-bottom: .75rem;
+  letter-spacing: .16em;
+  font-size: .74rem;
+  color: rgba(255,255,255,.62);
+  font-weight: 500;
+  margin-bottom: 1.5rem;
 }
 .snuc-hero h1{
-  font-size: clamp(2rem, 4.2vw, 3.2rem);
-  font-weight: 800;
-  margin-bottom: .75rem;
+  font-family: $headings-font-family;
+  font-size: clamp(2.3rem, 4.6vw, 3.6rem);
+  font-weight: 600;
+  letter-spacing: -.01em;
+  line-height: 1.08;
+  margin-bottom: 1.5rem;
   color: #fff;
 }
 .snuc-hero p.lead{
-  color: rgba(255,255,255,.85);
-  font-size: 1.15rem;
-  max-width: 640px;
+  color: rgba(255,255,255,.8);
+  font-size: 1.2rem;
+  font-family: $headings-font-family;
+  font-style: italic;
+  font-weight: 400;
+  max-width: 560px;
   margin: 0 auto;
+  line-height: 1.5;
 }
 
 /* ---------- Pillars ---------- */
 .snuc-pillars{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
-  margin: 2.5rem 0;
+  gap: 0;
+  margin: 2.75rem 0;
+  border-top: 1px solid $hairline;
+  border-left: 1px solid $hairline;
 }
 @media (max-width: 900px){
   .snuc-pillars{ grid-template-columns: repeat(2, 1fr); }
 }
 .snuc-pillar{
   text-align: center;
-  padding: 1.25rem 1rem;
-  border: 1px solid #e7e9ee;
-  border-radius: .6rem;
+  padding: 2rem 1rem;
+  border-right: 1px solid $hairline;
+  border-bottom: 1px solid $hairline;
   background: #fff;
 }
-.snuc-pillar .icon{ font-size: 1.6rem; margin-bottom: .5rem; display:block; }
+.snuc-pillar .icon{ margin-bottom: .85rem; display:flex; justify-content:center; color: $gold; }
+.snuc-pillar .icon svg{ width: 26px; height: 26px; stroke-width: 1.4; }
+.snuc-pillar strong{
+  font-family: $headings-font-family;
+  font-weight: 600;
+  font-size: .95rem;
+  color: $navy;
+}
 
 /* ---------- Cards ---------- */
 .snuc-cards{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 1.1rem;
+  gap: 1rem;
   margin: 1.5rem 0 2.5rem 0;
 }
 .snuc-card{
-  border: 1px solid #e7e9ee;
-  border-radius: .6rem;
-  padding: 1.4rem;
+  position: relative;
+  padding: 1.6rem 1.5rem;
   background: #fff;
-  transition: box-shadow .15s ease, transform .15s ease;
+  border: 1px solid $hairline;
+  transition: background .15s ease, border-color .15s ease;
 }
-.snuc-card:hover{
-  box-shadow: 0 8px 24px rgba(10,31,68,.08);
-  transform: translateY(-2px);
+.snuc-card::before{
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: $gold-bright;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform .2s ease;
 }
-.snuc-card h3{ margin-top: 0; font-size: 1.05rem; }
+.snuc-card:hover{ background: #fbfaf7; }
+.snuc-card:hover::before{ transform: scaleX(1); }
+.snuc-card h3{
+  margin-top: 0;
+  font-size: 1.05rem;
+  font-family: $headings-font-family;
+}
 .snuc-card a.stretched{
   color: inherit; text-decoration: none;
 }
 .snuc-card a.stretched::after{ content:""; position:absolute; inset:0; }
-.snuc-card{ position: relative; }
 
 /* ---------- Section labels ---------- */
 .snuc-eyebrow{
@@ -144,7 +238,7 @@ body { -webkit-font-smoothing: antialiased; }
   font-size: .78rem;
   font-weight: 700;
   color: $navy;
-  border-left: 3px solid $gold;
+  border-left: 3px solid $gold-bright;
   padding-left: .6rem;
   margin-bottom: .35rem;
 }
@@ -153,37 +247,53 @@ body { -webkit-font-smoothing: antialiased; }
 .snuc-people{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1.25rem;
+  gap: 1rem;
   margin: 1.25rem 0 2rem 0;
 }
 .snuc-person{
-  border: 1px solid #e7e9ee;
-  border-radius: .6rem;
-  padding: 1.25rem;
+  padding: 1.5rem;
   background: #fff;
+  border: 1px solid $hairline;
 }
 .snuc-person .avatar{
-  width: 64px; height: 64px; border-radius: 50%;
-  background: linear-gradient(135deg, var(--node-1), var(--node-3));
-  color: #fff; display: flex; align-items: center; justify-content: center;
-  font-weight: 700; font-size: 1.1rem; margin-bottom: .75rem;
+  width: 42px; height: 42px;
+  border: 1px solid $navy;
+  color: $navy;
+  display: flex; align-items: center; justify-content: center;
+  font-family: $headings-font-family;
+  font-weight: 600; font-size: .85rem; letter-spacing: .02em;
+  margin-bottom: 1rem;
 }
-.snuc-person h3{ margin: 0 0 .15rem 0; font-size: 1rem; }
-.snuc-person .role{ font-size: .85rem; color: #667; margin-bottom: .5rem; }
+.snuc-person .avatar.photo{
+  width: 88px; height: 88px;
+  padding: 0; border-color: $hairline; overflow: hidden;
+}
+.snuc-person .avatar.photo img{
+  width: 100%; height: 100%; object-fit: cover; display: block;
+}
+.snuc-person h3{ margin: 0 0 .2rem 0; font-size: 1rem; }
+.snuc-person .role{ font-size: .82rem; color: $muted; margin-bottom: .5rem; line-height: 1.4; }
+.snuc-person .bio{ font-size: .88rem; color: $ink; line-height: 1.55; }
 
 /* ---------- Alliance strip ---------- */
 .snuc-alliance{
   display:flex; align-items:center; gap:1.25rem; flex-wrap: wrap;
-  border: 1px solid #e7e9ee; border-radius: .6rem;
-  padding: 1.25rem 1.5rem; background: #f6f7fb;
+  border-top: 1px solid $hairline; border-bottom: 1px solid $hairline;
+  padding: 1.5rem 0; background: transparent;
 }
 
 /* ---------- Tables ---------- */
-.snuc-table table{ width: 100%; }
-.snuc-table th{ color: $navy; border-bottom: 2px solid $navy; }
+.snuc-table table{ width: 100%; font-size: .95rem; }
+.snuc-table th{
+  color: $navy; border-bottom: 1px solid $navy;
+  text-transform: uppercase; font-size: .72rem; letter-spacing: .06em; font-weight: 600;
+  padding-bottom: .6rem;
+}
+.snuc-table td{ border-bottom: 1px solid $hairline; padding: .7rem 1rem .7rem 0; }
 
 footer.footer{
   background: $footer-bg !important;
   color: $footer-fg !important;
+  font-size: .82rem;
 }
-footer.footer a{ color: #fff !important; }
+footer.footer a{ color: rgba(255,255,255,.9) !important; }

@@ -6,7 +6,7 @@ page-layout: article
 ::: {.snuc-hero}
 <canvas class="hero-network" aria-hidden="true"></canvas>
 <div class="snuc-hero-inner">
-<div class="kicker">Institute of Sociology · Pontificia Universidad Católica de Chile</div>
+<div class="kicker">Pontificia Universidad Católica de Chile</div>
 
 # Social Networks Group — UC
 
@@ -17,10 +17,10 @@ page-layout: article
 The Social Networks Group – UC brings together researchers working at the intersection of sociology, statistics, graph theory, and computational methods. We promote interdisciplinary collaboration, methodological innovation, and the development of open-source tools for network science, including our R package [**netmem**](https://cran.r-project.org/web/packages/netmem/index.html).
 
 ::: {.snuc-pillars}
-<div class="snuc-pillar"><span class="icon">🌐</span>**International<br>collaborations**</div>
-<div class="snuc-pillar"><span class="icon">🤝</span>**Interdisciplinary<br>research**</div>
-<div class="snuc-pillar"><span class="icon">💡</span>**Methodological<br>innovation**</div>
-<div class="snuc-pillar"><span class="icon">💻</span>**Open-source<br>software (netmem)**</div>
+<div class="snuc-pillar"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><ellipse cx="12" cy="12" rx="4" ry="9"></ellipse><line x1="3" y1="12" x2="21" y2="12"></line></svg></span>**International<br>collaborations**</div>
+<div class="snuc-pillar"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="12" r="6"></circle><circle cx="15" cy="12" r="6"></circle></svg></span>**Interdisciplinary<br>research**</div>
+<div class="snuc-pillar"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6"></path><path d="M10 21h4"></path><path d="M12 3a6 6 0 0 0-4 10.472V15a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-1.528A6 6 0 0 0 12 3z"></path></svg></span>**Methodological<br>innovation**</div>
+<div class="snuc-pillar"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="8 6 3 12 8 18"></polyline><polyline points="16 6 21 12 16 18"></polyline></svg></span>**Open-source<br>software (netmem)**</div>
 :::
 
 ## Explore the group

@@ -1,9 +1,9 @@
 ---
 title: "Prospective Students"
-subtitle: "Graduate supervision across three units at PUC"
+subtitle: "Graduate supervision across four units at PUC"
 ---
 
-Members of the Social Networks Group – UC supervise graduate research in social network analysis, statistical network models, and related computational and organizational applications across three units:
+Members of the Social Networks Group – UC supervise graduate research in social network analysis, statistical network models, and related computational and organizational applications across four units:
 
 ::: {.snuc-cards}
 <div class="snuc-card">
@@ -16,6 +16,13 @@ Members of the Social Networks Group – UC supervise graduate research in socia
 <div class="snuc-card">
 ### School of Government
 *Escuela de Gobierno*
+
+<!-- TODO: add specific program, supervisor(s), application deadlines. -->
+</div>
+
+<div class="snuc-card">
+### College
+*College*
 
 <!-- TODO: add specific program, supervisor(s), application deadlines. -->
 </div>

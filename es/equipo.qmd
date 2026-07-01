@@ -7,32 +7,36 @@ subtitle: "Profesores, estudiantes, investigadores asociados y visitantes del Gr
 
 ::: {.snuc-people}
 <div class="snuc-person">
-<div class="avatar">AE</div>
+<div class="avatar photo"><img src="img/team/espinosa-rada.jpg" alt="Alejandro Espinosa-Rada"></div>
 ### Alejandro Espinosa-Rada
 <div class="role">Profesor Asistente · Instituto de Sociología, UC</div>
-Autor y mantenedor de [netmem](https://cran.r-project.org/web/packages/netmem/index.html).
+<div class="bio">Doctor en Sociología, Universidad de Manchester (Mitchell Centre for Social Network Analysis); anteriormente investigador postdoctoral y profesor en el Social Networks Lab de ETH Zúrich. Investigación: sociología de las redes sociales, dinámica de grupos, sociología de la ciencia y el conocimiento, y modelos estadísticos para redes sociales. Autor y mantenedor de [netmem](https://cran.r-project.org/web/packages/netmem/index.html).</div>
 </div>
 
 <div class="snuc-person">
-<div class="avatar">DL</div>
-### Daniela Luengo
-<div class="role">Profesora Asistente · Facultad de Educación, UC</div>
-</div>
-
-<div class="snuc-person">
-<div class="avatar">KA</div>
+<div class="avatar photo"><img src="img/team/arias.jpg" alt="Karina Arias"></div>
 ### Karina Arias
-<div class="role">Profesora Asistente · Escuela de Gobierno, UC</div>
+<div class="role">Profesora Asociada · Escuela de Gobierno, UC</div>
+<div class="bio">Doctora en Administración y Políticas Públicas, Florida State University. Investigación: gobernanza metropolitana, cooperación intermunicipal y análisis de redes aplicado a la administración pública. Integrante de la directiva de la Sociedad Chilena de Ciencia de Redes Sociales (CHISOCNET).</div>
 </div>
 
+<div class="snuc-person">
+<div class="avatar photo"><img src="img/team/luengo.jpg" alt="Daniela Luengo"></div>
+### Daniela Luengo
+<div class="role">Profesora Asistente · College UC y Facultad de Educación, UC</div>
+<div class="bio">Doctora en Política Educativa, Universidad de Rochester. Su investigación combina economía de la educación, métodos cuasi-experimentales y análisis de redes para estudiar trayectorias formativo-laborales, equidad e inclusión, y la adopción de innovaciones en sistemas escolares.</div>
+</div>
+:::
+
+## Investigadores
+
+::: {.snuc-people}
 <div class="snuc-person">
 <div class="avatar">MB</div>
 ### María G. Barrera
 <div class="role">Dra. · Agronomía y Sistemas Naturales, UC</div>
 </div>
 :::
-
-<!-- TODO: reemplazar iniciales por fotografías y agregar una breve biografía / enlace a Google Scholar para cada profesor(a). -->
 
 ## Estudiantes de Doctorado
 

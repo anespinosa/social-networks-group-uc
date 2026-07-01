@@ -6,7 +6,7 @@ page-layout: article
 ::: {.snuc-hero}
 <canvas class="hero-network" aria-hidden="true"></canvas>
 <div class="snuc-hero-inner">
-<div class="kicker">Instituto de Sociología · Pontificia Universidad Católica de Chile</div>
+<div class="kicker">Pontificia Universidad Católica de Chile</div>
 
 # Grupo de Redes Sociales — UC
 
@@ -17,10 +17,10 @@ page-layout: article
 El Grupo de Redes Sociales – UC reúne a investigadores que trabajan en la intersección de la sociología, la estadística, la teoría de grafos y los métodos computacionales. Promovemos la colaboración interdisciplinaria, la innovación metodológica y el desarrollo de herramientas de código abierto para la ciencia de redes, incluyendo nuestro paquete de R [**netmem**](https://cran.r-project.org/web/packages/netmem/index.html).
 
 ::: {.snuc-pillars}
-<div class="snuc-pillar"><span class="icon">🌐</span>**Colaboraciones<br>internacionales**</div>
-<div class="snuc-pillar"><span class="icon">🤝</span>**Investigación<br>interdisciplinaria**</div>
-<div class="snuc-pillar"><span class="icon">💡</span>**Innovación<br>metodológica**</div>
-<div class="snuc-pillar"><span class="icon">💻</span>**Software de código<br>abierto (netmem)**</div>
+<div class="snuc-pillar"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><ellipse cx="12" cy="12" rx="4" ry="9"></ellipse><line x1="3" y1="12" x2="21" y2="12"></line></svg></span>**Colaboraciones<br>internacionales**</div>
+<div class="snuc-pillar"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="12" r="6"></circle><circle cx="15" cy="12" r="6"></circle></svg></span>**Investigación<br>interdisciplinaria**</div>
+<div class="snuc-pillar"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6"></path><path d="M10 21h4"></path><path d="M12 3a6 6 0 0 0-4 10.472V15a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-1.528A6 6 0 0 0 12 3z"></path></svg></span>**Innovación<br>metodológica**</div>
+<div class="snuc-pillar"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="8 6 3 12 8 18"></polyline><polyline points="16 6 21 12 16 18"></polyline></svg></span>**Software de código<br>abierto (netmem)**</div>
 :::
 
 ## Explora el grupo

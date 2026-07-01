@@ -7,32 +7,36 @@ subtitle: "Faculty, students, research associates, and visitors of the Social Ne
 
 ::: {.snuc-people}
 <div class="snuc-person">
-<div class="avatar">AE</div>
+<div class="avatar photo"><img src="img/team/espinosa-rada.jpg" alt="Alejandro Espinosa-Rada"></div>
 ### Alejandro Espinosa-Rada
 <div class="role">Assistant Professor · Institute of Sociology, PUC</div>
-Author and maintainer of [netmem](https://cran.r-project.org/web/packages/netmem/index.html).
+<div class="bio">PhD in Sociology, University of Manchester (Mitchell Centre for Social Network Analysis); previously postdoctoral researcher and lecturer at ETH Zürich's Social Networks Lab. Research: sociology of social networks, group dynamics, sociology of science and knowledge, and statistical models for social networks. Author and maintainer of [netmem](https://cran.r-project.org/web/packages/netmem/index.html).</div>
 </div>
 
 <div class="snuc-person">
-<div class="avatar">DL</div>
-### Daniela Luengo
-<div class="role">Assistant Professor · Faculty of Education, PUC</div>
-</div>
-
-<div class="snuc-person">
-<div class="avatar">KA</div>
+<div class="avatar photo"><img src="img/team/arias.jpg" alt="Karina Arias"></div>
 ### Karina Arias
-<div class="role">Assistant Professor · School of Government, PUC</div>
+<div class="role">Associate Professor · School of Government, PUC</div>
+<div class="bio">PhD in Public Administration and Policy, Florida State University. Research: metropolitan governance, inter-municipal cooperation, and network analysis applied to public administration. Board member, Chilean Society for Social Network Science (CHISOCNET).</div>
 </div>
 
+<div class="snuc-person">
+<div class="avatar photo"><img src="img/team/luengo.jpg" alt="Daniela Luengo"></div>
+### Daniela Luengo
+<div class="role">Assistant Professor · College UC & Faculty of Education, PUC</div>
+<div class="bio">PhD in Educational Policy, University of Rochester. Research combines the economics of education, quasi-experimental methods, and network analysis to study educational-labor trajectories, equity and inclusion, and the adoption of innovations in school systems.</div>
+</div>
+:::
+
+## Researchers
+
+::: {.snuc-people}
 <div class="snuc-person">
 <div class="avatar">MB</div>
 ### María G. Barrera
 <div class="role">PhD · Agronomy and Natural Systems, PUC</div>
 </div>
 :::
-
-<!-- TODO: replace initials with headshots and add 2–3 sentence bios / personal or Google Scholar links for each faculty member. -->
 
 ## Doctoral Students
 

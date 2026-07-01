@@ -29,6 +29,9 @@ jobs:
           cp shared/hero-network.js es/hero-network.js
           cp shared/img/favicon.svg en/favicon.svg
           cp shared/img/favicon.svg es/favicon.svg
+          mkdir -p en/img/team es/img/team
+          cp shared/img/team/*.jpg en/img/team/
+          cp shared/img/team/*.jpg es/img/team/
           (cd en && quarto render)
           (cd es && quarto render)
           cp root-index.html _site/index.html

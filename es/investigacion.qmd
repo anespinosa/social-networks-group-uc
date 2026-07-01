@@ -21,11 +21,36 @@ subtitle: "Líneas de investigación, proyectos en curso y software de código a
 
 ## Proyectos
 
-<!-- TODO: agregar aquí los proyectos actuales (entidad financiadora, título, investigador/a responsable, fechas, resumen breve). Por ejemplo, proyectos FONDECYT/ANID de miembros del grupo. -->
+::: {.snuc-cards}
+<div class="snuc-card">
+### ANID/FONDECYT Nº3250037
+**2025–2027**
 
-::: {.snuc-card}
-### ¿Tienes un proyecto para incluir aquí?
-Agrega los proyectos financiados y en curso en los que participa el grupo, incluyendo proyectos FONDECYT/ANID, colaboraciones internacionales y proyectos liderados por estudiantes.
+Investigador Responsable: Alejandro Espinosa-Rada.
+</div>
+
+<div class="snuc-card">
+### ANID/FONDECYT Nº1261889
+**2026–2028**
+
+Investigador Responsable: Mauricio Bucca. Co-Investigadores: Xi Song, Alejandro Espinosa-Rada.
+</div>
+
+<div class="snuc-card">
+### ANID/FONDECYT Nº1261268
+**2026–2028**
+
+Investigadora Responsable: Karina Arias Yurisch. Co-Investigadores: Karina Retamal, Alejandro Espinosa-Rada, Cristian Leyton.
+</div>
+
+<div class="snuc-card">
+### Governing Complexity
+**Concurso Avanza UC 2025 · 2026–2027**
+
+*Aplicación del análisis de redes multinivel al marco institucional de la gobernanza ambiental metropolitana.*
+
+Investigador Responsable: Alejandro Espinosa-Rada. Co-Investigadora: Karina Arias.
+</div>
 :::
 
 ## Software

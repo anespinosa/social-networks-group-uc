@@ -21,12 +21,36 @@ subtitle: "Research lines, ongoing projects, and open-source software"
 
 ## Projects
 
-<!-- TODO: add current project cards here (funding body, title, PI, dates, short abstract).
-     e.g. FONDECYT / ANID grants held by group members. -->
+::: {.snuc-cards}
+<div class="snuc-card">
+### ANID/FONDECYT Nº3250037
+**2025–2027**
 
-::: {.snuc-card}
-### Have a project to list here?
-Add funded and in-progress projects the group is involved in — including FONDECYT/ANID grants, international collaborations, and student-led projects.
+Principal Investigator: Alejandro Espinosa-Rada.
+</div>
+
+<div class="snuc-card">
+### ANID/FONDECYT Nº1261889
+**2026–2028**
+
+Principal Investigator: Mauricio Bucca. Co-Principal Investigators: Xi Song, Alejandro Espinosa-Rada.
+</div>
+
+<div class="snuc-card">
+### ANID/FONDECYT Nº1261268
+**2026–2028**
+
+Principal Investigator: Karina Arias Yurisch. Co-Principal Investigators: Karina Retamal, Alejandro Espinosa-Rada, Cristian Leyton.
+</div>
+
+<div class="snuc-card">
+### Governing Complexity
+**Concurso Avanza UC 2025 · 2026–2027**
+
+*Applying multilevel network analysis to the institutional framework of metropolitan environmental governance.*
+
+Principal Investigator: Alejandro Espinosa-Rada. Co-Investigator: Karina Arias.
+</div>
 :::
 
 ## Software

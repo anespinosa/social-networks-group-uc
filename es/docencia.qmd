@@ -6,15 +6,19 @@ subtitle: "Cursos dictados por miembros del grupo"
 ::: {.snuc-cards}
 <div class="snuc-card">
 ### Statistical Network Analysis
-**SOL3111**
+**SOL3111** · Magíster en Sociología, Pontificia Universidad Católica de Chile
 
-<!-- TODO: agregar nivel (pregrado/posgrado), semestre en que se dicta y una breve descripción. -->
+Agosto – Diciembre 2026
+
+Profesor: Alejandro Espinosa-Rada, Profesor Asistente.
 </div>
 
 <div class="snuc-card">
 ### Social Networks
-**SOL160**
+**SOL160** · Licenciatura en Sociología, Pontificia Universidad Católica de Chile
 
-<!-- TODO: agregar nivel (pregrado/posgrado), semestre en que se dicta y una breve descripción. -->
+Agosto – Diciembre 2026
+
+Profesor: Alejandro Espinosa-Rada, Profesor Asistente.
 </div>
 :::
