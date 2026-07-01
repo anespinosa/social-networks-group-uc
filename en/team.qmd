@@ -11,6 +11,7 @@ subtitle: "Faculty, students, research associates, and visitors of the Social Ne
 ### Alejandro Espinosa-Rada
 <div class="role">Assistant Professor · Institute of Sociology, PUC</div>
 <div class="bio">PhD in Sociology, University of Manchester (Mitchell Centre for Social Network Analysis); previously postdoctoral researcher and lecturer at ETH Zürich's Social Networks Lab. Research: sociology of social networks, group dynamics, sociology of science and knowledge, and statistical models for social networks. Author and maintainer of [netmem](https://cran.r-project.org/web/packages/netmem/index.html).</div>
+[Faculty profile →](https://sociologia.uc.cl/academicos-as/planta-academica/alejandro-espinosa-rada/)
 </div>
 </div>
 
@@ -20,6 +21,7 @@ subtitle: "Faculty, students, research associates, and visitors of the Social Ne
 ### Karina Arias
 <div class="role">Associate Professor · School of Government, PUC</div>
 <div class="bio">PhD in Public Administration and Policy, Florida State University. Research: metropolitan governance, inter-municipal cooperation, and network analysis applied to public administration. Board member, Chilean Society for Social Network Science (CHISOCNET).</div>
+[Faculty profile →](https://gobierno.uc.cl/profesores/karina-arias/)
 </div>
 </div>
 
@@ -29,6 +31,7 @@ subtitle: "Faculty, students, research associates, and visitors of the Social Ne
 ### Daniela Luengo
 <div class="role">Assistant Professor · College UC & Faculty of Education, PUC</div>
 <div class="bio">PhD in Educational Policy, University of Rochester. Research combines the economics of education, quasi-experimental methods, and network analysis to study educational-labor trajectories, equity and inclusion, and the adoption of innovations in school systems.</div>
+[Faculty profile →](https://educacion.uc.cl/cuerpo-academico/planta-ordinaria/luengo-daniela/)
 </div>
 </div>
 

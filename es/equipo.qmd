@@ -11,6 +11,7 @@ subtitle: "Profesores, estudiantes, investigadores asociados y visitantes del Gr
 ### Alejandro Espinosa-Rada
 <div class="role">Profesor Asistente · Instituto de Sociología, UC</div>
 <div class="bio">Doctor en Sociología, Universidad de Manchester (Mitchell Centre for Social Network Analysis); anteriormente investigador postdoctoral y profesor en el Social Networks Lab de ETH Zúrich. Investigación: sociología de las redes sociales, dinámica de grupos, sociología de la ciencia y el conocimiento, y modelos estadísticos para redes sociales. Autor y mantenedor de [netmem](https://cran.r-project.org/web/packages/netmem/index.html).</div>
+[Perfil académico →](https://sociologia.uc.cl/academicos-as/planta-academica/alejandro-espinosa-rada/)
 </div>
 </div>
 
@@ -20,6 +21,7 @@ subtitle: "Profesores, estudiantes, investigadores asociados y visitantes del Gr
 ### Karina Arias
 <div class="role">Profesora Asociada · Escuela de Gobierno, UC</div>
 <div class="bio">Doctora en Administración y Políticas Públicas, Florida State University. Investigación: gobernanza metropolitana, cooperación intermunicipal y análisis de redes aplicado a la administración pública. Integrante de la directiva de la Sociedad Chilena de Ciencia de Redes Sociales (CHISOCNET).</div>
+[Perfil académico →](https://gobierno.uc.cl/profesores/karina-arias/)
 </div>
 </div>
 
@@ -29,6 +31,7 @@ subtitle: "Profesores, estudiantes, investigadores asociados y visitantes del Gr
 ### Daniela Luengo
 <div class="role">Profesora Asistente · College UC y Facultad de Educación, UC</div>
 <div class="bio">Doctora en Política Educativa, Universidad de Rochester. Su investigación combina economía de la educación, métodos cuasi-experimentales y análisis de redes para estudiar trayectorias formativo-laborales, equidad e inclusión, y la adopción de innovaciones en sistemas escolares.</div>
+[Perfil académico →](https://educacion.uc.cl/cuerpo-academico/planta-ordinaria/luengo-daniela/)
 </div>
 </div>
 
