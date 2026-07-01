@@ -1,0 +1,20 @@
+---
+title: "Docencia"
+subtitle: "Cursos dictados por miembros del grupo"
+---
+
+::: {.snuc-cards}
+<div class="snuc-card">
+### Statistical Network Analysis
+**SOL3111**
+
+<!-- TODO: agregar nivel (pregrado/posgrado), semestre en que se dicta y una breve descripción. -->
+</div>
+
+<div class="snuc-card">
+### Social Networks
+**SOL160**
+
+<!-- TODO: agregar nivel (pregrado/posgrado), semestre en que se dicta y una breve descripción. -->
+</div>
+:::

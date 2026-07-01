@@ -1,0 +1,14 @@
+---
+title: "Contacto"
+---
+
+**Grupo de Redes Sociales – UC**
+Instituto de Sociología, Pontificia Universidad Católica de Chile
+Santiago, Chile
+
+Correo: [anespinosa@uc.cl](mailto:anespinosa@uc.cl)
+
+<!-- TODO: confirmar el correo institucional de contacto del grupo — los flyers en la
+     carpeta compartida muestran tanto "anespinosa@uc.cl" como "aespinos@uc.cl"; elegir
+     uno y usarlo de forma consistente en en/contact.qmd y es/contacto.qmd. Agregar
+     dirección postal, ubicación de oficina y enlaces a redes sociales una vez confirmados. -->

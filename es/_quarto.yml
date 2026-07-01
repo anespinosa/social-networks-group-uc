@@ -1,0 +1,54 @@
+project:
+  type: website
+  output-dir: ../_site/es
+
+lang: es
+
+website:
+  title: "Grupo de Redes Sociales – UC"
+  description: "Grupo de Redes Sociales – UC, Instituto de Sociología, Pontificia Universidad Católica de Chile."
+  favicon: favicon.svg
+  page-navigation: true
+  back-to-top-navigation: true
+  navbar:
+    background: dark
+    left:
+      - text: Inicio
+        file: index.qmd
+      - text: Equipo
+        file: equipo.qmd
+      - text: Investigación
+        file: investigacion.qmd
+      - text: Publicaciones
+        file: publicaciones.qmd
+      - text: Docencia
+        file: docencia.qmd
+      - text: Vinculación
+        file: vinculacion.qmd
+      - text: Futuros Estudiantes
+        file: futuros-estudiantes.qmd
+      - text: Contacto
+        file: contacto.qmd
+    right:
+      - text: '<span class="lang-switch">EN</span>'
+        href: ../en/index.html
+  page-footer:
+    left: "© 2026 Grupo de Redes Sociales – UC · Instituto de Sociología, Pontificia Universidad Católica de Chile"
+    right:
+      - text: "CHISOCNET"
+        href: https://www.chisocnet.org
+      - text: "netmem (CRAN)"
+        href: https://cran.r-project.org/web/packages/netmem/index.html
+      - text: "English"
+        href: ../en/index.html
+
+format:
+  html:
+    theme: [cosmo, ../shared/theme.scss]
+    css: ../shared/extra.css
+    include-in-header:
+      - text: |
+          <script src="hero-network.js"></script>
+    toc: false
+    grid:
+      body-width: 900px

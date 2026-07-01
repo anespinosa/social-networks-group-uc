@@ -1,0 +1,31 @@
+---
+title: "Prospective Students"
+subtitle: "Graduate supervision across three units at PUC"
+---
+
+Members of the Social Networks Group – UC supervise graduate research in social network analysis, statistical network models, and related computational and organizational applications across three units:
+
+::: {.snuc-cards}
+<div class="snuc-card">
+### Institute of Sociology
+*Instituto de Sociología*
+
+<!-- TODO: add specific program (Magíster/Doctorado), supervisor(s), application deadlines. -->
+</div>
+
+<div class="snuc-card">
+### School of Government
+*Escuela de Gobierno*
+
+<!-- TODO: add specific program, supervisor(s), application deadlines. -->
+</div>
+
+<div class="snuc-card">
+### Faculty of Education
+*Facultad de Educación*
+
+<!-- TODO: add specific program, supervisor(s), application deadlines. -->
+</div>
+:::
+
+Interested applicants are encouraged to reach out before applying to discuss research fit — see [Contact](contact.qmd).

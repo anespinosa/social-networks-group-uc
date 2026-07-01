@@ -1,0 +1,4 @@
+/* Small overrides that are easier to express in plain CSS than SCSS variables */
+.snuc-hero .kicker { display: inline-block; }
+.snuc-person .role { line-height: 1.3; }
+.quarto-title-banner { display: none; }

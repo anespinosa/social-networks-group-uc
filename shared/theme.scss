@@ -1,0 +1,189 @@
+/*-- scss:defaults --*/
+
+// Brand palette (from Social Networks Group - UC flyer series)
+$navy:        #0a1f44;
+$navy-dark:   #061530;
+$gold:        #f2a93b;
+$ink:         #1c2733;
+$body-bg:     #fbfbfd;
+$body-color:  $ink;
+
+$primary:     $navy;
+$link-color:  #b97a1a;
+
+$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+$headings-font-weight: 700;
+
+$navbar-bg: $navy;
+$navbar-fg: #ffffff;
+$navbar-hl: $gold;
+
+$footer-bg: $navy-dark;
+$footer-fg: rgba(255,255,255,0.75);
+
+/*-- scss:rules --*/
+
+/* Node-graph accent colors, used only in the hero/illustrations */
+:root{
+  --node-1: #4d8fd1;
+  --node-2: #f2a93b;
+  --node-3: #7a5cc5;
+  --node-4: #34b3a8;
+  --node-5: #e0637a;
+  --snuc-navy: #0a1f44;
+  --snuc-navy-dark: #061530;
+  --snuc-gold: #f2a93b;
+}
+
+body { -webkit-font-smoothing: antialiased; }
+
+.navbar-brand { font-weight: 700; letter-spacing: .01em; }
+
+.navbar .nav-link .lang-switch{
+  border: 1px solid rgba(255,255,255,.5);
+  border-radius: 999px;
+  padding: .25rem .85rem;
+}
+.navbar .nav-link:hover .lang-switch{
+  background: rgba(255,255,255,.12);
+}
+
+/* ---------- Hero ---------- */
+.snuc-hero{
+  position: relative;
+  background: linear-gradient(180deg, $navy-dark 0%, $navy 65%, $navy 100%);
+  color: #fff;
+  border-radius: 0;
+  margin: -1rem calc(50% - 50vw) 2.5rem calc(50% - 50vw);
+  padding: 4.5rem 1.5rem 5.5rem 1.5rem;
+  overflow: hidden;
+}
+.snuc-hero canvas{
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .55;
+}
+.snuc-hero .snuc-hero-inner{
+  position: relative;
+  z-index: 2;
+  max-width: 880px;
+  margin: 0 auto;
+  text-align: center;
+}
+.snuc-hero .kicker{
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  font-size: .8rem;
+  color: $gold;
+  font-weight: 600;
+  margin-bottom: .75rem;
+}
+.snuc-hero h1{
+  font-size: clamp(2rem, 4.2vw, 3.2rem);
+  font-weight: 800;
+  margin-bottom: .75rem;
+  color: #fff;
+}
+.snuc-hero p.lead{
+  color: rgba(255,255,255,.85);
+  font-size: 1.15rem;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+/* ---------- Pillars ---------- */
+.snuc-pillars{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin: 2.5rem 0;
+}
+@media (max-width: 900px){
+  .snuc-pillars{ grid-template-columns: repeat(2, 1fr); }
+}
+.snuc-pillar{
+  text-align: center;
+  padding: 1.25rem 1rem;
+  border: 1px solid #e7e9ee;
+  border-radius: .6rem;
+  background: #fff;
+}
+.snuc-pillar .icon{ font-size: 1.6rem; margin-bottom: .5rem; display:block; }
+
+/* ---------- Cards ---------- */
+.snuc-cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1.1rem;
+  margin: 1.5rem 0 2.5rem 0;
+}
+.snuc-card{
+  border: 1px solid #e7e9ee;
+  border-radius: .6rem;
+  padding: 1.4rem;
+  background: #fff;
+  transition: box-shadow .15s ease, transform .15s ease;
+}
+.snuc-card:hover{
+  box-shadow: 0 8px 24px rgba(10,31,68,.08);
+  transform: translateY(-2px);
+}
+.snuc-card h3{ margin-top: 0; font-size: 1.05rem; }
+.snuc-card a.stretched{
+  color: inherit; text-decoration: none;
+}
+.snuc-card a.stretched::after{ content:""; position:absolute; inset:0; }
+.snuc-card{ position: relative; }
+
+/* ---------- Section labels ---------- */
+.snuc-eyebrow{
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size: .78rem;
+  font-weight: 700;
+  color: $navy;
+  border-left: 3px solid $gold;
+  padding-left: .6rem;
+  margin-bottom: .35rem;
+}
+
+/* ---------- People ---------- */
+.snuc-people{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin: 1.25rem 0 2rem 0;
+}
+.snuc-person{
+  border: 1px solid #e7e9ee;
+  border-radius: .6rem;
+  padding: 1.25rem;
+  background: #fff;
+}
+.snuc-person .avatar{
+  width: 64px; height: 64px; border-radius: 50%;
+  background: linear-gradient(135deg, var(--node-1), var(--node-3));
+  color: #fff; display: flex; align-items: center; justify-content: center;
+  font-weight: 700; font-size: 1.1rem; margin-bottom: .75rem;
+}
+.snuc-person h3{ margin: 0 0 .15rem 0; font-size: 1rem; }
+.snuc-person .role{ font-size: .85rem; color: #667; margin-bottom: .5rem; }
+
+/* ---------- Alliance strip ---------- */
+.snuc-alliance{
+  display:flex; align-items:center; gap:1.25rem; flex-wrap: wrap;
+  border: 1px solid #e7e9ee; border-radius: .6rem;
+  padding: 1.25rem 1.5rem; background: #f6f7fb;
+}
+
+/* ---------- Tables ---------- */
+.snuc-table table{ width: 100%; }
+.snuc-table th{ color: $navy; border-bottom: 2px solid $navy; }
+
+footer.footer{
+  background: $footer-bg !important;
+  color: $footer-fg !important;
+}
+footer.footer a{ color: #fff !important; }

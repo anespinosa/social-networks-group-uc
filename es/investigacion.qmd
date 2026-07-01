@@ -1,0 +1,41 @@
+---
+title: "Investigación"
+subtitle: "Líneas de investigación, proyectos en curso y software de código abierto"
+---
+
+## Áreas de Investigación
+
+::: {.snuc-cards}
+<div class="snuc-card">**Análisis de Redes Sociales / Ciencia de Redes**</div>
+<div class="snuc-card">**Modelos Estadísticos de Redes**<br>ERGMs, SAOMs, Modelos de Eventos Relacionales, Modelos de Bloques Estocásticos, etc.</div>
+<div class="snuc-card">**Sociología Matemática**</div>
+<div class="snuc-card">**Ciencia Social Computacional**</div>
+<div class="snuc-card">**Ciencia de la Ciencia**</div>
+<div class="snuc-card">**Redes de Gobernanza**</div>
+<div class="snuc-card">**Redes Organizacionales**</div>
+<div class="snuc-card">**Redes Educacionales**</div>
+<div class="snuc-card">**Redes de Innovación y Colaboración Científica**</div>
+<div class="snuc-card">**Ciencia de Datos de Redes y Graph Machine Learning**</div>
+<div class="snuc-card">**Desarrollo Metodológico y de Software para el Análisis de Redes**</div>
+:::
+
+## Proyectos
+
+<!-- TODO: agregar aquí los proyectos actuales (entidad financiadora, título, investigador/a responsable, fechas, resumen breve). Por ejemplo, proyectos FONDECYT/ANID de miembros del grupo. -->
+
+::: {.snuc-card}
+### ¿Tienes un proyecto para incluir aquí?
+Agrega los proyectos financiados y en curso en los que participa el grupo, incluyendo proyectos FONDECYT/ANID, colaboraciones internacionales y proyectos liderados por estudiantes.
+:::
+
+## Software
+
+::: {.snuc-card}
+### netmem
+Un paquete de R para el manejo y transformación de datos de redes entre los formatos más utilizados en el análisis de redes sociales, desarrollado y mantenido dentro del grupo.
+
+- [Página en CRAN](https://cran.r-project.org/web/packages/netmem/index.html)
+- Instalación: `install.packages("netmem")`
+:::
+
+<!-- TODO: agregar otras herramientas/paquetes de software a medida que se publiquen. -->

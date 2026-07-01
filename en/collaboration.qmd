@@ -1,0 +1,27 @@
+---
+title: "Collaboration & Impact"
+subtitle: "Working with organizations, government, and the wider social network science community"
+---
+
+The Social Networks Group – UC contributes beyond academia through executive education, advisory work, and an active alliance with the Chilean social network science community.
+
+## Executive Education
+
+::: {.snuc-card}
+### Diplomado en Inteligencia Relacional para Organizaciones
+A continuing-education program applying social network analysis to organizations — helping leaders and practitioners diagnose and act on the relational structures inside their institutions.
+
+<!-- TODO: add program length, intake dates, target audience, and enrollment link. -->
+:::
+
+## Consultancy & Advisory
+
+We are open to advisory and consultancy work applying network analysis to organizational, governmental, and civil-society settings. If your organization is interested in a diagnostic or collaboration, [get in touch](contact.qmd).
+
+## Alliance
+
+::: {.snuc-alliance}
+**[CHISOCNET — Chilean Society for Social Network Science](https://www.chisocnet.org)**
+
+The Social Networks Group – UC is an active partner of CHISOCNET, which aims to develop social network science in Chile into an internationally recognized field of reference for Ibero-America — through conferences, seminars, and a summer school.
+:::

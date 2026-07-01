@@ -1,0 +1,135 @@
+---
+title: "Team"
+subtitle: "Faculty, students, research associates, and visitors of the Social Networks Group – UC"
+---
+
+## Core Faculty
+
+::: {.snuc-people}
+<div class="snuc-person">
+<div class="avatar">AE</div>
+### Alejandro Espinosa-Rada
+<div class="role">Assistant Professor · Institute of Sociology, PUC</div>
+Author and maintainer of [netmem](https://cran.r-project.org/web/packages/netmem/index.html).
+</div>
+
+<div class="snuc-person">
+<div class="avatar">DL</div>
+### Daniela Luengo
+<div class="role">Assistant Professor · Faculty of Education, PUC</div>
+</div>
+
+<div class="snuc-person">
+<div class="avatar">KA</div>
+### Karina Arias
+<div class="role">Assistant Professor · School of Government, PUC</div>
+</div>
+
+<div class="snuc-person">
+<div class="avatar">MB</div>
+### María G. Barrera
+<div class="role">PhD · Agronomy and Natural Systems, PUC</div>
+</div>
+:::
+
+<!-- TODO: replace initials with headshots and add 2–3 sentence bios / personal or Google Scholar links for each faculty member. -->
+
+## Doctoral Students
+
+::: {.snuc-people}
+<div class="snuc-person">
+<div class="avatar">RZ</div>
+### Raúl Zuleta
+<div class="role">PhD Candidate · Anthropology, PUC</div>
+</div>
+
+<div class="snuc-person">
+<div class="avatar">LH</div>
+### Liliana Hurtado
+<div class="role">PhD Candidate · Communications, PUC</div>
+</div>
+
+<div class="snuc-person">
+<div class="avatar">VR</div>
+### Valquiria Ramos
+<div class="role">PhD Candidate · Communications, PUC</div>
+</div>
+
+<div class="snuc-person">
+<div class="avatar">DT</div>
+### Daniel Toro
+<div class="role">PhD Candidate · Industrial & Systems Engineering, Universidad de Chile</div>
+</div>
+
+<div class="snuc-person">
+<div class="avatar">DC</div>
+### Diego Caro
+<div class="role">PhD Candidate · Sociology, University of Manchester</div>
+</div>
+
+<div class="snuc-person">
+<div class="avatar">RC</div>
+### Roberto Cantillán
+<div class="role">PhD Candidate · Sociology, PUC</div>
+</div>
+:::
+
+## Master's Students & Research Assistants
+
+::: {.snuc-people}
+<div class="snuc-person">
+<div class="avatar">LV</div>
+### Lorenzo Vives
+<div class="role">MA, Sociology, PUC</div>
+</div>
+
+<div class="snuc-person">
+<div class="avatar">AD</div>
+### Alberto Durán
+<div class="role">MA Candidate · Sociology, PUC</div>
+</div>
+
+<div class="snuc-person">
+<div class="avatar">TP</div>
+### Trajan Pirkovic
+<div class="role">MA Candidate · Sociology, PUC</div>
+</div>
+:::
+
+## Research Associates
+
+External collaborators who hold a continuing affiliation with the group.
+
+::: {.snuc-people}
+<div class="snuc-person">
+<div class="avatar">FO</div>
+### Francisca Ortiz
+<div class="role">Research Associate</div>
+</div>
+
+<div class="snuc-person">
+<div class="avatar">DP</div>
+### Diego Palacios
+<div class="role">Research Associate</div>
+</div>
+:::
+
+<!-- TODO: add home institutions for Francisca Ortiz and Diego Palacios, and any further research associates. -->
+
+## Visitors & Exchanges
+
+::: {.snuc-table}
+| Name | Home institution | Visit period |
+|---|---|---|
+| Matías Montero | University of Oxford | April – October |
+| Daniel Trujillo Martins Fontes | Universidade de São Paulo | July – August |
+| Pavel Krivitsky | University of New South Wales | January |
+:::
+
+## Internship
+
+::: {.snuc-table}
+| Name | Program | Home institution | Period |
+|---|---|---|---|
+| Paloma Rojas | Design | Pontificia Universidad Católica de Chile | April – September |
+:::

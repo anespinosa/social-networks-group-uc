@@ -1,0 +1,135 @@
+---
+title: "Equipo"
+subtitle: "Profesores, estudiantes, investigadores asociados y visitantes del Grupo de Redes Sociales – UC"
+---
+
+## Profesores
+
+::: {.snuc-people}
+<div class="snuc-person">
+<div class="avatar">AE</div>
+### Alejandro Espinosa-Rada
+<div class="role">Profesor Asistente · Instituto de Sociología, UC</div>
+Autor y mantenedor de [netmem](https://cran.r-project.org/web/packages/netmem/index.html).
+</div>
+
+<div class="snuc-person">
+<div class="avatar">DL</div>
+### Daniela Luengo
+<div class="role">Profesora Asistente · Facultad de Educación, UC</div>
+</div>
+
+<div class="snuc-person">
+<div class="avatar">KA</div>
+### Karina Arias
+<div class="role">Profesora Asistente · Escuela de Gobierno, UC</div>
+</div>
+
+<div class="snuc-person">
+<div class="avatar">MB</div>
+### María G. Barrera
+<div class="role">Dra. · Agronomía y Sistemas Naturales, UC</div>
+</div>
+:::
+
+<!-- TODO: reemplazar iniciales por fotografías y agregar una breve biografía / enlace a Google Scholar para cada profesor(a). -->
+
+## Estudiantes de Doctorado
+
+::: {.snuc-people}
+<div class="snuc-person">
+<div class="avatar">RZ</div>
+### Raúl Zuleta
+<div class="role">Estudiante de Doctorado · Antropología, UC</div>
+</div>
+
+<div class="snuc-person">
+<div class="avatar">LH</div>
+### Liliana Hurtado
+<div class="role">Estudiante de Doctorado · Comunicaciones, UC</div>
+</div>
+
+<div class="snuc-person">
+<div class="avatar">VR</div>
+### Valquiria Ramos
+<div class="role">Estudiante de Doctorado · Comunicaciones, UC</div>
+</div>
+
+<div class="snuc-person">
+<div class="avatar">DT</div>
+### Daniel Toro
+<div class="role">Estudiante de Doctorado · Sistemas de Ingeniería, Universidad de Chile</div>
+</div>
+
+<div class="snuc-person">
+<div class="avatar">DC</div>
+### Diego Caro
+<div class="role">Estudiante de Doctorado · Sociología, University of Manchester</div>
+</div>
+
+<div class="snuc-person">
+<div class="avatar">RC</div>
+### Roberto Cantillán
+<div class="role">Estudiante de Doctorado · Sociología, UC</div>
+</div>
+:::
+
+## Estudiantes de Magíster y Ayudantes de Investigación
+
+::: {.snuc-people}
+<div class="snuc-person">
+<div class="avatar">LV</div>
+### Lorenzo Vives
+<div class="role">Magíster en Sociología, UC</div>
+</div>
+
+<div class="snuc-person">
+<div class="avatar">AD</div>
+### Alberto Durán
+<div class="role">Estudiante de Magíster · Sociología, UC</div>
+</div>
+
+<div class="snuc-person">
+<div class="avatar">TP</div>
+### Trajan Pirkovic
+<div class="role">Estudiante de Magíster · Sociología, UC</div>
+</div>
+:::
+
+## Investigadores Asociados
+
+Colaboradores externos con una afiliación permanente al grupo.
+
+::: {.snuc-people}
+<div class="snuc-person">
+<div class="avatar">FO</div>
+### Francisca Ortiz
+<div class="role">Investigadora Asociada</div>
+</div>
+
+<div class="snuc-person">
+<div class="avatar">DP</div>
+### Diego Palacios
+<div class="role">Investigador Asociado</div>
+</div>
+:::
+
+<!-- TODO: agregar las instituciones de origen de Francisca Ortiz y Diego Palacios, y otros investigadores asociados. -->
+
+## Visitantes e Intercambios
+
+::: {.snuc-table}
+| Nombre | Institución de origen | Período de visita |
+|---|---|---|
+| Matías Montero | University of Oxford | Abril – Octubre |
+| Daniel Trujillo Martins Fontes | Universidade de São Paulo | Julio – Agosto |
+| Pavel Krivitsky | University of New South Wales | Enero |
+:::
+
+## Pasantía
+
+::: {.snuc-table}
+| Nombre | Programa | Institución de origen | Período |
+|---|---|---|---|
+| Paloma Rojas | Diseño | Pontificia Universidad Católica de Chile | Abril – Septiembre |
+:::

@@ -1,0 +1,9 @@
+_site/
+.quarto/
+en/_quarto_internal_scss_error.scss
+es/_quarto_internal_scss_error.scss
+en/hero-network.js
+en/favicon.svg
+es/hero-network.js
+es/favicon.svg
+.DS_Store

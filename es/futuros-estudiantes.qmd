@@ -1,0 +1,28 @@
+---
+title: "Futuros Estudiantes"
+subtitle: "Supervisión de posgrado en tres unidades de la UC"
+---
+
+Los miembros del Grupo de Redes Sociales – UC supervisan investigación de posgrado en análisis de redes sociales, modelos estadísticos de redes y aplicaciones computacionales y organizacionales relacionadas, en tres unidades:
+
+::: {.snuc-cards}
+<div class="snuc-card">
+### Instituto de Sociología
+
+<!-- TODO: agregar programa específico (Magíster/Doctorado), supervisor(es) y plazos de postulación. -->
+</div>
+
+<div class="snuc-card">
+### Escuela de Gobierno
+
+<!-- TODO: agregar programa específico, supervisor(es) y plazos de postulación. -->
+</div>
+
+<div class="snuc-card">
+### Facultad de Educación
+
+<!-- TODO: agregar programa específico, supervisor(es) y plazos de postulación. -->
+</div>
+:::
+
+Se invita a los interesados a escribirnos antes de postular para conversar sobre la afinidad de intereses de investigación — ver [Contacto](contacto.qmd).

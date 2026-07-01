@@ -1,0 +1,18 @@
+---
+title: "Publicaciones"
+subtitle: "Artículos revisados por pares, libros y documentos de trabajo del grupo"
+---
+
+<!-- TODO: completar con la lista de publicaciones del grupo. Formato sugerido a continuación;
+     considerar generar esta lista desde una biblioteca compartida de BibTeX/Zotero para que
+     pueda regenerarse automáticamente en lugar de mantenerse a mano. -->
+
+### 2026
+
+- Autor(es). (2026). *Título del artículo.* Nombre de la Revista. [DOI/enlace]
+
+### 2025
+
+- Autor(es). (2025). *Título del artículo.* Nombre de la Revista. [DOI/enlace]
+
+<!-- TODO: enlazar a los perfiles de Google Scholar / ORCID de cada investigador(a) una vez confirmados. -->

@@ -1,0 +1,20 @@
+---
+title: "Teaching"
+subtitle: "Courses taught by group members"
+---
+
+::: {.snuc-cards}
+<div class="snuc-card">
+### Statistical Network Analysis
+**SOL3111**
+
+<!-- TODO: add level (undergraduate/graduate), term offered, and a short description. -->
+</div>
+
+<div class="snuc-card">
+### Social Networks
+**SOL160**
+
+<!-- TODO: add level (undergraduate/graduate), term offered, and a short description. -->
+</div>
+:::

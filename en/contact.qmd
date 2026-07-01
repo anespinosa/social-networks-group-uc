@@ -1,0 +1,14 @@
+---
+title: "Contact"
+---
+
+**Social Networks Group – UC**
+Institute of Sociology, Pontificia Universidad Católica de Chile
+Santiago, Chile
+
+Email: [anespinosa@uc.cl](mailto:anespinosa@uc.cl)
+
+<!-- TODO: confirm the group's institutional contact email — flyers in the shared
+     drive show both "anespinosa@uc.cl" and "aespinos@uc.cl"; pick one and use it
+     consistently across en/contact.qmd and es/contacto.qmd. Add postal address,
+     office location, and social links once confirmed. -->

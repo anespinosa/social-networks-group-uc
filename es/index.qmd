@@ -1,0 +1,55 @@
+---
+title: ""
+page-layout: article
+---
+
+::: {.snuc-hero}
+<canvas class="hero-network" aria-hidden="true"></canvas>
+<div class="snuc-hero-inner">
+<div class="kicker">Instituto de Sociología · Pontificia Universidad Católica de Chile</div>
+
+# Grupo de Redes Sociales — UC
+
+<p class="lead">Avanzando la ciencia de redes sociales a través de la teoría, los métodos y los datos.</p>
+</div>
+:::
+
+El Grupo de Redes Sociales – UC reúne a investigadores que trabajan en la intersección de la sociología, la estadística, la teoría de grafos y los métodos computacionales. Promovemos la colaboración interdisciplinaria, la innovación metodológica y el desarrollo de herramientas de código abierto para la ciencia de redes, incluyendo nuestro paquete de R [**netmem**](https://cran.r-project.org/web/packages/netmem/index.html).
+
+::: {.snuc-pillars}
+<div class="snuc-pillar"><span class="icon">🌐</span>**Colaboraciones<br>internacionales**</div>
+<div class="snuc-pillar"><span class="icon">🤝</span>**Investigación<br>interdisciplinaria**</div>
+<div class="snuc-pillar"><span class="icon">💡</span>**Innovación<br>metodológica**</div>
+<div class="snuc-pillar"><span class="icon">💻</span>**Software de código<br>abierto (netmem)**</div>
+:::
+
+## Explora el grupo
+
+::: {.snuc-cards}
+<div class="snuc-card">
+### Equipo
+Profesores, estudiantes de doctorado y magíster, investigadores asociados y visitantes internacionales.
+[Conoce al equipo →](equipo.qmd){.stretched}
+</div>
+<div class="snuc-card">
+### Investigación
+Líneas de investigación, proyectos en curso y software de código abierto para el análisis de redes.
+[Ver nuestra investigación →](investigacion.qmd){.stretched}
+</div>
+<div class="snuc-card">
+### Vinculación
+Educación continua, asesorías y nuestra alianza con CHISOCNET.
+[Trabaja con nosotros →](vinculacion.qmd){.stretched}
+</div>
+<div class="snuc-card">
+### Futuros Estudiantes
+Supervisión de posgrado en Sociología, Gobierno y Educación.
+[Súmate →](futuros-estudiantes.qmd){.stretched}
+</div>
+:::
+
+## Alianza
+
+::: {.snuc-alliance}
+**[CHISOCNET — Sociedad Chilena de Ciencia de Redes Sociales](https://www.chisocnet.org)**   ·   Somos socios de CHISOCNET, con quienes trabajamos para desarrollar la ciencia de redes sociales como un campo de referencia en Chile e Iberoamérica.
+:::

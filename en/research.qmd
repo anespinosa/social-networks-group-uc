@@ -1,0 +1,42 @@
+---
+title: "Research"
+subtitle: "Research lines, ongoing projects, and open-source software"
+---
+
+## Research Areas
+
+::: {.snuc-cards}
+<div class="snuc-card">**Social Network Analysis / Network Science**</div>
+<div class="snuc-card">**Statistical Network Models**<br>ERGMs, SAOMs, Relational Event Models, Stochastic Block Models, etc.</div>
+<div class="snuc-card">**Mathematical Sociology**</div>
+<div class="snuc-card">**Computational Social Science**</div>
+<div class="snuc-card">**Science of Science**</div>
+<div class="snuc-card">**Governance Networks**</div>
+<div class="snuc-card">**Organizational Networks**</div>
+<div class="snuc-card">**Educational Networks**</div>
+<div class="snuc-card">**Innovation and Scientific Collaboration Networks**</div>
+<div class="snuc-card">**Network Data Science and Graph Machine Learning**</div>
+<div class="snuc-card">**Methodological and Software Development for Network Analysis**</div>
+:::
+
+## Projects
+
+<!-- TODO: add current project cards here (funding body, title, PI, dates, short abstract).
+     e.g. FONDECYT / ANID grants held by group members. -->
+
+::: {.snuc-card}
+### Have a project to list here?
+Add funded and in-progress projects the group is involved in — including FONDECYT/ANID grants, international collaborations, and student-led projects.
+:::
+
+## Software
+
+::: {.snuc-card}
+### netmem
+An R package for handling and transforming network data across formats commonly used in social network analysis, developed and maintained within the group.
+
+- [CRAN page](https://cran.r-project.org/web/packages/netmem/index.html)
+- Install: `install.packages("netmem")`
+:::
+
+<!-- TODO: add further software tools/packages as they are released. -->

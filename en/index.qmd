@@ -1,0 +1,58 @@
+---
+title: ""
+page-layout: article
+---
+
+::: {.snuc-hero}
+<canvas class="hero-network" aria-hidden="true"></canvas>
+<div class="snuc-hero-inner">
+<div class="kicker">Institute of Sociology · Pontificia Universidad Católica de Chile</div>
+
+# Social Networks Group — UC
+
+<p class="lead">Advancing social network science through theory, methods, and data.</p>
+</div>
+:::
+
+The Social Networks Group – UC brings together researchers working at the intersection of sociology, statistics, graph theory, and computational methods. We promote interdisciplinary collaboration, methodological innovation, and the development of open-source tools for network science, including our R package [**netmem**](https://cran.r-project.org/web/packages/netmem/index.html).
+
+::: {.snuc-pillars}
+<div class="snuc-pillar"><span class="icon">🌐</span>**International<br>collaborations**</div>
+<div class="snuc-pillar"><span class="icon">🤝</span>**Interdisciplinary<br>research**</div>
+<div class="snuc-pillar"><span class="icon">💡</span>**Methodological<br>innovation**</div>
+<div class="snuc-pillar"><span class="icon">💻</span>**Open-source<br>software (netmem)**</div>
+:::
+
+## Explore the group
+
+::: {.snuc-cards}
+<div class="snuc-card">
+### Team
+Faculty, doctoral and master's students, research associates, and international visitors.
+[Meet the team →](team.qmd){.stretched}
+</div>
+<div class="snuc-card">
+### Research
+Research lines, ongoing projects, and open-source software for network analysis.
+[See our research →](research.qmd){.stretched}
+</div>
+<div class="snuc-card">
+### Collaboration & Impact
+Executive education, consultancy, and our alliance with CHISOCNET.
+[Work with us →](collaboration.qmd){.stretched}
+</div>
+<div class="snuc-card">
+### Prospective Students
+Graduate supervision across Sociology, Government, and Education.
+[Join us →](prospective-students.qmd){.stretched}
+</div>
+:::
+
+## Alliance
+
+::: {.snuc-alliance}
+**[CHISOCNET — Chilean Society for Social Network Science](https://www.chisocnet.org)**   ·   We are proud partners of CHISOCNET, working to develop social network science as a field of reference across Chile and Ibero-America.
+:::
+
+<!-- TODO: add a short "Latest" strip here once news/highlights start flowing:
+     current visitors, Diplomado cohort dates, new publications, etc. -->

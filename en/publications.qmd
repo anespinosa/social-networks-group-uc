@@ -1,0 +1,20 @@
+---
+title: "Publications"
+subtitle: "Peer-reviewed articles, books, and working papers from the group"
+---
+
+<!-- TODO: populate with the group's publication list. Recommended format below;
+     consider generating this list from a shared BibTeX/Zotero library so it can
+     be regenerated automatically rather than maintained by hand. -->
+
+### 2026
+
+- Author(s). (2026). *Title of the article.* Journal Name. [DOI/link]
+
+### 2025
+
+- Author(s). (2025). *Title of the article.* Journal Name. [DOI/link]
+
+---
+
+<!-- TODO: link out to each researcher's Google Scholar / ORCID profile once confirmed. -->
