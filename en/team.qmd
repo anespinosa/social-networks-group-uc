@@ -157,9 +157,9 @@ Computational social science applied to design management, innovation ecosystems
 ::: {.snuc-table}
 | Name | Home institution | Visit period |
 |---|---|---|
-| Matías Montero | University of Oxford | April – October |
-| Daniel Trujillo Martins Fontes | Universidade de São Paulo | July – August |
-| Pavel Krivitsky | University of New South Wales | January |
+| Matías Montero | University of Oxford | April – October 2025 |
+| Daniel Trujillo Martins Fontes | Universidade de São Paulo | July – August 2025 |
+| Pavel Krivitsky | University of New South Wales | January 2026 |
 :::
 
 ## Internship
@@ -167,5 +167,5 @@ Computational social science applied to design management, innovation ecosystems
 ::: {.snuc-table}
 | Name | Program | Home institution | Period |
 |---|---|---|---|
-| Paloma Rojas | Design | Pontificia Universidad Católica de Chile | April – September |
+| Paloma Rojas | Design | Pontificia Universidad Católica de Chile | April – September 2025 |
 :::
