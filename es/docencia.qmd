@@ -8,16 +8,12 @@ subtitle: "Cursos dictados por miembros del grupo"
 ### Statistical Network Analysis
 **SOL3111** · Magíster en Sociología, Pontificia Universidad Católica de Chile
 
-Agosto – Diciembre 2026
-
 Profesor: Alejandro Espinosa-Rada, Profesor Asistente.
 </div>
 
 <div class="snuc-card">
 ### Social Networks
 **SOL160** · Licenciatura en Sociología, Pontificia Universidad Católica de Chile
-
-Agosto – Diciembre 2026
 
 Profesor: Alejandro Espinosa-Rada, Profesor Asistente.
 </div>

@@ -23,6 +23,15 @@ The Social Networks Group – UC brings together researchers working at the inte
 <div class="snuc-pillar"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="8 6 3 12 8 18"></polyline><polyline points="16 6 21 12 16 18"></polyline></svg></span>**Open-source<br>software (netmem)**</div>
 :::
 
+::: {.snuc-callout}
+<div class="kicker">Postdoctoral Opportunity 2027 · Deadline 14 August 2026</div>
+### Call for Expressions of Interest — ANID FONDECYT Postdoctoral Fellowship
+
+We invite outstanding early-career researchers to apply for the ANID FONDECYT Postdoctoral Fellowship 2027 with the Social Networks Group – UC as host institution — across social network analysis, statistical network models, mathematical sociology, computational social science, and methodological/software development for network analysis.
+
+[Learn more →](prospective-students.qmd){.snuc-callout-btn}
+:::
+
 ## Explore the group
 
 ::: {.snuc-cards}

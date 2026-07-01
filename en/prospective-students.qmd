@@ -1,7 +1,9 @@
 ---
 title: "Prospective Students"
-subtitle: "Graduate supervision across four units at PUC"
+subtitle: "Graduate supervision and postdoctoral opportunities"
 ---
+
+## Graduate Studies
 
 Members of the Social Networks Group – UC supervise graduate research in social network analysis, statistical network models, and related computational and organizational applications across four units:
 
@@ -35,4 +37,41 @@ Members of the Social Networks Group – UC supervise graduate research in socia
 </div>
 :::
 
-Interested applicants are encouraged to reach out before applying to discuss research fit — see [Contact](contact.qmd).
+::: {.snuc-alliance}
+**Considering a PhD with us?** Email [anespinosa@uc.cl](mailto:anespinosa@uc.cl?subject=PhD%20Supervision%20Inquiry) with a short note on your research interests and a CV — we're happy to discuss fit and supervision availability before you apply through any of the four units above.
+:::
+
+## Postdoctoral Fellowship
+
+::: {.snuc-callout}
+<div class="kicker">Postdoctoral Opportunity 2027 · Deadline 14 August 2026</div>
+### Call for Expressions of Interest — ANID FONDECYT Postdoctoral Fellowship
+
+The Social Networks Group – UC, based at the Institute of Sociology, Pontificia Universidad Católica de Chile, invites expressions of interest from outstanding early-career researchers wishing to apply for the **ANID FONDECYT Postdoctoral Fellowship 2027** with our group as the host institution.
+
+We seek researchers whose work aligns with one or more of the following areas:
+
+- Social Network Analysis / Network Science
+- Statistical Network Models (ERGMs, SAOMs, Relational Event Models, Stochastic Block Models, etc.)
+- Mathematical Sociology
+- Computational Social Science
+- Science of Science
+- Governance Networks
+- Organizational Networks
+- Educational Networks
+- Innovation and Scientific Collaboration Networks
+- Network Data Science and Graph Machine Learning
+- Methodological and Software Development for Network Analysis
+
+Successful applicants will join an active research environment dedicated to advancing the theory, methodology, and application of social network science through interdisciplinary collaboration.
+
+**Expression of interest.** Submit a single PDF including: a curriculum vitae; a list of publications; a one-page cover letter describing your research background, motivation, and how your research complements the Social Networks Group – UC; and a two-page summary of your proposed postdoctoral project (research objectives, methodology, and expected contributions).
+
+**Deadline for expressions of interest: 14 August 2026.**
+
+We particularly welcome applicants with a strong publication record, demonstrated research independence, and expertise in quantitative, computational, or mathematical approaches to social networks. Shortlisted candidates will be invited to an online meeting to discuss their proposal before sponsorship decisions are made.
+
+If you are interested, please send your application to [anespinosa@uc.cl](mailto:anespinosa@uc.cl). Feel free to share this opportunity with colleagues and recent PhD graduates who may be interested.
+
+[Email your expression of interest →](mailto:anespinosa@uc.cl){.snuc-callout-btn}
+:::

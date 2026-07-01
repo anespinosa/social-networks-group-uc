@@ -3,25 +3,49 @@ title: "Collaboration & Impact"
 subtitle: "Working with organizations, government, and the wider social network science community"
 ---
 
-The Social Networks Group – UC contributes beyond academia through executive education, advisory work, and an active alliance with the Chilean social network science community.
+The Social Networks Group – UC contributes beyond academia through executive education, advisory work, and an active alliance with the Chilean social network science community — bringing rigorous network methods to real organizational and policy decisions.
+
+::: {.snuc-stats}
+<div class="snuc-stat"><span class="number">11</span><span class="label">Research areas</span></div>
+<div class="snuc-stat"><span class="number">4</span><span class="label">Active research grants</span></div>
+<div class="snuc-stat"><span class="number">5</span><span class="label">Countries in our network</span></div>
+:::
 
 ## Executive Education
 
-::: {.snuc-card}
+<div class="snuc-keynote">
+<div class="snuc-keynote-image"><div class="snuc-icon-badge gold">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9.5 12 5l10 4.5-10 4.5L2 9.5Z"/><path d="M6 11.5v4.5c0 1.4 2.7 2.5 6 2.5s6-1.1 6-2.5v-4.5"/><path d="M21 9.5v5.5"/></svg>
+</div></div>
+<div class="snuc-keynote-content">
 ### Diplomado en Inteligencia Relacional para Organizaciones
-A continuing-education program applying social network analysis to organizations — helping leaders and practitioners diagnose and act on the relational structures inside their institutions.
+<div class="role">Continuing education for leaders and practitioners</div>
+<div class="bio">A continuing-education program applying social network analysis to organizations — helping leaders and practitioners diagnose and act on the relational structures inside their institutions, from informal influence networks to cross-team collaboration bottlenecks.</div>
+</div>
+</div>
 
 <!-- TODO: add program length, intake dates, target audience, and enrollment link. -->
-:::
 
 ## Consultancy & Advisory
 
-We are open to advisory and consultancy work applying network analysis to organizational, governmental, and civil-society settings. If your organization is interested in a diagnostic or collaboration, [get in touch](contact.qmd).
+<div class="snuc-keynote">
+<div class="snuc-keynote-image"><div class="snuc-icon-badge navy">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m7 15 4-5 3 3 5-7"/></svg>
+</div></div>
+<div class="snuc-keynote-content">
+### Bring network analysis to your organization
+<div class="role">Diagnostics, training, and applied research partnerships</div>
+<div class="bio">We are open to advisory and consultancy work applying network analysis to organizational, governmental, and civil-society settings — mapping collaboration structures, diagnosing governance networks, and designing data-informed interventions. If your organization is interested in a diagnostic or collaboration, [get in touch](contact.qmd).</div>
+</div>
+</div>
 
 ## Alliance
 
-::: {.snuc-alliance}
-**[CHISOCNET — Chilean Society for Social Network Science](https://www.chisocnet.org)**
-
-The Social Networks Group – UC is an active partner of CHISOCNET, which aims to develop social network science in Chile into an internationally recognized field of reference for Ibero-America — through conferences, seminars, and a summer school.
-:::
+<div class="snuc-keynote">
+<div class="snuc-keynote-image logo"><img src="img/partners/chisocnet.svg" alt="CHISOCNET logo"></div>
+<div class="snuc-keynote-content">
+### CHISOCNET — Chilean Society for Social Network Science
+<div class="role"><a href="https://www.chisocnet.org">chisocnet.org</a></div>
+<div class="bio">The Social Networks Group – UC is an active partner of CHISOCNET, which aims to develop social network science in Chile into an internationally recognized field of reference for Ibero-America — through conferences, seminars, and a summer school.</div>
+</div>
+</div>

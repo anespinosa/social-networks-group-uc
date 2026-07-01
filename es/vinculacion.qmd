@@ -3,25 +3,49 @@ title: "Vinculación"
 subtitle: "Trabajando con organizaciones, gobierno y la comunidad de ciencia de redes sociales"
 ---
 
-El Grupo de Redes Sociales – UC contribuye más allá de la academia a través de educación continua, asesorías y una alianza activa con la comunidad chilena de ciencia de redes sociales.
+El Grupo de Redes Sociales – UC contribuye más allá de la academia a través de educación continua, asesorías y una alianza activa con la comunidad chilena de ciencia de redes sociales — llevando métodos de redes rigurosos a decisiones organizacionales y de política pública reales.
+
+::: {.snuc-stats}
+<div class="snuc-stat"><span class="number">11</span><span class="label">Áreas de investigación</span></div>
+<div class="snuc-stat"><span class="number">4</span><span class="label">Proyectos de investigación activos</span></div>
+<div class="snuc-stat"><span class="number">5</span><span class="label">Países en nuestra red</span></div>
+:::
 
 ## Educación Continua
 
-::: {.snuc-card}
+<div class="snuc-keynote">
+<div class="snuc-keynote-image"><div class="snuc-icon-badge gold">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9.5 12 5l10 4.5-10 4.5L2 9.5Z"/><path d="M6 11.5v4.5c0 1.4 2.7 2.5 6 2.5s6-1.1 6-2.5v-4.5"/><path d="M21 9.5v5.5"/></svg>
+</div></div>
+<div class="snuc-keynote-content">
 ### Diplomado en Inteligencia Relacional para Organizaciones
-Un programa de educación continua que aplica el análisis de redes sociales a las organizaciones, ayudando a líderes y profesionales a diagnosticar y actuar sobre las estructuras relacionales dentro de sus instituciones.
+<div class="role">Educación continua para líderes y profesionales</div>
+<div class="bio">Un programa de educación continua que aplica el análisis de redes sociales a las organizaciones, ayudando a líderes y profesionales a diagnosticar y actuar sobre las estructuras relacionales dentro de sus instituciones, desde redes informales de influencia hasta cuellos de botella en la colaboración entre equipos.</div>
+</div>
+</div>
 
 <!-- TODO: agregar duración del programa, fechas de inicio, público objetivo y enlace de inscripción. -->
-:::
 
 ## Asesorías y Consultoría
 
-Estamos abiertos a trabajos de asesoría y consultoría que apliquen el análisis de redes a contextos organizacionales, gubernamentales y de la sociedad civil. Si tu organización está interesada en un diagnóstico o colaboración, [contáctanos](contacto.qmd).
+<div class="snuc-keynote">
+<div class="snuc-keynote-image"><div class="snuc-icon-badge navy">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m7 15 4-5 3 3 5-7"/></svg>
+</div></div>
+<div class="snuc-keynote-content">
+### Lleva el análisis de redes a tu organización
+<div class="role">Diagnósticos, capacitación y colaboraciones de investigación aplicada</div>
+<div class="bio">Estamos abiertos a trabajos de asesoría y consultoría que apliquen el análisis de redes a contextos organizacionales, gubernamentales y de la sociedad civil — mapeando estructuras de colaboración, diagnosticando redes de gobernanza y diseñando intervenciones basadas en datos. Si tu organización está interesada en un diagnóstico o colaboración, [contáctanos](contacto.qmd).</div>
+</div>
+</div>
 
 ## Alianza
 
-::: {.snuc-alliance}
-**[CHISOCNET — Sociedad Chilena de Ciencia de Redes Sociales](https://www.chisocnet.org)**
-
-El Grupo de Redes Sociales – UC es socio activo de CHISOCNET, que busca desarrollar la ciencia de redes sociales en Chile como un campo de referencia internacional para Iberoamérica, a través de conferencias, seminarios y una escuela de verano.
-:::
+<div class="snuc-keynote">
+<div class="snuc-keynote-image logo"><img src="img/partners/chisocnet.svg" alt="Logo CHISOCNET"></div>
+<div class="snuc-keynote-content">
+### CHISOCNET — Sociedad Chilena de Ciencia de Redes Sociales
+<div class="role"><a href="https://www.chisocnet.org">chisocnet.org</a></div>
+<div class="bio">El Grupo de Redes Sociales – UC es socio activo de CHISOCNET, que busca desarrollar la ciencia de redes sociales en Chile como un campo de referencia internacional para Iberoamérica, a través de conferencias, seminarios y una escuela de verano.</div>
+</div>
+</div>

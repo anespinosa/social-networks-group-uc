@@ -1,7 +1,9 @@
 ---
 title: "Futuros Estudiantes"
-subtitle: "Supervisión de posgrado en cuatro unidades de la UC"
+subtitle: "Supervisión de posgrado y oportunidades postdoctorales"
 ---
+
+## Estudios de Posgrado
 
 Los miembros del Grupo de Redes Sociales – UC supervisan investigación de posgrado en análisis de redes sociales, modelos estadísticos de redes y aplicaciones computacionales y organizacionales relacionadas, en cuatro unidades:
 
@@ -31,4 +33,41 @@ Los miembros del Grupo de Redes Sociales – UC supervisan investigación de pos
 </div>
 :::
 
-Se invita a los interesados a escribirnos antes de postular para conversar sobre la afinidad de intereses de investigación — ver [Contacto](contacto.qmd).
+::: {.snuc-alliance}
+**¿Estás pensando en hacer un doctorado con nosotros?** Escribe a [anespinosa@uc.cl](mailto:anespinosa@uc.cl?subject=Consulta%20sobre%20supervisi%C3%B3n%20de%20doctorado) con una breve nota sobre tus intereses de investigación y tu CV — con gusto conversamos sobre la afinidad y disponibilidad de supervisión antes de que postules a cualquiera de las cuatro unidades mencionadas arriba.
+:::
+
+## Beca Postdoctoral
+
+::: {.snuc-callout}
+<div class="kicker">Oportunidad Postdoctoral 2027 · Plazo 14 de agosto de 2026</div>
+### Llamado a Expresiones de Interés — Beca Postdoctoral ANID FONDECYT
+
+El Grupo de Redes Sociales – UC, con sede en el Instituto de Sociología de la Pontificia Universidad Católica de Chile, invita a investigadores/as destacados/as en etapas tempranas de su carrera a expresar su interés en postular a la **Beca Postdoctoral ANID FONDECYT 2027**, con nuestro grupo como institución patrocinante.
+
+Buscamos investigadores/as cuyo trabajo se alinee con una o más de las siguientes áreas:
+
+- Análisis de Redes Sociales / Ciencia de Redes
+- Modelos Estadísticos de Redes (ERGMs, SAOMs, Modelos de Eventos Relacionales, Modelos de Bloques Estocásticos, etc.)
+- Sociología Matemática
+- Ciencia Social Computacional
+- Ciencia de la Ciencia
+- Redes de Gobernanza
+- Redes Organizacionales
+- Redes Educacionales
+- Redes de Innovación y Colaboración Científica
+- Ciencia de Datos de Redes y Graph Machine Learning
+- Desarrollo Metodológico y de Software para el Análisis de Redes
+
+Los postulantes seleccionados se integrarán a un entorno de investigación activo, dedicado a avanzar la teoría, la metodología y la aplicación de la ciencia de redes sociales a través de la colaboración interdisciplinaria.
+
+**Expresión de interés.** Enviar un solo PDF que incluya: currículum vitae; lista de publicaciones; una carta de motivación de una página describiendo su trayectoria de investigación, motivación y cómo su investigación complementa al Grupo de Redes Sociales – UC; y un resumen de dos páginas del proyecto postdoctoral propuesto (objetivos de investigación, metodología y contribuciones esperadas).
+
+**Plazo para expresiones de interés: 14 de agosto de 2026.**
+
+Damos especial bienvenida a postulantes con una trayectoria sólida de publicaciones, independencia investigativa demostrada y experiencia en enfoques cuantitativos, computacionales o matemáticos aplicados a redes sociales. Los candidatos preseleccionados serán invitados a una reunión en línea para discutir su propuesta antes de las decisiones de patrocinio.
+
+Si estás interesado/a, envía tu postulación a [anespinosa@uc.cl](mailto:anespinosa@uc.cl). Siéntete libre de compartir esta oportunidad con colegas y recién graduados/as de doctorado que puedan estar interesados/as.
+
+[Envía tu expresión de interés →](mailto:anespinosa@uc.cl){.snuc-callout-btn}
+:::

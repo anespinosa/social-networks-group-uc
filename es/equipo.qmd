@@ -5,28 +5,32 @@ subtitle: "Profesores, estudiantes, investigadores asociados y visitantes del Gr
 
 ## Profesores
 
-::: {.snuc-people}
-<div class="snuc-person">
-<div class="avatar photo"><img src="img/team/espinosa-rada.jpg" alt="Alejandro Espinosa-Rada"></div>
+<div class="snuc-keynote">
+<div class="snuc-keynote-image"><img src="img/team/espinosa-rada.jpg" alt="Alejandro Espinosa-Rada"></div>
+<div class="snuc-keynote-content">
 ### Alejandro Espinosa-Rada
 <div class="role">Profesor Asistente · Instituto de Sociología, UC</div>
 <div class="bio">Doctor en Sociología, Universidad de Manchester (Mitchell Centre for Social Network Analysis); anteriormente investigador postdoctoral y profesor en el Social Networks Lab de ETH Zúrich. Investigación: sociología de las redes sociales, dinámica de grupos, sociología de la ciencia y el conocimiento, y modelos estadísticos para redes sociales. Autor y mantenedor de [netmem](https://cran.r-project.org/web/packages/netmem/index.html).</div>
 </div>
+</div>
 
-<div class="snuc-person">
-<div class="avatar photo"><img src="img/team/arias.jpg" alt="Karina Arias"></div>
+<div class="snuc-keynote">
+<div class="snuc-keynote-image"><img src="img/team/arias.jpg" alt="Karina Arias"></div>
+<div class="snuc-keynote-content">
 ### Karina Arias
 <div class="role">Profesora Asociada · Escuela de Gobierno, UC</div>
 <div class="bio">Doctora en Administración y Políticas Públicas, Florida State University. Investigación: gobernanza metropolitana, cooperación intermunicipal y análisis de redes aplicado a la administración pública. Integrante de la directiva de la Sociedad Chilena de Ciencia de Redes Sociales (CHISOCNET).</div>
 </div>
+</div>
 
-<div class="snuc-person">
-<div class="avatar photo"><img src="img/team/luengo.jpg" alt="Daniela Luengo"></div>
+<div class="snuc-keynote">
+<div class="snuc-keynote-image"><img src="img/team/luengo.jpg" alt="Daniela Luengo"></div>
+<div class="snuc-keynote-content">
 ### Daniela Luengo
 <div class="role">Profesora Asistente · College UC y Facultad de Educación, UC</div>
 <div class="bio">Doctora en Política Educativa, Universidad de Rochester. Su investigación combina economía de la educación, métodos cuasi-experimentales y análisis de redes para estudiar trayectorias formativo-laborales, equidad e inclusión, y la adopción de innovaciones en sistemas escolares.</div>
 </div>
-:::
+</div>
 
 ## Investigadores
 
@@ -107,18 +111,39 @@ Colaboradores externos con una afiliación permanente al grupo.
 ::: {.snuc-people}
 <div class="snuc-person">
 <div class="avatar">FO</div>
-### Francisca Ortiz
-<div class="role">Investigadora Asociada</div>
+### [Francisca Ortiz](https://researchers.umayor.cl/es/persons/francisca-ortiz/)
+<div class="role">Investigadora · Escuela de Gobierno y Administración Pública, Universidad Mayor, Chile</div>
+Redes de apoyo social, sistemas de cuidado y exclusión social.
 </div>
 
 <div class="snuc-person">
 <div class="avatar">DP</div>
-### Diego Palacios
-<div class="role">Investigador Asociado</div>
+### [Diego Palacios](https://ciss.umayor.cl/investigadores/diego-palacios-phd/)
+<div class="role">Profesor Asociado · CISS, Universidad Mayor, Chile</div>
+Análisis de redes sociales de relaciones entre pares y comportamiento en contextos educativos.
+</div>
+
+<div class="snuc-person">
+<div class="avatar">FT</div>
+### [Francisco Trincado-Muñoz](https://www.brookes.ac.uk/profiles/staff/francisco-trincado-munoz)
+<div class="role">Profesor Asociado en Business Analytics · Oxford Brookes Business School, Reino Unido</div>
+Adopción de tecnología, confianza en la tecnología y HR analytics.
+</div>
+
+<div class="snuc-person">
+<div class="avatar">GV</div>
+### [George G. Vega Yon](https://medicine.utah.edu/faculty/george-g-vega-yon)
+<div class="role">Assistant Professor of Research · Division of Epidemiology, University of Utah, EE.UU.</div>
+Sistemas complejos, computación estadística y software científico para el análisis de redes sociales.
+</div>
+
+<div class="snuc-person">
+<div class="avatar">IT</div>
+### [Ignacio Toledo](https://diseno.udd.cl/persona/ignacio-toledo/)
+<div class="role">Investigador Docente · Facultad de Diseño, Universidad del Desarrollo, Chile</div>
+Ciencia social computacional aplicada a la gestión del diseño, ecosistemas de innovación y diseño para la sostenibilidad.
 </div>
 :::
-
-<!-- TODO: agregar las instituciones de origen de Francisca Ortiz y Diego Palacios, y otros investigadores asociados. -->
 
 ## Visitantes e Intercambios
 

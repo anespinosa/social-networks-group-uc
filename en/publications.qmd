@@ -5,11 +5,19 @@ subtitle: "Peer-reviewed articles, books, and working papers by group members"
 
 <!-- Sourced from the Google Scholar profiles of Alejandro Espinosa-Rada, Karina Arias-Yurisch,
      and Daniela Luengo-Aravena. TODO: add remaining group members' publications, and DOIs/links
-     where available. Consider regenerating this list from a shared BibTeX/Zotero library. -->
+     where available. Consider regenerating this list from a shared BibTeX/Zotero library.
+     Pre-2018 items omitted at the group's request (pre-network-era work). -->
+
+### 2026
+
+- Jones, P., Verhoeven, D., & Espinosa-Rada, A. (2026). The role of film school collaboration in film industry network formation: an empirical analysis of data from the Australian Film, Television and Radio School (AFTRS). *Journal of Cultural Analytics.*
+- Espinosa-Rada, A., Bargsted, M., & Ortiz Ruiz, F. (2026). Socioeconomic homogeneity in acquaintance networks: Occupational prestige, education, and intergenerational mobility. *Social Networks, 86.*
+- Espinosa-Rada, A. (2026). Network positions within scholars and intellectual networks. *SSRN.*
+- Alieva, D., Ávila Molero, J., Bernard, H. R., Bidart, C., Carballo López, M., et al. (incl. Espinosa-Rada, A.). (2026). Liber amicorum del profesor José Luis Molina. *Redes. Revista hispana para el análisis de redes sociales, 37*(2).
 
 ### 2025
 
-- Espinosa-Rada, A., Lerner, J., & Fritz, C. (2025). Socio-cognitive networks between researchers: Investigating scientific dualities with the group-oriented relational hyperevent model. *Social Networks.*
+- Espinosa-Rada, A., Lerner, J., & Fritz, C. (2025). Socio-cognitive networks between researchers: Investigating scientific dualities with the group-oriented relational hyperevent model. *Social Networks, 83.*
 - Bellotti, E., & Espinosa-Rada, A. (2025). Scientific networks. In *Handbook of Culture and Social Networks.*
 - Vanhulst, J., Padilla, P., Espinosa-Rada, A., Cantillán, R., Velásquez, R., et al. (2025). The reflexive process in sustainability science: A short critical review. *Environmental Science & Policy.*
 - Ramos-Fuenzalida, C., Retamal-Soto, K., & Arias-Yurisch, K. (2025). Explaining partner selection in planned emergency management networks. *International Journal of Public Administration*, 1–13.
@@ -30,6 +38,10 @@ subtitle: "Peer-reviewed articles, books, and working papers by group members"
 - Espinosa-Rada, A. (2023). Usos contemporáneos de los modelos estocásticos orientados en el actor (SAOMs) para redes dinámicas. In *Redes Sociales: teoría, métodos y aplicaciones en América Latina.*
 - Ortiz Ruiz, F., & Espinosa-Rada, A. (2023). Las redes del mundo digital: noción, recolección de datos y análisis relacional. In *Redes Sociales: teoría, métodos y aplicaciones en América Latina.*
 - Ortiz Ruiz, F., & Espinosa-Rada, A. (2023). Ciencias de redes sociales en América Latina: énfasis y nuevas directrices en el campo de las ciencias sociales. In *Redes Sociales: teoría, métodos y aplicaciones en América Latina.*
+- Espinosa-Rada, A., Ortiz Ruiz, F., & Palacios, D. (2023). Social network researchers in South America: The Chilean Society for Social Network Science (ChiSocNet). *AWARI — Revista de la Asociación Latinoamericana de Análisis de Redes.*
+- Espinosa-Rada, A., & Ortiz Ruiz, F. (2023). Why is the world small? Comment on how the POPNET project can leverage computational social science. *SocArXiv.*
+- Uzaheta, A., & Espinosa-Rada, A. (2023). Modelos estocásticos orientados en el actor utilizando RSiena (V): Estimación de un modelo para la evolución de redes sociales. *Redes. Revista hispana para el análisis de redes sociales, 34*(1).
+- Espinosa-Rada, A., & Uzaheta, A. (2023). Modelos estocásticos orientados en el actor utilizando RSiena (VI): Coevolución de redes sociales y comportamientos individuales. *Redes. Revista hispana para el análisis de redes sociales, 34*(1).
 - Retamal-Soto, K., Arias-Yurisch, K., & Ramos-Fuenzalida, C. (2023). Inter-municipal governance networks: application of exponential random graph models in Los Lagos, Chile. *Revista de Administração Pública, 57*, e2022-0271.
 - Arias-Yurisch, K., Retamal-Soto, K., & Ramos-Fuenzalida, C. (2023). América Latina frente aos desafios da governança em rede. Fundação João Pinheiro.
 - Sevilla, M. P., Luengo-Aravena, D., & Farías, M. (2023). Gender gap in STEM pathways: The role of secondary curricula in a highly differentiated school system — the case of Chile. *International Journal of STEM Education, 10*(1), 58.
@@ -63,27 +75,6 @@ subtitle: "Peer-reviewed articles, books, and working papers by group members"
 
 - González Torralbo, H., Ortiz Ruiz, F. J., & Espinosa Rada, A. N. (2018). Redes de parentesco en las familias de Santiago de Chile. *Redes: revista hispana para el análisis de redes sociales.*
 - Finnigan, K. S., Luengo-Aravena, D. E., & Garrison, K. M. (2018). Social network analysis methods in educational policy research. In *Complementary Research Methods for Educational Leadership and Policy Studies.*
-
-### 2016
-
-- Espinosa Rada, A. N., & Ortiz Ruiz, F. J. (2016). Autonomía jurisdiccional en el régimen regulatorio transnacional de la FIFA. *Redes. Revista hispana para el análisis de redes sociales.*
-
-### 2015
-
-- Valenzuela, F. A., Espinosa, A., Madero-Cabib, I., Moyano, C., & Ortiz, F. (2015). Museums of art as mechanisms of social inclusion and exclusion in art and in society: a case study in Chile. *Boletim do Museu Paraense Emílio Goeldi. Ciências Humanas.*
-
-### 2014
-
-- Castillo-Carniglia, A., Pizarro, E., Luengo, D., & Soto-Brandt, G. (2014). Alcohol use and self-reported violent events in Chile. *Adicciones, 26*(1), 46–53.
-
-### 2012
-
-- Arias Yurisch, K. (2012). Ideas, intentos y fracasos en el proceso modernización administrativa entre las dos administraciones de Ibáñez (1927–1958). *Universum (Talca), 27*(1), 13–27.
-
-### 2010
-
-- Arias Yurisch, K. (2010). Revisión de las estructuras político-administrativas territoriales en el Chile del siglo XIX. *Universum (Talca), 25*(1), 44–59.
-- Arias Yurisch, K. (2010). *Política pública cultural en Chile — revisión de las intervenciones del estado en el campo cultural en el siglo XX.* Universidad de Chile.
 
 ---
 

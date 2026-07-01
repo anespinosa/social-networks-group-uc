@@ -23,6 +23,15 @@ El Grupo de Redes Sociales – UC reúne a investigadores que trabajan en la int
 <div class="snuc-pillar"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="8 6 3 12 8 18"></polyline><polyline points="16 6 21 12 16 18"></polyline></svg></span>**Software de código<br>abierto (netmem)**</div>
 :::
 
+::: {.snuc-callout}
+<div class="kicker">Oportunidad Postdoctoral 2027 · Plazo 14 de agosto de 2026</div>
+### Llamado a Expresiones de Interés — Beca Postdoctoral ANID FONDECYT
+
+Invitamos a investigadores/as destacados/as en etapas tempranas de su carrera a postular a la Beca Postdoctoral ANID FONDECYT 2027 con el Grupo de Redes Sociales – UC como institución patrocinante — en análisis de redes sociales, modelos estadísticos de redes, sociología matemática, ciencia social computacional, y desarrollo metodológico/de software para el análisis de redes.
+
+[Más información →](futuros-estudiantes.qmd){.snuc-callout-btn}
+:::
+
 ## Explora el grupo
 
 ::: {.snuc-cards}

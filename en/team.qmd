@@ -5,28 +5,32 @@ subtitle: "Faculty, students, research associates, and visitors of the Social Ne
 
 ## Core Faculty
 
-::: {.snuc-people}
-<div class="snuc-person">
-<div class="avatar photo"><img src="img/team/espinosa-rada.jpg" alt="Alejandro Espinosa-Rada"></div>
+<div class="snuc-keynote">
+<div class="snuc-keynote-image"><img src="img/team/espinosa-rada.jpg" alt="Alejandro Espinosa-Rada"></div>
+<div class="snuc-keynote-content">
 ### Alejandro Espinosa-Rada
 <div class="role">Assistant Professor · Institute of Sociology, PUC</div>
 <div class="bio">PhD in Sociology, University of Manchester (Mitchell Centre for Social Network Analysis); previously postdoctoral researcher and lecturer at ETH Zürich's Social Networks Lab. Research: sociology of social networks, group dynamics, sociology of science and knowledge, and statistical models for social networks. Author and maintainer of [netmem](https://cran.r-project.org/web/packages/netmem/index.html).</div>
 </div>
+</div>
 
-<div class="snuc-person">
-<div class="avatar photo"><img src="img/team/arias.jpg" alt="Karina Arias"></div>
+<div class="snuc-keynote">
+<div class="snuc-keynote-image"><img src="img/team/arias.jpg" alt="Karina Arias"></div>
+<div class="snuc-keynote-content">
 ### Karina Arias
 <div class="role">Associate Professor · School of Government, PUC</div>
 <div class="bio">PhD in Public Administration and Policy, Florida State University. Research: metropolitan governance, inter-municipal cooperation, and network analysis applied to public administration. Board member, Chilean Society for Social Network Science (CHISOCNET).</div>
 </div>
+</div>
 
-<div class="snuc-person">
-<div class="avatar photo"><img src="img/team/luengo.jpg" alt="Daniela Luengo"></div>
+<div class="snuc-keynote">
+<div class="snuc-keynote-image"><img src="img/team/luengo.jpg" alt="Daniela Luengo"></div>
+<div class="snuc-keynote-content">
 ### Daniela Luengo
 <div class="role">Assistant Professor · College UC & Faculty of Education, PUC</div>
 <div class="bio">PhD in Educational Policy, University of Rochester. Research combines the economics of education, quasi-experimental methods, and network analysis to study educational-labor trajectories, equity and inclusion, and the adoption of innovations in school systems.</div>
 </div>
-:::
+</div>
 
 ## Researchers
 
@@ -107,18 +111,39 @@ External collaborators who hold a continuing affiliation with the group.
 ::: {.snuc-people}
 <div class="snuc-person">
 <div class="avatar">FO</div>
-### Francisca Ortiz
-<div class="role">Research Associate</div>
+### [Francisca Ortiz](https://researchers.umayor.cl/es/persons/francisca-ortiz/)
+<div class="role">Researcher · School of Government and Public Administration, Universidad Mayor, Chile</div>
+Social support networks, caregiving systems, and social exclusion.
 </div>
 
 <div class="snuc-person">
 <div class="avatar">DP</div>
-### Diego Palacios
-<div class="role">Research Associate</div>
+### [Diego Palacios](https://ciss.umayor.cl/investigadores/diego-palacios-phd/)
+<div class="role">Associate Professor · CISS, Universidad Mayor, Chile</div>
+Social network analysis of peer relationships and behavior in educational settings.
+</div>
+
+<div class="snuc-person">
+<div class="avatar">FT</div>
+### [Francisco Trincado-Muñoz](https://www.brookes.ac.uk/profiles/staff/francisco-trincado-munoz)
+<div class="role">Associate Professor in Business Analytics · Oxford Brookes Business School, UK</div>
+Technology adoption, trust in technology, and HR analytics.
+</div>
+
+<div class="snuc-person">
+<div class="avatar">GV</div>
+### [George G. Vega Yon](https://medicine.utah.edu/faculty/george-g-vega-yon)
+<div class="role">Assistant Professor of Research · Division of Epidemiology, University of Utah, USA</div>
+Complex systems, statistical computing, and scientific software for social network analysis.
+</div>
+
+<div class="snuc-person">
+<div class="avatar">IT</div>
+### [Ignacio Toledo](https://diseno.udd.cl/persona/ignacio-toledo/)
+<div class="role">Researcher-Teacher · Faculty of Design, Universidad del Desarrollo, Chile</div>
+Computational social science applied to design management, innovation ecosystems, and design for sustainability.
 </div>
 :::
-
-<!-- TODO: add home institutions for Francisca Ortiz and Diego Palacios, and any further research associates. -->
 
 ## Visitors & Exchanges
 
