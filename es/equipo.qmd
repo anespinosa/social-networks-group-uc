@@ -35,6 +35,10 @@ subtitle: "Profesores, estudiantes, investigadores asociados y visitantes del Gr
 </div>
 </div>
 
+::: {.snuc-alliance}
+**¿Eres académico/a de planta de la UC?** Damos la bienvenida a profesores/as de cualquier unidad cuyo trabajo se relacione con redes sociales — de forma cuantitativa, computacional o sustantiva — a sumarse al grupo. Escribe a [anespinosa@uc.cl](mailto:anespinosa@uc.cl?subject=Sumarse%20al%20Grupo%20de%20Redes%20Sociales%20%E2%80%93%20UC) para conversarlo.
+:::
+
 ## Investigadores
 
 ::: {.snuc-people}

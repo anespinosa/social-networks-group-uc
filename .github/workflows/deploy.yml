@@ -31,11 +31,13 @@ jobs:
           cp shared/nav-drawer.js es/nav-drawer.js
           cp shared/img/favicon.svg en/favicon.svg
           cp shared/img/favicon.svg es/favicon.svg
-          mkdir -p en/img/team es/img/team en/img/partners es/img/partners
+          mkdir -p en/img/team es/img/team en/img/partners es/img/partners en/img/brand es/img/brand
           cp shared/img/team/*.jpg en/img/team/
           cp shared/img/team/*.jpg es/img/team/
           cp shared/img/partners/*.svg en/img/partners/
           cp shared/img/partners/*.svg es/img/partners/
+          cp shared/img/brand/*.png en/img/brand/
+          cp shared/img/brand/*.png es/img/brand/
           (cd en && quarto render)
           (cd es && quarto render)
           cp root-index.html _site/index.html

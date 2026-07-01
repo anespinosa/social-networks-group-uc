@@ -33,7 +33,8 @@ website:
       - text: '<span class="lang-switch">EN</span>'
         href: ../en/index.html
   page-footer:
-    left: "© 2026 Grupo de Redes Sociales – UC · Pontificia Universidad Católica de Chile"
+    left: |
+      <span class="snuc-footer-brand"><span class="snuc-footer-logo"><img src="img/brand/puc-crest.png" alt="Pontificia Universidad Católica de Chile"></span> © 2026 Grupo de Redes Sociales – UC · Pontificia Universidad Católica de Chile</span>
     right:
       - text: "CHISOCNET"
         href: https://www.chisocnet.org

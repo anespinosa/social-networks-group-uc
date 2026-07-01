@@ -35,6 +35,10 @@ subtitle: "Faculty, students, research associates, and visitors of the Social Ne
 </div>
 </div>
 
+::: {.snuc-alliance}
+**Are you a permanent academic at UC?** We welcome faculty from any unit whose work touches social networks — quantitatively, computationally, or substantively — to join the group. Email [anespinosa@uc.cl](mailto:anespinosa@uc.cl?subject=Joining%20the%20Social%20Networks%20Group%20%E2%80%93%20UC) to talk about it.
+:::
+
 ## Researchers
 
 ::: {.snuc-people}
