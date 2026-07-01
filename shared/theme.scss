@@ -132,10 +132,12 @@ h3{ font-weight: 600; letter-spacing: -.005em; }
   height: 1.6em;
 }
 
-.navbar-expand-lg .navbar-collapse{
-  display: flex !important;
-}
+/* #navbarCollapse gets re-parented to <body> by nav-drawer.js, so this
+   must be an id selector — it can no longer rely on being a descendant
+   of .navbar-expand-lg to stay display:flex instead of Bootstrap's
+   default display:none (which would kill the slide transition). */
 #navbarCollapse{
+  display: flex !important;
   position: fixed;
   top: 0;
   left: 0;
@@ -167,6 +169,19 @@ h3{ font-weight: 600; letter-spacing: -.005em; }
   padding-bottom: .7rem !important;
   border-bottom: 1px solid rgba(255,255,255,.08);
 }
+.snuc-nav-close{
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  background: none;
+  border: none;
+  color: rgba(255,255,255,.75);
+  padding: .25rem;
+  cursor: pointer;
+  line-height: 0;
+}
+.snuc-nav-close:hover{ color: #fff; }
+.snuc-nav-close svg{ width: 22px; height: 22px; }
 
 .snuc-nav-backdrop{
   position: fixed;
