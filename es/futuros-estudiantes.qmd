@@ -5,7 +5,7 @@ subtitle: "Supervisión de posgrado y oportunidades postdoctorales"
 
 ## Estudios de Posgrado
 
-Los miembros del Grupo de Redes Sociales – UC supervisan investigación de posgrado en análisis de redes sociales, modelos estadísticos de redes y aplicaciones computacionales y organizacionales relacionadas, en cuatro unidades de la Pontificia Universidad Católica de Chile (UC):
+Los miembros del Grupo de Redes Sociales – UC supervisan investigación de posgrado en análisis de redes sociales, modelos estadísticos de redes y métodos mixtos — con experiencia sustantiva en educación y gobernanza, además de aplicaciones computacionales y organizacionales relacionadas — en cuatro unidades de la Pontificia Universidad Católica de Chile (UC):
 
 ::: {.snuc-cards}
 <div class="snuc-card">
