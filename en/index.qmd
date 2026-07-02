@@ -14,7 +14,7 @@ page-layout: article
 </div>
 :::
 
-The Social Networks Group – UC brings together researchers working at the intersection of sociology, statistics, graph theory, and computational methods. We promote interdisciplinary collaboration, methodological innovation, and the development of open-source tools for network science, including our R package [**netmem**](https://cran.r-project.org/web/packages/netmem/index.html).
+The Social Networks Group – UC is a social science research group studying how relationships shape institutions, organizations, and public life — with substantive expertise in education and governance, brought into dialogue with sociology, statistics, and graph theory. We promote interdisciplinary collaboration, methodological innovation, and the development of open-source tools for network science, including our R package [**netmem**](https://cran.r-project.org/web/packages/netmem/index.html).
 
 ::: {.snuc-pillars}
 <div class="snuc-pillar"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><ellipse cx="12" cy="12" rx="4" ry="9"></ellipse><line x1="3" y1="12" x2="21" y2="12"></line></svg></span>**International<br>collaborations**</div>
