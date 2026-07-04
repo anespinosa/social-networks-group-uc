@@ -39,35 +39,51 @@
     function applyForces() {
       const centerX = width / 2;
       const centerY = height / 2;
-      const repelDist = 120 * devicePixelRatio;
-      const repelForce = 1.0;
+      const repelDist = 110 * devicePixelRatio;
+      const repelForce = 0.85;
 
       for (let i = 0; i < nodes.length; i++) {
         const n = nodes[i];
         let fx = 0, fy = 0;
 
+        // Node-to-node repulsion
         for (let j = 0; j < nodes.length; j++) {
           if (i !== j) {
             const dx = n.x - nodes[j].x;
             const dy = n.y - nodes[j].y;
             const dist = Math.sqrt(dx * dx + dy * dy) || 1;
             if (dist < repelDist) {
-              fx += (dx / dist) * repelForce;
-              fy += (dy / dist) * repelForce;
+              fx += (dx / dist) * repelForce * (1 + 0.3 * Math.sin(animationTime + i));
+              fy += (dy / dist) * repelForce * (1 + 0.3 * Math.sin(animationTime + j));
             }
           }
         }
 
+        // Orbital attraction (spiral/rotational bias)
+        const angle = Math.atan2(n.y - centerY, n.x - centerX);
+        const orbitForce = 0.04 * Math.sin(animationTime * 0.3 + i);
+        const perpX = -Math.sin(angle) * orbitForce;
+        const perpY = Math.cos(angle) * orbitForce;
+        fx += perpX;
+        fy += perpY;
+
+        // Center attraction with modulation
         const toCenterX = centerX - n.x;
         const toCenterY = centerY - n.y;
         const toCenterDist = Math.sqrt(toCenterX * toCenterX + toCenterY * toCenterY) || 1;
-        fx += (toCenterX / toCenterDist) * 0.06;
-        fy += (toCenterY / toCenterDist) * 0.06;
+        const centerAttraction = 0.05 + 0.02 * Math.sin(animationTime + n.pulse);
+        fx += (toCenterX / toCenterDist) * centerAttraction;
+        fy += (toCenterY / toCenterDist) * centerAttraction;
+
+        // Random perturbations for organic chaos
+        const noise = 0.08 * Math.sin(animationTime * 0.7 + i * 3.14159);
+        fx += noise * (Math.random() - 0.5);
+        fy += noise * (Math.random() - 0.5);
 
         n.vx += fx;
         n.vy += fy;
-        n.vx *= 0.93;
-        n.vy *= 0.93;
+        n.vx *= 0.90;
+        n.vy *= 0.90;
       }
     }
 
