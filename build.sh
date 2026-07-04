@@ -17,6 +17,8 @@ cp shared/img/partners/*.svg en/img/partners/
 cp shared/img/partners/*.svg es/img/partners/
 cp shared/img/brand/*.png en/img/brand/
 cp shared/img/brand/*.png es/img/brand/
+cp shared/img/*-network.svg en/img/
+cp shared/img/*-network.svg es/img/
 
 (cd en && quarto render && rm -f _quarto_internal_scss_error.scss)
 (cd es && quarto render && rm -f _quarto_internal_scss_error.scss)
