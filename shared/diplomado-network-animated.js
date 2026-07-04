@@ -88,19 +88,17 @@
     }
 
     function resize() {
-      // Use the canvas's actual computed CSS dimensions, not the parent's
-      const computedStyle = window.getComputedStyle(canvas);
-      const cssWidth = Math.min(parseInt(computedStyle.maxWidth) || 340, canvas.parentElement.offsetWidth);
-      const cssHeight = Math.min(parseInt(computedStyle.maxHeight) || 340, canvas.parentElement.offsetHeight);
+      // Use fixed canvas size (340x340) as defined by CSS max-width/max-height
+      const size = 340;
 
-      width = canvas.width = cssWidth * devicePixelRatio;
-      height = canvas.height = cssHeight * devicePixelRatio;
-      canvas.style.width = cssWidth + "px";
-      canvas.style.height = cssHeight + "px";
+      width = canvas.width = size * devicePixelRatio;
+      height = canvas.height = size * devicePixelRatio;
+      canvas.style.width = size + "px";
+      canvas.style.height = size + "px";
 
       const centerX = width / 2;
       const centerY = height / 2;
-      const scale = Math.min(width, height) * 0.3;
+      const scale = 340 * devicePixelRatio * 0.3;
 
       nodes = krackhardt.nodes.map((n, i) => {
         const angle = Math.random() * Math.PI * 2;
