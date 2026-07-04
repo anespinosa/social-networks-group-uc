@@ -50,37 +50,37 @@ subtitle: "Faculty, students, research associates, and visitors of the Social Ne
 <div class="snuc-person">
 <div class="avatar">RZ</div>
 ### Raúl Zuleta
-<div class="role">PhD Candidate · Anthropology, PUC</div>
+<div class="role">PhD Student · Anthropology, PUC</div>
 </div>
 
 <div class="snuc-person">
 <div class="avatar">LH</div>
 ### Liliana Hurtado
-<div class="role">PhD Candidate · Communications, PUC</div>
+<div class="role">PhD Student · Communications, PUC</div>
 </div>
 
 <div class="snuc-person">
 <div class="avatar">VR</div>
 ### Valquiria Ramos
-<div class="role">PhD Candidate · Communications, PUC</div>
+<div class="role">PhD Student · Communications, PUC</div>
 </div>
 
 <div class="snuc-person">
 <div class="avatar">DT</div>
 ### Daniel Toro
-<div class="role">PhD Candidate · Industrial & Systems Engineering, Universidad de Chile</div>
+<div class="role">PhD Student · Industrial & Systems Engineering, Universidad de Chile</div>
 </div>
 
 <div class="snuc-person">
 <div class="avatar">DC</div>
 ### Diego Caro
-<div class="role">PhD Candidate · Sociology, University of Manchester</div>
+<div class="role">PhD Student · Sociology, University of Manchester</div>
 </div>
 
 <div class="snuc-person">
 <div class="avatar">RC</div>
 ### Roberto Cantillán
-<div class="role">PhD Candidate · Sociology, PUC</div>
+<div class="role">PhD Student · Sociology, PUC</div>
 </div>
 :::
 
@@ -96,13 +96,13 @@ subtitle: "Faculty, students, research associates, and visitors of the Social Ne
 <div class="snuc-person">
 <div class="avatar">AD</div>
 ### Alberto Durán
-<div class="role">MA Candidate · Sociology, PUC</div>
+<div class="role">MA Student · Sociology, PUC</div>
 </div>
 
 <div class="snuc-person">
 <div class="avatar">TP</div>
 ### Trajan Pirkovic
-<div class="role">MA Candidate · Sociology, PUC</div>
+<div class="role">MA Student · Sociology, PUC</div>
 </div>
 :::
 
