@@ -99,7 +99,7 @@
 
       const centerX = width / 2;
       const centerY = height / 2;
-      const scale = 340 * devicePixelRatio * 0.3;
+      const scale = Math.min(width, height) * 0.25;
 
       nodes = krackhardt.nodes.map((n, i) => {
         const angle = Math.random() * Math.PI * 2;
