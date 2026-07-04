@@ -55,12 +55,10 @@
 
     function resize() {
       const rect = canvas.parentElement.getBoundingClientRect();
-      console.log("Consultancy parent rect:", rect.width, "x", rect.height);
       width = canvas.width = rect.width * devicePixelRatio;
       height = canvas.height = rect.height * devicePixelRatio;
       canvas.style.width = rect.width + "px";
       canvas.style.height = rect.height + "px";
-      console.log("Consultancy canvas set to:", width, "x", height, "devicePixelRatio:", devicePixelRatio);
 
       const centerX = width / 2;
       const centerY = height / 2;
@@ -73,7 +71,7 @@
           y: centerY + Math.sin(angle) * radius + (Math.random() - 0.5) * 30,
           vx: 0,
           vy: 0,
-          r: 2.6 * devicePixelRatio,
+          r: 3.2 * devicePixelRatio,
           degree: 0,
           pulse: Math.random() * Math.PI * 2,
         };
@@ -101,7 +99,7 @@
     function applyForces() {
       const centerX = width / 2;
       const centerY = height / 2;
-      const repelDist = 100 * devicePixelRatio;
+      const repelDist = 95 * devicePixelRatio;
 
       for (let i = 0; i < nodes.length; i++) {
         const n = nodes[i];
@@ -111,8 +109,8 @@
         const dx = centerX - n.x;
         const dy = centerY - n.y;
         const dist = Math.sqrt(dx * dx + dy * dy) || 1;
-        fx += (dx / dist) * 0.1;
-        fy += (dy / dist) * 0.1;
+        fx += (dx / dist) * 0.07;
+        fy += (dy / dist) * 0.07;
 
         // Node repulsion
         for (let j = 0; j < nodes.length; j++) {
@@ -122,8 +120,8 @@
           const dist2 = Math.sqrt(dx2 * dx2 + dy2 * dy2) || 1;
 
           if (dist2 < repelDist) {
-            fx += (dx2 / dist2) * 0.7;
-            fy += (dy2 / dist2) * 0.7;
+            fx += (dx2 / dist2) * 0.9 * (1 - dist2 / repelDist);
+            fy += (dy2 / dist2) * 0.9 * (1 - dist2 / repelDist);
           }
         }
 
@@ -133,14 +131,14 @@
             const dx3 = nodes[b].x - n.x;
             const dy3 = nodes[b].y - n.y;
             const dist3 = Math.sqrt(dx3 * dx3 + dy3 * dy3) || 1;
-            fx += (dx3 / dist3) * 0.18;
-            fy += (dy3 / dist3) * 0.18;
+            fx += (dx3 / dist3) * 0.1;
+            fy += (dy3 / dist3) * 0.1;
           } else if (i === b) {
             const dx3 = nodes[a].x - n.x;
             const dy3 = nodes[a].y - n.y;
             const dist3 = Math.sqrt(dx3 * dx3 + dy3 * dy3) || 1;
-            fx += (dx3 / dist3) * 0.18;
-            fy += (dy3 / dist3) * 0.18;
+            fx += (dx3 / dist3) * 0.1;
+            fy += (dy3 / dist3) * 0.1;
           }
         });
 
@@ -157,9 +155,12 @@
 
       if (!reduceMotion) {
         applyForces();
+        const margin = 24 * devicePixelRatio;
         for (const n of nodes) {
           n.x += n.vx;
           n.y += n.vy;
+          n.x = Math.max(margin, Math.min(width - margin, n.x));
+          n.y = Math.max(margin, Math.min(height - margin, n.y));
         }
       }
 
