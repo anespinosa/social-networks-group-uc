@@ -107,14 +107,14 @@
     }
 
     function resize() {
-      // Use fixed canvas size (340x340) as defined by CSS max-width/max-height
+      // Use CSS dimensions directly (340x340)
       const size = 340;
 
-      width = canvas.width = size * devicePixelRatio;
-      height = canvas.height = size * devicePixelRatio;
+      width = canvas.width = size;
+      height = canvas.height = size;
       canvas.style.width = size + "px";
       canvas.style.height = size + "px";
-      console.log("Consultancy: Resized canvas to", width, "x", height, "(CSS:", size, "x", size, ")");
+      console.log("Consultancy: Canvas", size, "x", size, "initialized");
 
       const centerX = width / 2;
       const centerY = height / 2;
@@ -158,7 +158,7 @@
     function drawNode(n) {
       // Size by degree: logarithmic scale
       const sizeScale = Math.log(n.degree + 2) / Math.log(25);
-      const baseR = (3.2 + sizeScale * 5.2) * devicePixelRatio;
+      const baseR = 3.2 + sizeScale * 5.2;
       const pulse = 1 + 0.12 * Math.sin(time + n.pulse);
       const r = baseR * pulse;
 
@@ -208,7 +208,7 @@
 
       // Border
       ctx.strokeStyle = `rgba(242, 169, 59, ${0.5 + 0.5 * degreePercentile})`;
-      ctx.lineWidth = (1.2 + degreePercentile * 1.8) * devicePixelRatio;
+      ctx.lineWidth = 1.2 + degreePercentile * 1.8;
       ctx.stroke();
     }
 
@@ -229,7 +229,7 @@
         const alpha = 0.13 + 0.17 * strength;
 
         ctx.strokeStyle = `rgba(122, 92, 197, ${alpha})`;
-        ctx.lineWidth = (0.8 + 0.7 * strength) * devicePixelRatio;
+        ctx.lineWidth = 0.8 + 0.7 * strength;
         ctx.lineCap = "round";
         ctx.beginPath();
         ctx.moveTo(n1.x, n1.y);

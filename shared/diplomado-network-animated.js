@@ -88,14 +88,14 @@
     }
 
     function resize() {
-      // Use fixed canvas size (340x340) as defined by CSS max-width/max-height
+      // Use CSS dimensions directly (340x340)
       const size = 340;
 
-      width = canvas.width = size * devicePixelRatio;
-      height = canvas.height = size * devicePixelRatio;
+      width = canvas.width = size;
+      height = canvas.height = size;
       canvas.style.width = size + "px";
       canvas.style.height = size + "px";
-      console.log("Diplomado: Resized canvas to", width, "x", height, "(CSS:", size, "x", size, ")");
+      console.log("Diplomado: Canvas", size, "x", size, "initialized");
 
       const centerX = width / 2;
       const centerY = height / 2;
@@ -137,7 +137,7 @@
     function drawNode(n) {
       // Size by degree: log scale for better visual differentiation
       const sizeScale = Math.log(n.degree + 2) / Math.log(25);
-      const baseR = (3.5 + sizeScale * 5.5) * devicePixelRatio;
+      const baseR = 3.5 + sizeScale * 5.5;
       const pulse = 1 + 0.12 * Math.sin(time + n.pulse);
       const r = baseR * pulse;
 
@@ -179,7 +179,7 @@
 
       // Border
       ctx.strokeStyle = `rgba(242, 169, 59, ${0.6 + 0.4 * degreePercentile})`;
-      ctx.lineWidth = (1 + degreePercentile * 1.5) * devicePixelRatio;
+      ctx.lineWidth = 1 + degreePercentile * 1.5;
       ctx.stroke();
     }
 
@@ -199,7 +199,7 @@
         const alpha = 0.12 + 0.12 * (Math.min(n1.degree, n2.degree) / 25);
 
         ctx.strokeStyle = `rgba(242, 169, 59, ${alpha})`;
-        ctx.lineWidth = (0.8 + 0.5 * (Math.min(n1.degree, n2.degree) / 25)) * devicePixelRatio;
+        ctx.lineWidth = 0.8 + 0.5 * (Math.min(n1.degree, n2.degree) / 25);
         ctx.lineCap = "round";
         ctx.beginPath();
         ctx.moveTo(n1.x, n1.y);
