@@ -26,6 +26,8 @@ El Grupo de Redes Sociales – UC contribuye más allá de la academia a través
 
 <!-- TODO: agregar duración del programa, fechas de inicio, público objetivo y enlace de inscripción. -->
 
+También ofrecemos cursos y talleres especializados sobre análisis de redes sociales, modelamiento estadístico de redes y métodos computacionales, adaptados a las necesidades e intereses de tu organización.
+
 ## Asesorías y Consultoría
 
 <div class="snuc-keynote">

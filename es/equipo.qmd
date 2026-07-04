@@ -42,12 +42,7 @@ subtitle: "Profesores, estudiantes, investigadores asociados y visitantes del Gr
 ## Investigadores
 
 ::: {.snuc-people}
-<div class="snuc-person">
-<div class="avatar">MB</div>
-### María G. Barrera
-<div class="role">Dra. · Agronomía y Sistemas Naturales, UC</div>
-</div>
-:::
+::::
 
 ## Estudiantes de Doctorado
 

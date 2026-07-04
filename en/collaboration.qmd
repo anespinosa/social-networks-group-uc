@@ -26,6 +26,8 @@ The Social Networks Group – UC contributes beyond academia through executive e
 
 <!-- TODO: add program length, intake dates, target audience, and enrollment link. -->
 
+We also offer specialized courses and workshops on social network analysis, statistical modeling of networks, and computational methods tailored to your organization's needs and audience.
+
 ## Consultancy & Advisory
 
 <div class="snuc-keynote">
