@@ -611,6 +611,13 @@ h4{
   border-radius: 14px;
   padding: 1.5rem;
   border: 1px solid rgba(242,169,59,.2);
+  min-height: 200px;
+  min-width: 200px;
+}
+.snuc-keynote-image.network-viz canvas{
+  width: 160px;
+  height: 160px;
+  display: block;
 }
 .snuc-keynote-image.network-viz img{
   width: 160px;

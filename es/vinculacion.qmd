@@ -14,7 +14,7 @@ El Grupo de Redes Sociales – UC contribuye más allá de la academia a través
 ## Educación y Capacitación
 
 <div class="snuc-keynote">
-<div class="snuc-keynote-image network-viz"><img src="img/diplomado-network.svg" alt="Visualización de red de aprendizaje"/></div>
+<div class="snuc-keynote-image network-viz"><canvas class="diplomado-network"></canvas></div>
 <div class="snuc-keynote-content">
 ### Diplomado en Inteligencia Relacional para Organizaciones
 <div class="role">Formación profesional para múltiples sectores · Mayo – Diciembre</div>
@@ -27,7 +27,7 @@ También ofrecemos cursos y talleres especializados sobre análisis de redes soc
 ## Asesorías y Consultoría
 
 <div class="snuc-keynote">
-<div class="snuc-keynote-image network-viz"><img src="img/consultancy-network.svg" alt="Visualización de red de análisis organizacional"/></div>
+<div class="snuc-keynote-image network-viz"><canvas class="consultancy-network"></canvas></div>
 <div class="snuc-keynote-content">
 ### Lleva el análisis de redes a tu organización
 <div class="role">Diagnósticos, capacitación y colaboraciones de investigación aplicada</div>
