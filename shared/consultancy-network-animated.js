@@ -55,10 +55,12 @@
 
     function resize() {
       const rect = canvas.parentElement.getBoundingClientRect();
+      console.log("Consultancy parent rect:", rect.width, "x", rect.height);
       width = canvas.width = rect.width * devicePixelRatio;
       height = canvas.height = rect.height * devicePixelRatio;
       canvas.style.width = rect.width + "px";
       canvas.style.height = rect.height + "px";
+      console.log("Consultancy canvas set to:", width, "x", height, "devicePixelRatio:", devicePixelRatio);
 
       const centerX = width / 2;
       const centerY = height / 2;

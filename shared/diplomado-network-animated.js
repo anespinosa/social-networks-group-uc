@@ -36,10 +36,12 @@
 
     function resize() {
       const rect = canvas.parentElement.getBoundingClientRect();
+      console.log("Diplomado parent rect:", rect.width, "x", rect.height);
       width = canvas.width = rect.width * devicePixelRatio;
       height = canvas.height = rect.height * devicePixelRatio;
       canvas.style.width = rect.width + "px";
       canvas.style.height = rect.height + "px";
+      console.log("Diplomado canvas set to:", width, "x", height, "devicePixelRatio:", devicePixelRatio);
 
       // Initialize nodes with force-directed layout
       const centerX = width / 2;
