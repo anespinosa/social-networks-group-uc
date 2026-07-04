@@ -13,18 +13,29 @@ subtitle: "Research lines, ongoing projects, and open-source software"
 
 ## Research Areas
 
-::: {.snuc-cards .areas}
-<div class="snuc-card">**Social Network Analysis / Network Science**</div>
-<div class="snuc-card">**Statistical Network Models**<br>ERGMs, SAOMs, Relational Event Models, Stochastic Block Models, etc.</div>
-<div class="snuc-card">**Mathematical Sociology**</div>
-<div class="snuc-card">**Computational Social Science**</div>
-<div class="snuc-card">**Science of Science**</div>
-<div class="snuc-card">**Governance Networks**</div>
-<div class="snuc-card">**Organizational Networks**</div>
-<div class="snuc-card">**Educational Networks**</div>
-<div class="snuc-card">**Innovation and Scientific Collaboration Networks**</div>
-<div class="snuc-card">**Network Data Science and Graph Machine Learning**</div>
-<div class="snuc-card">**Methodological and Software Development for Network Analysis**</div>
+<div class="snuc-area-head"><span class="ac-letter">A</span><span class="ac-title">Theory &amp; Methods</span><span class="ac-tag">How we study networks</span></div>
+
+::: {.snuc-cards .areas-desc}
+<div class="snuc-card"><h4>Social Network Analysis &amp; Network Science</h4><p>Foundational concepts, measures, and models for studying relational structure across the social and behavioral sciences.</p></div>
+<div class="snuc-card"><h4>Statistical Network Models</h4><p>ERGMs, stochastic actor-oriented models (SAOMs), and relational event models for inference on network structure and change.</p></div>
+<div class="snuc-card"><h4>Mathematical Sociology</h4><p>Formal and generative models that link micro-level mechanisms to macro-level social structure.</p></div>
+:::
+
+<div class="snuc-area-head"><span class="ac-letter">B</span><span class="ac-title">Computation, Data &amp; Software</span><span class="ac-tag">The tools we build and use</span></div>
+
+::: {.snuc-cards .areas-desc}
+<div class="snuc-card"><h4>Computational Social Science</h4><p>Simulation- and data-intensive approaches that combine computation with social theory.</p></div>
+<div class="snuc-card"><h4>Network Data Science &amp; Graph Machine Learning</h4><p>Learning representations, patterns, and predictions from graph-structured data.</p></div>
+<div class="snuc-card"><h4>Methods &amp; Open-Source Software</h4><p>Reproducible tools for network analysis, including the R package <em>netmem</em>.</p></div>
+:::
+
+<div class="snuc-area-head"><span class="ac-letter">C</span><span class="ac-title">Substantive Domains</span><span class="ac-tag">Where we apply networks</span></div>
+
+::: {.snuc-cards .areas-desc}
+<div class="snuc-card"><h4>Science of Science &amp; Knowledge</h4><p>How researchers, ideas, and institutions form networks that shape the production of scientific knowledge.</p></div>
+<div class="snuc-card"><h4>Governance &amp; Policy Networks</h4><p>Inter-organizational and inter-municipal coordination in public administration and metropolitan governance.</p></div>
+<div class="snuc-card"><h4>Organizational Networks</h4><p>Informal structure, collaboration, and influence within and between organizations.</p></div>
+<div class="snuc-card"><h4>Educational Networks</h4><p>Relational processes in schools and educational systems, from equity to the diffusion of innovations.</p></div>
 :::
 
 ## Projects

@@ -523,6 +523,58 @@ h4{
 .snuc-cards.areas .snuc-card br + *,
 .snuc-cards.areas .snuc-card{ font-size: .9rem; }
 
+/* ---------- Research Areas: grouped clusters with descriptions ---------- */
+.snuc-area-head{
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: .3rem .85rem;
+  margin: 2.75rem 0 1.25rem 0;
+  padding-bottom: .55rem;
+  border-bottom: 1px solid $hairline;
+}
+.snuc-area-head .ac-letter{
+  font-family: $headings-font-family;
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: $gold;
+}
+.snuc-area-head .ac-title{
+  font-family: $headings-font-family;
+  font-weight: 700;
+  font-size: 1.35rem;
+  color: $navy;
+  letter-spacing: -.01em;
+}
+.snuc-area-head .ac-tag{
+  margin-left: auto;
+  font-style: italic;
+  font-size: .92rem;
+  color: $muted;
+}
+.snuc-cards.areas-desc{
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+  gap: 1rem;
+  margin: 0 0 1.25rem 0;
+}
+.snuc-cards.areas-desc .snuc-card{
+  padding: 1.35rem 1.4rem;
+}
+.snuc-cards.areas-desc .snuc-card h4{
+  margin: 0 0 .5rem 0;
+  font-family: $headings-font-family;
+  font-weight: 700;
+  font-size: 1.05rem;
+  line-height: 1.25;
+  color: $navy;
+}
+.snuc-cards.areas-desc .snuc-card p{
+  margin: 0;
+  font-size: .89rem;
+  line-height: 1.55;
+  color: $ink;
+}
+
 /* ---------- Projects: full-width editorial cards ---------- */
 .snuc-projects{
   display: flex;

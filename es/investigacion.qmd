@@ -13,18 +13,29 @@ subtitle: "Líneas de investigación, proyectos en curso y software de código a
 
 ## Áreas de Investigación
 
-::: {.snuc-cards .areas}
-<div class="snuc-card">**Análisis de Redes Sociales / Ciencia de Redes**</div>
-<div class="snuc-card">**Modelos Estadísticos de Redes**<br>ERGMs, SAOMs, Modelos de Eventos Relacionales, Modelos de Bloques Estocásticos, etc.</div>
-<div class="snuc-card">**Sociología Matemática**</div>
-<div class="snuc-card">**Ciencia Social Computacional**</div>
-<div class="snuc-card">**Ciencia de la Ciencia**</div>
-<div class="snuc-card">**Redes de Gobernanza**</div>
-<div class="snuc-card">**Redes Organizacionales**</div>
-<div class="snuc-card">**Redes Educacionales**</div>
-<div class="snuc-card">**Redes de Innovación y Colaboración Científica**</div>
-<div class="snuc-card">**Ciencia de Datos de Redes y Graph Machine Learning**</div>
-<div class="snuc-card">**Desarrollo Metodológico y de Software para el Análisis de Redes**</div>
+<div class="snuc-area-head"><span class="ac-letter">A</span><span class="ac-title">Teoría y Métodos</span><span class="ac-tag">Cómo estudiamos las redes</span></div>
+
+::: {.snuc-cards .areas-desc}
+<div class="snuc-card"><h4>Análisis de Redes Sociales y Ciencia de Redes</h4><p>Conceptos, medidas y modelos fundamentales para estudiar la estructura relacional en las ciencias sociales y del comportamiento.</p></div>
+<div class="snuc-card"><h4>Modelos Estadísticos de Redes</h4><p>ERGMs, modelos estocásticos orientados al actor (SAOMs) y modelos de eventos relacionales para la inferencia sobre la estructura y el cambio de las redes.</p></div>
+<div class="snuc-card"><h4>Sociología Matemática</h4><p>Modelos formales y generativos que vinculan mecanismos de nivel micro con la estructura social de nivel macro.</p></div>
+:::
+
+<div class="snuc-area-head"><span class="ac-letter">B</span><span class="ac-title">Computación, Datos y Software</span><span class="ac-tag">Las herramientas que construimos y usamos</span></div>
+
+::: {.snuc-cards .areas-desc}
+<div class="snuc-card"><h4>Ciencia Social Computacional</h4><p>Enfoques basados en simulación y datos que combinan la computación con la teoría social.</p></div>
+<div class="snuc-card"><h4>Ciencia de Datos de Redes y Graph Machine Learning</h4><p>Aprendizaje de representaciones, patrones y predicciones a partir de datos estructurados en grafos.</p></div>
+<div class="snuc-card"><h4>Métodos y Software de Código Abierto</h4><p>Herramientas reproducibles para el análisis de redes, incluyendo el paquete de R <em>netmem</em>.</p></div>
+:::
+
+<div class="snuc-area-head"><span class="ac-letter">C</span><span class="ac-title">Dominios Sustantivos</span><span class="ac-tag">Dónde aplicamos las redes</span></div>
+
+::: {.snuc-cards .areas-desc}
+<div class="snuc-card"><h4>Ciencia de la Ciencia y del Conocimiento</h4><p>Cómo investigadores, ideas e instituciones forman redes que dan forma a la producción del conocimiento científico.</p></div>
+<div class="snuc-card"><h4>Redes de Gobernanza y Política Pública</h4><p>Coordinación inter-organizacional e intermunicipal en la administración pública y la gobernanza metropolitana.</p></div>
+<div class="snuc-card"><h4>Redes Organizacionales</h4><p>Estructura informal, colaboración e influencia dentro y entre organizaciones.</p></div>
+<div class="snuc-card"><h4>Redes Educacionales</h4><p>Procesos relacionales en escuelas y sistemas educativos, desde la equidad hasta la difusión de innovaciones.</p></div>
 :::
 
 ## Proyectos
