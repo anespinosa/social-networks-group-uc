@@ -3,6 +3,14 @@ title: "Research"
 subtitle: "Research lines, ongoing projects, and open-source software"
 ---
 
+::: {.snuc-org-hero .compact}
+<div class="snuc-org-hero-content">
+<div class="snuc-eyebrow">What We Do</div>
+<h1>Research</h1>
+<p class="lead">Research lines, funded projects, and open-source software advancing the theory and methods of social network science.</p>
+</div>
+:::
+
 ## Research Areas
 
 ::: {.snuc-cards}

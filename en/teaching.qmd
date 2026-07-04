@@ -3,6 +3,14 @@ title: "Teaching"
 subtitle: "Courses taught by group members"
 ---
 
+::: {.snuc-org-hero .compact}
+<div class="snuc-org-hero-content">
+<div class="snuc-eyebrow">Education</div>
+<h1>Teaching</h1>
+<p class="lead">Courses on social network analysis, statistical network models, and computational methods, taught by group members.</p>
+</div>
+:::
+
 ::: {.snuc-cards}
 <div class="snuc-card">
 ### Statistical Network Analysis

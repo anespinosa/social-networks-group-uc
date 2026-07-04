@@ -8,6 +8,9 @@ page-layout: article
 <div class="snuc-eyebrow">Beyond Academia</div>
 <h1>Organizational Intelligence</h1>
 <p class="lead">Network analysis and strategic consulting for organizations, government, and collaborative ecosystems. We bring rigorous relational methods to real organizational and policy decisions.</p>
+<div class="snuc-hero-actions">
+<a href="contact.html" class="snuc-btn-primary">Get in touch →</a>
+</div>
 </div>
 :::
 

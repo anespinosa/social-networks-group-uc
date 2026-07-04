@@ -9,6 +9,14 @@ subtitle: "Artículos revisados por pares, libros y documentos de trabajo de mie
      biblioteca compartida de BibTeX/Zotero. Publicaciones previas a 2018 omitidas a
      solicitud del grupo (trabajo previo a la era de redes del grupo). -->
 
+::: {.snuc-org-hero .compact}
+<div class="snuc-org-hero-content">
+<div class="snuc-eyebrow">Producción Académica</div>
+<h1>Publicaciones</h1>
+<p class="lead">Artículos revisados por pares, libros y documentos de trabajo de los miembros del Grupo de Redes Sociales – UC.</p>
+</div>
+:::
+
 ### 2026
 
 - Jones, P., Verhoeven, D., & Espinosa-Rada, A. (2026). The role of film school collaboration in film industry network formation: an empirical analysis of data from the Australian Film, Television and Radio School (AFTRS). *Journal of Cultural Analytics.*

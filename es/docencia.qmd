@@ -3,6 +3,14 @@ title: "Docencia"
 subtitle: "Cursos dictados por miembros del grupo"
 ---
 
+::: {.snuc-org-hero .compact}
+<div class="snuc-org-hero-content">
+<div class="snuc-eyebrow">Educación</div>
+<h1>Docencia</h1>
+<p class="lead">Cursos sobre análisis de redes sociales, modelos estadísticos de redes y métodos computacionales, dictados por miembros del grupo.</p>
+</div>
+:::
+
 ::: {.snuc-cards}
 <div class="snuc-card">
 ### Statistical Network Analysis

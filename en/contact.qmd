@@ -2,6 +2,14 @@
 title: "Contact"
 ---
 
+::: {.snuc-org-hero .compact}
+<div class="snuc-org-hero-content">
+<div class="snuc-eyebrow">Get in Touch</div>
+<h1>Contact</h1>
+<p class="lead">Reach the Social Networks Group – UC — for collaboration, supervision, or media enquiries.</p>
+</div>
+:::
+
 **Social Networks Group – UC**
 Institute of Sociology, Pontificia Universidad Católica de Chile
 Santiago, Chile

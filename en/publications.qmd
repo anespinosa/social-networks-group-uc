@@ -8,6 +8,14 @@ subtitle: "Peer-reviewed articles, books, and working papers by group members"
      where available. Consider regenerating this list from a shared BibTeX/Zotero library.
      Pre-2018 items omitted at the group's request (pre-network-era work). -->
 
+::: {.snuc-org-hero .compact}
+<div class="snuc-org-hero-content">
+<div class="snuc-eyebrow">Scholarship</div>
+<h1>Publications</h1>
+<p class="lead">Peer-reviewed articles, books, and working papers by members of the Social Networks Group – UC.</p>
+</div>
+:::
+
 ### 2026
 
 - Jones, P., Verhoeven, D., & Espinosa-Rada, A. (2026). The role of film school collaboration in film industry network formation: an empirical analysis of data from the Australian Film, Television and Radio School (AFTRS). *Journal of Cultural Analytics.*

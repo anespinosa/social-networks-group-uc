@@ -3,6 +3,14 @@ title: "Prospective Students"
 subtitle: "Graduate supervision and postdoctoral opportunities"
 ---
 
+::: {.snuc-org-hero .compact}
+<div class="snuc-org-hero-content">
+<div class="snuc-eyebrow">Join Us</div>
+<h1>Prospective Students</h1>
+<p class="lead">Graduate supervision and postdoctoral opportunities in social network science across Sociology, Government, and Education.</p>
+</div>
+:::
+
 ## Graduate Studies
 
 Members of the Social Networks Group – UC supervise graduate research in social network analysis, statistical network models, and mixed methods — with substantive expertise spanning education and governance, alongside related computational and organizational applications — across four units of the Pontificia Universidad Católica de Chile (PUC):

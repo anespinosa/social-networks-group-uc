@@ -1,13 +1,15 @@
-// Krackhardt High-Tech Managers with Stress Majorization + Meaningful Node Sizes/Shapes
+// Krackhardt High-Tech Managers Network (real dataset: 21 managers, advice-seeking ties)
+// Layout: stress majorization — geometric distances fit to graph-theoretic distances.
 (function () {
   function initDiplomadoNetwork(canvas) {
     const ctx = canvas.getContext("2d");
-    const reduceMotion = window.matchMedia("(prefers-reduce-motion: reduce)").matches;
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-    let width, height, nodes, edges, distMatrix, time = 0, layoutIterations = 0;
+    let width, height, nodes, edges, distMatrix, maxDist, time = 0, iterations = 0;
+    const MAX_ITERATIONS = 400;
 
     const krackhardt = {
-      nodes: Array.from({ length: 21 }, (_, i) => ({ id: i + 1 })),
+      n: 21,
       edges: [
         [1,2],[1,3],[1,4],[1,5],[1,6],[1,7],[1,8],[1,9],[1,10],[1,11],[1,12],
         [2,1],[2,3],[2,4],[2,5],[2,6],[2,8],[2,9],[2,10],[2,11],[2,12],[2,13],[2,14],[2,15],[2,16],[2,17],[2,18],[2,19],[2,20],[2,21],
@@ -30,193 +32,192 @@
         [19,2],[19,3],[19,7],[19,8],[19,9],[19,10],[19,11],[19,12],[19,13],[19,14],[19,15],[19,16],[19,17],[19,18],
         [20,2],[20,5],[20,6],[20,7],[20,11],[20,13],[20,16],[20,17],[20,21],
         [21,2],[21,13],[21,16],[21,18],[21,20]
-      ]
+      ],
+      // Real attributes from the dataset: hierarchical level (1=CEO, 2=VP, 3=manager) and department (0=CEO)
+      level: [3,2,3,3,3,3,1,3,3,3,3,3,3,2,3,3,3,2,3,3,2],
+      dept:  [4,4,2,4,2,1,0,1,2,3,3,1,2,2,2,4,1,3,2,2,1]
     };
 
-    function calculateDistanceMatrix() {
-      const n = krackhardt.nodes.length;
-      const dist = Array(n).fill(0).map(() => Array(n).fill(Infinity));
+    // Department palette (CEO = gold)
+    const deptColors = {
+      0: { light: "#f7c67e", mid: "#f2a93b", dark: "#c07f1f" },
+      1: { light: "#7fd1c5", mid: "#2a9d8f", dark: "#1d7168" },
+      2: { light: "#8fabd1", mid: "#4a6fa5", dark: "#345078" },
+      3: { light: "#efa993", mid: "#e07a5f", dark: "#b35540" },
+      4: { light: "#c6a3d8", mid: "#9c6bb3", dark: "#714a86" }
+    };
 
+    function computeDistances() {
+      const n = krackhardt.n;
+      const dist = Array.from({ length: n }, () => Array(n).fill(Infinity));
       for (let i = 0; i < n; i++) dist[i][i] = 0;
-
       krackhardt.edges.forEach(([a, b]) => {
-        dist[a-1][b-1] = 1;
+        dist[a - 1][b - 1] = 1;
+        dist[b - 1][a - 1] = 1;
       });
-
-      for (let k = 0; k < n; k++) {
-        for (let i = 0; i < n; i++) {
-          for (let j = 0; j < n; j++) {
-            dist[i][j] = Math.min(dist[i][j], dist[i][k] + dist[k][j]);
-          }
-        }
-      }
-
+      for (let k = 0; k < n; k++)
+        for (let i = 0; i < n; i++)
+          for (let j = 0; j < n; j++)
+            if (dist[i][k] + dist[k][j] < dist[i][j]) dist[i][j] = dist[i][k] + dist[k][j];
+      maxDist = 0;
+      for (let i = 0; i < n; i++)
+        for (let j = 0; j < n; j++)
+          if (dist[i][j] < Infinity && dist[i][j] > maxDist) maxDist = dist[i][j];
       return dist;
     }
 
-    function stressIteration() {
+    // One sweep of stress majorization: move each node toward the position that
+    // best satisfies pixel-scaled graph distances (weight 1/d_ij^2, localized moves).
+    function stressStep(alpha) {
       const n = nodes.length;
-      const k = 3;
-
+      const L = (Math.min(width, height) * 1.15) / maxDist; // pixels per graph-hop (spread out; clamp absorbs tails)
       for (let i = 0; i < n; i++) {
         const ni = nodes[i];
-        let fx = 0, fy = 0;
-
+        let sumW = 0, tx = 0, ty = 0;
         for (let j = 0; j < n; j++) {
           if (i === j) continue;
           const nj = nodes[j];
-          const dx = nj.x - ni.x;
-          const dy = nj.y - ni.y;
-          const d = Math.sqrt(dx * dx + dy * dy) || 0.01;
           const dij = distMatrix[i][j];
-
-          if (dij < Infinity) {
-            const force = k * (d - dij) / dij;
-            fx += force * (dx / d);
-            fy += force * (dy / d);
-          }
+          if (!isFinite(dij) || dij === 0) continue;
+          const target = dij * L;
+          const w = 1 / (dij * dij);
+          let dx = ni.x - nj.x;
+          let dy = ni.y - nj.y;
+          let d = Math.sqrt(dx * dx + dy * dy);
+          if (d < 1e-3) { dx = Math.random() - 0.5; dy = Math.random() - 0.5; d = 1; }
+          // Ideal position for i relative to j at the target distance
+          tx += w * (nj.x + (dx / d) * target);
+          ty += w * (nj.y + (dy / d) * target);
+          sumW += w;
         }
-
-        ni.vx = fx * 0.1;
-        ni.vy = fy * 0.1;
+        if (sumW > 0) {
+          ni.x += alpha * (tx / sumW - ni.x);
+          ni.y += alpha * (ty / sumW - ni.y);
+        }
       }
-
-      for (let i = 0; i < n; i++) {
-        nodes[i].x += nodes[i].vx;
-        nodes[i].y += nodes[i].vy;
-      }
+      // Keep centered and inside the canvas
+      let cx = 0, cy = 0;
+      nodes.forEach(n => { cx += n.x; cy += n.y; });
+      cx = width / 2 - cx / n; cy = height / 2 - cy / n;
+      const margin = 26 * devicePixelRatio;
+      nodes.forEach(nd => {
+        nd.x = Math.max(margin, Math.min(width - margin, nd.x + cx));
+        nd.y = Math.max(margin, Math.min(height - margin, nd.y + cy));
+      });
     }
 
     function resize() {
-      // Use the canvas's actual computed CSS dimensions, not the parent's
-      const computedStyle = window.getComputedStyle(canvas);
-      const cssWidth = Math.min(parseInt(computedStyle.maxWidth) || 340, canvas.parentElement.offsetWidth);
-      const cssHeight = Math.min(parseInt(computedStyle.maxHeight) || 340, canvas.parentElement.offsetHeight);
+      const rect = canvas.parentElement.getBoundingClientRect();
+      width = canvas.width = rect.width * devicePixelRatio;
+      height = canvas.height = rect.height * devicePixelRatio;
+      canvas.style.width = rect.width + "px";
+      canvas.style.height = rect.height + "px";
 
-      width = canvas.width = cssWidth * devicePixelRatio;
-      height = canvas.height = cssHeight * devicePixelRatio;
-      canvas.style.width = cssWidth + "px";
-      canvas.style.height = cssHeight + "px";
-
-      const centerX = width / 2;
-      const centerY = height / 2;
-      const scale = Math.min(width, height) * 0.3;
-
-      nodes = krackhardt.nodes.map((n, i) => {
-        const angle = Math.random() * Math.PI * 2;
-        const radius = Math.random() * scale;
+      const centerX = width / 2, centerY = height / 2;
+      nodes = Array.from({ length: krackhardt.n }, (_, i) => {
+        const angle = (i / krackhardt.n) * Math.PI * 2;
+        const radius = Math.min(width, height) * 0.3;
         return {
-          id: n.id,
+          id: i + 1,
           x: centerX + Math.cos(angle) * radius,
           y: centerY + Math.sin(angle) * radius,
-          vx: 0,
-          vy: 0,
           degree: 0,
           pulse: Math.random() * Math.PI * 2,
         };
       });
 
-      krackhardt.edges.forEach(([from, to]) => {
-        nodes[from - 1].degree++;
-      });
-
-      distMatrix = calculateDistanceMatrix();
+      krackhardt.edges.forEach(([a]) => { nodes[a - 1].degree++; });
+      distMatrix = computeDistances();
 
       edges = [];
-      const edgeSet = new Set();
+      const seen = new Set();
       krackhardt.edges.forEach(([a, b]) => {
-        const key = a < b ? `${a}-${b}` : `${b}-${a}`;
-        if (!edgeSet.has(key)) {
-          edges.push([a - 1, b - 1]);
-          edgeSet.add(key);
-        }
+        const key = a < b ? a + "-" + b : b + "-" + a;
+        if (!seen.has(key)) { edges.push([a - 1, b - 1]); seen.add(key); }
       });
 
-      layoutIterations = 0;
+      iterations = 0;
+      if (reduceMotion) {
+        // No animation: converge immediately, draw once
+        for (let s = 0; s < MAX_ITERATIONS; s++) stressStep(0.25);
+      }
     }
 
-    function drawNode(n) {
-      // Size by degree: log scale for better visual differentiation
-      const sizeScale = Math.log(n.degree + 2) / Math.log(25);
-      const baseR = (3.5 + sizeScale * 5.5) * devicePixelRatio;
-      const pulse = 1 + 0.12 * Math.sin(time + n.pulse);
-      const r = baseR * pulse;
+    const maxDegree = 25;
 
-      // Determine node role by degree
-      const degreePercentile = n.degree / 25;
-      let nodeType = 'peripheral';
-      if (degreePercentile > 0.6) nodeType = 'broker';
-      else if (degreePercentile > 0.3) nodeType = 'connector';
+    function drawNode(n, idx) {
+      const pct = n.degree / maxDegree;
+      const sizeScale = Math.log(n.degree + 2) / Math.log(maxDegree);
+      const pulse = 1 + 0.1 * Math.sin(time + n.pulse);
+      const r = (3.2 + sizeScale * 5.8) * devicePixelRatio * pulse;
 
-      // Glow effect
+      const level = krackhardt.level[idx];
+      const c = deptColors[krackhardt.dept[idx]];
+      // Shape by hierarchy: diamond = CEO, square = VP, circle = manager
+      const shape = level === 1 ? "diamond" : level === 2 ? "square" : "circle";
+
+      // Glow (CEO and VPs glow gold)
       ctx.beginPath();
-      ctx.fillStyle = `rgba(242, 169, 59, ${0.12 + 0.08 * degreePercentile})`;
-      ctx.arc(n.x, n.y, r * 2.5, 0, Math.PI * 2);
+      ctx.fillStyle = level < 3
+        ? "rgba(242, 169, 59, " + (0.14 + 0.1 * pct) + ")"
+        : "rgba(10, 31, 68, " + (0.05 + 0.06 * pct) + ")";
+      ctx.arc(n.x, n.y, r * 2.3, 0, Math.PI * 2);
       ctx.fill();
 
-      // Gradient
-      const g = ctx.createRadialGradient(n.x - r * 0.3, n.y - r * 0.3, 0, n.x, n.y, r);
-      g.addColorStop(0, "#f2aa55");
-      g.addColorStop(0.6, "#f2a93b");
-      g.addColorStop(1, "#d48c2a");
+      const g = ctx.createRadialGradient(n.x - r * 0.3, n.y - r * 0.3, 0, n.x, n.y, r * 1.2);
+      g.addColorStop(0, c.light);
+      g.addColorStop(0.6, c.mid);
+      g.addColorStop(1, c.dark);
       ctx.fillStyle = g;
 
-      // Node shape based on role
-      if (nodeType === 'broker') {
-        ctx.beginPath();
-        ctx.moveTo(n.x + r, n.y);
-        ctx.lineTo(n.x, n.y + r);
-        ctx.lineTo(n.x - r, n.y);
-        ctx.lineTo(n.x, n.y - r);
+      ctx.beginPath();
+      if (shape === "diamond") {
+        ctx.moveTo(n.x, n.y - r * 1.3);
+        ctx.lineTo(n.x + r * 1.3, n.y);
+        ctx.lineTo(n.x, n.y + r * 1.3);
+        ctx.lineTo(n.x - r * 1.3, n.y);
         ctx.closePath();
-        ctx.fill();
-      } else if (nodeType === 'connector') {
-        ctx.fillRect(n.x - r, n.y - r, r * 2, r * 2);
+      } else if (shape === "square") {
+        ctx.rect(n.x - r * 0.9, n.y - r * 0.9, r * 1.8, r * 1.8);
       } else {
-        ctx.beginPath();
         ctx.arc(n.x, n.y, r, 0, Math.PI * 2);
-        ctx.fill();
       }
-
-      // Border
-      ctx.strokeStyle = `rgba(242, 169, 59, ${0.6 + 0.4 * degreePercentile})`;
-      ctx.lineWidth = (1 + degreePercentile * 1.5) * devicePixelRatio;
+      ctx.fill();
+      ctx.strokeStyle = c.dark;
+      ctx.lineWidth = (0.8 + pct) * devicePixelRatio;
       ctx.stroke();
     }
 
-    function step() {
+    function draw() {
       ctx.clearRect(0, 0, width, height);
-      if (!reduceMotion) time += 0.016;
-
-      if (!reduceMotion && layoutIterations < 300) {
-        stressIteration();
-        layoutIterations++;
-      }
-
-      // Draw edges
       edges.forEach(([a, b]) => {
-        const n1 = nodes[a];
-        const n2 = nodes[b];
-        const alpha = 0.12 + 0.12 * (Math.min(n1.degree, n2.degree) / 25);
-
-        ctx.strokeStyle = `rgba(242, 169, 59, ${alpha})`;
-        ctx.lineWidth = (0.8 + 0.5 * (Math.min(n1.degree, n2.degree) / 25)) * devicePixelRatio;
+        const n1 = nodes[a], n2 = nodes[b];
+        const s = Math.min(n1.degree, n2.degree) / maxDegree;
+        ctx.strokeStyle = "rgba(10, 31, 68, " + (0.08 + 0.12 * s) + ")";
+        ctx.lineWidth = (0.7 + 0.6 * s) * devicePixelRatio;
         ctx.lineCap = "round";
         ctx.beginPath();
         ctx.moveTo(n1.x, n1.y);
         ctx.lineTo(n2.x, n2.y);
         ctx.stroke();
       });
+      nodes.forEach((n, idx) => drawNode(n, idx));
+    }
 
-      // Draw all nodes
-      nodes.forEach(drawNode);
-
-      if (!reduceMotion) requestAnimationFrame(step);
+    function step() {
+      time += 0.016;
+      if (iterations < MAX_ITERATIONS) {
+        // Ease the layout in: watching it untangle is part of the effect
+        stressStep(iterations < 60 ? 0.12 : 0.2);
+        iterations++;
+      }
+      draw();
+      requestAnimationFrame(step);
     }
 
     resize();
     window.addEventListener("resize", resize);
-    step();
+    if (reduceMotion) { draw(); } else { step(); }
   }
 
   document.addEventListener("DOMContentLoaded", function () {

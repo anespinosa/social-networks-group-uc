@@ -63,8 +63,8 @@ body {
   font-size: 1.1rem;
   margin-top: .4rem;
 }
-/* index.qmd sets an empty title and uses its own hero instead */
-.page-layout-article #title-block-header{ display: none; }
+/* Every page uses its own branded hero instead of the default title block */
+#title-block-header{ display: none; }
 
 main.content{ max-width: 860px; }
 main.content > p{
@@ -327,6 +327,67 @@ h4{
   margin: 0 auto;
   line-height: 1.6;
   text-shadow: 0 2px 8px rgba(0,0,0,.3);
+}
+
+/* ---------- Hero call-to-action buttons ---------- */
+.snuc-hero-actions{
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2.6rem;
+}
+.snuc-btn-primary, .snuc-btn-ghost{
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  font-family: $font-family-sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: .9rem 1.7rem;
+  border-radius: 9px;
+  text-decoration: none;
+  transition: transform .2s ease, box-shadow .2s ease, background .2s ease, border-color .2s ease;
+}
+.snuc-btn-primary{
+  background: $gold-bright;
+  color: $navy-dark;
+  box-shadow: 0 6px 22px rgba(242,169,59,.30);
+}
+.snuc-btn-primary:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(242,169,59,.42);
+  color: $navy-dark;
+}
+.snuc-btn-ghost{
+  background: rgba(255,255,255,.05);
+  color: #fff;
+  border: 1px solid rgba(255,255,255,.38);
+}
+.snuc-btn-ghost:hover{
+  background: rgba(255,255,255,.14);
+  border-color: rgba(255,255,255,.65);
+  transform: translateY(-2px);
+  color: #fff;
+}
+
+/* ---------- Scroll cue ---------- */
+.snuc-scroll-cue{
+  position: absolute;
+  bottom: 1.6rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  color: rgba(255,255,255,.5);
+  line-height: 0;
+  animation: scrollBounce 2.2s ease-in-out infinite;
+}
+@keyframes scrollBounce{
+  0%, 100%{ transform: translateX(-50%) translateY(0); }
+  50%{ transform: translateX(-50%) translateY(8px); }
+}
+@media (prefers-reduced-motion: reduce){
+  .snuc-scroll-cue{ animation: none; }
 }
 
 /* ---------- Pillars ---------- */
@@ -749,11 +810,42 @@ h4{
 
 /* ---------- Organizational Intelligence Page (Avant-garde layout) ---------- */
 .snuc-org-hero{
+  position: relative;
   background: linear-gradient(165deg, #030b1f 0%, $navy-dark 35%, #0d2860 100%);
   color: #fff;
   padding: 5rem 2rem;
   border-bottom: 2px solid $gold-bright;
   margin: -1rem calc(50% - 50vw) 3rem calc(50% - 50vw);
+  overflow: hidden;
+}
+/* Subtle gold radial glow, matching the home hero */
+.snuc-org-hero::before{
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse 700px 400px at 50% 30%, rgba(242,169,59,.07) 0%, transparent 70%);
+  pointer-events: none;
+}
+/* Eyebrow sits on a dark hero: gold, centered, no left rule */
+.snuc-org-hero .snuc-eyebrow{
+  display: inline-block;
+  color: $gold-bright;
+  border-left: none;
+  padding-left: 0;
+  letter-spacing: .2em;
+  font-size: .8rem;
+  margin-bottom: .5rem;
+}
+/* Compact variant for content-heavy inner pages */
+.snuc-org-hero.compact{
+  padding: 3.4rem 2rem;
+}
+.snuc-org-hero.compact h1{
+  font-size: clamp(2.3rem, 4.5vw, 3.4rem);
+  margin: .8rem 0 1rem 0;
+}
+.snuc-org-hero.compact .lead{
+  font-size: 1.12rem;
 }
 .snuc-org-hero-content{
   max-width: 900px;

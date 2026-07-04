@@ -3,6 +3,14 @@ title: "Investigación"
 subtitle: "Líneas de investigación, proyectos en curso y software de código abierto"
 ---
 
+::: {.snuc-org-hero .compact}
+<div class="snuc-org-hero-content">
+<div class="snuc-eyebrow">Qué Hacemos</div>
+<h1>Investigación</h1>
+<p class="lead">Líneas de investigación, proyectos financiados y software de código abierto que avanzan la teoría y los métodos de la ciencia de redes sociales.</p>
+</div>
+:::
+
 ## Áreas de Investigación
 
 ::: {.snuc-cards}

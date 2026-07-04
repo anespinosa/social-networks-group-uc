@@ -2,6 +2,14 @@
 title: "Contacto"
 ---
 
+::: {.snuc-org-hero .compact}
+<div class="snuc-org-hero-content">
+<div class="snuc-eyebrow">Contáctanos</div>
+<h1>Contacto</h1>
+<p class="lead">Comunícate con el Grupo de Redes Sociales – UC — para colaboración, supervisión o consultas de prensa.</p>
+</div>
+:::
+
 **Grupo de Redes Sociales – UC**
 Instituto de Sociología, Pontificia Universidad Católica de Chile
 Santiago, Chile

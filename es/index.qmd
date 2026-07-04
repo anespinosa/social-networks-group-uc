@@ -11,8 +11,16 @@ page-layout: article
 # Grupo de Redes Sociales — UC
 
 <p class="lead">Avanzando la ciencia de redes sociales a través de la teoría, los métodos y los datos.</p>
+
+<div class="snuc-hero-actions">
+<a href="vinculacion.html" class="snuc-btn-primary">Trabaja con nosotros →</a>
+<a href="investigacion.html" class="snuc-btn-ghost">Explora nuestra investigación</a>
 </div>
+</div>
+<a href="#main-content" class="snuc-scroll-cue" aria-label="Ir al contenido"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
 :::
+
+<span id="main-content"></span>
 
 El Grupo de Redes Sociales – UC es un grupo de investigación interdisciplinario que avanza la teoría, los métodos y las aplicaciones de la ciencia de redes sociales. Reunimos investigadores de las ciencias sociales, la estadística, las matemáticas, la informática, la ingeniería y campos relacionados para estudiar sistemas relacionales complejos mediante modelamiento estadístico, teoría de grafos, métodos computacionales e investigación de métodos mixtos. Promovemos la innovación metodológica, la investigación reproducible y el desarrollo de herramientas de código abierto, incluyendo el paquete de R [**netmem**](https://cran.r-project.org/web/packages/netmem/index.html).
 

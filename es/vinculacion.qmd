@@ -8,6 +8,9 @@ page-layout: article
 <div class="snuc-eyebrow">Más allá de la Academia</div>
 <h1>Inteligencia Organizacional</h1>
 <p class="lead">Análisis de redes y consultoría estratégica para organizaciones, gobierno y ecosistemas colaborativos. Llevamos métodos de redes rigurosos a decisiones organizacionales y de política pública reales.</p>
+<div class="snuc-hero-actions">
+<a href="contacto.html" class="snuc-btn-primary">Contáctanos →</a>
+</div>
 </div>
 :::
 

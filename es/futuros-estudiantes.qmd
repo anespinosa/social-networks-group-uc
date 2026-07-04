@@ -3,6 +3,14 @@ title: "Futuros Estudiantes"
 subtitle: "Supervisión de posgrado y oportunidades postdoctorales"
 ---
 
+::: {.snuc-org-hero .compact}
+<div class="snuc-org-hero-content">
+<div class="snuc-eyebrow">Súmate</div>
+<h1>Futuros Estudiantes</h1>
+<p class="lead">Supervisión de posgrado y oportunidades postdoctorales en ciencia de redes sociales en Sociología, Gobierno y Educación.</p>
+</div>
+:::
+
 ## Estudios de Posgrado
 
 Los miembros del Grupo de Redes Sociales – UC supervisan investigación de posgrado en análisis de redes sociales, modelos estadísticos de redes y métodos mixtos — con experiencia sustantiva en educación y gobernanza, además de aplicaciones computacionales y organizacionales relacionadas — en cuatro unidades de la Pontificia Universidad Católica de Chile (UC):

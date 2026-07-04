@@ -3,6 +3,14 @@ title: "Team"
 subtitle: "Faculty, students, research associates, and visitors of the Social Networks Group – UC"
 ---
 
+::: {.snuc-org-hero .compact}
+<div class="snuc-org-hero-content">
+<div class="snuc-eyebrow">The Group</div>
+<h1>Team</h1>
+<p class="lead">Faculty, doctoral and master's students, research associates, and international visitors advancing social network science together.</p>
+</div>
+:::
+
 ## Core Faculty
 
 <div class="snuc-keynote">

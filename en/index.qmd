@@ -11,8 +11,16 @@ page-layout: article
 # Social Networks Group — UC
 
 <p class="lead">Advancing social network science through theory, methods, and data.</p>
+
+<div class="snuc-hero-actions">
+<a href="collaboration.html" class="snuc-btn-primary">Work with us →</a>
+<a href="research.html" class="snuc-btn-ghost">Explore our research</a>
 </div>
+</div>
+<a href="#main-content" class="snuc-scroll-cue" aria-label="Scroll to content"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
 :::
+
+<span id="main-content"></span>
 
 The Social Networks Group – UC is an interdisciplinary research group advancing the theory, methods, and applications of social network science. We bring together researchers from the social sciences, statistics, mathematics, computer science, engineering, and related fields to study complex relational systems through statistical modeling, graph theory, computational methods, and mixed-methods research. We promote methodological innovation, reproducible research, and the development of open-source tools, including the R package [**netmem**](https://cran.r-project.org/web/packages/netmem/index.html).
 

@@ -3,6 +3,14 @@ title: "Equipo"
 subtitle: "Profesores, estudiantes, investigadores asociados y visitantes del Grupo de Redes Sociales – UC"
 ---
 
+::: {.snuc-org-hero .compact}
+<div class="snuc-org-hero-content">
+<div class="snuc-eyebrow">El Grupo</div>
+<h1>Equipo</h1>
+<p class="lead">Profesores, estudiantes de doctorado y magíster, investigadores asociados y visitantes internacionales que avanzan juntos la ciencia de redes sociales.</p>
+</div>
+:::
+
 ## Profesores
 
 <div class="snuc-keynote">
