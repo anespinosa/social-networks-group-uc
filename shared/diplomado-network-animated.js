@@ -1,12 +1,12 @@
-// Krackhardt High-Tech Managers Network (Real dataset: 21 nodes, advice-seeking ties)
+// Krackhardt High-Tech Managers with Stress Majorization layout
 (function () {
   function initDiplomadoNetwork(canvas) {
     const ctx = canvas.getContext("2d");
     const reduceMotion = window.matchMedia("(prefers-reduce-motion: reduce)").matches;
 
-    let width, height, nodes, edges, time = 0;
+    let width, height, nodes, edges, distMatrix, time = 0, layoutIterations = 0;
 
-    // Krackhardt network: 21 managers, advice-seeking relationships
+    // Krackhardt network: 21 managers
     const krackhardt = {
       nodes: Array.from({ length: 21 }, (_, i) => ({ id: i + 1 })),
       edges: [
@@ -34,6 +34,61 @@
       ]
     };
 
+    function calculateDistanceMatrix() {
+      const n = krackhardt.nodes.length;
+      const dist = Array(n).fill(0).map(() => Array(n).fill(Infinity));
+
+      for (let i = 0; i < n; i++) dist[i][i] = 0;
+
+      krackhardt.edges.forEach(([a, b]) => {
+        dist[a-1][b-1] = 1;
+      });
+
+      // Floyd-Warshall for all-pairs shortest paths
+      for (let k = 0; k < n; k++) {
+        for (let i = 0; i < n; i++) {
+          for (let j = 0; j < n; j++) {
+            dist[i][j] = Math.min(dist[i][j], dist[i][k] + dist[k][j]);
+          }
+        }
+      }
+
+      return dist;
+    }
+
+    function stressIteration() {
+      const n = nodes.length;
+      const k = 3; // Spring constant scaling factor
+
+      for (let i = 0; i < n; i++) {
+        const ni = nodes[i];
+        let fx = 0, fy = 0;
+
+        for (let j = 0; j < n; j++) {
+          if (i === j) continue;
+          const nj = nodes[j];
+          const dx = nj.x - ni.x;
+          const dy = nj.y - ni.y;
+          const d = Math.sqrt(dx * dx + dy * dy) || 0.01;
+          const dij = distMatrix[i][j];
+
+          if (dij < Infinity) {
+            const force = k * (d - dij) / dij;
+            fx += force * (dx / d);
+            fy += force * (dy / d);
+          }
+        }
+
+        ni.vx = fx * 0.1;
+        ni.vy = fy * 0.1;
+      }
+
+      for (let i = 0; i < n; i++) {
+        nodes[i].x += nodes[i].vx;
+        nodes[i].y += nodes[i].vy;
+      }
+    }
+
     function resize() {
       const rect = canvas.parentElement.getBoundingClientRect();
       width = canvas.width = rect.width * devicePixelRatio;
@@ -41,16 +96,18 @@
       canvas.style.width = rect.width + "px";
       canvas.style.height = rect.height + "px";
 
-      // Initialize nodes with force-directed layout
       const centerX = width / 2;
       const centerY = height / 2;
+      const scale = Math.min(width, height) * 0.3;
+
+      // Initialize with random positions
       nodes = krackhardt.nodes.map((n, i) => {
-        const angle = (i / krackhardt.nodes.length) * Math.PI * 2;
-        const radius = Math.min(width, height) * 0.32;
+        const angle = Math.random() * Math.PI * 2;
+        const radius = Math.random() * scale;
         return {
           id: n.id,
-          x: centerX + Math.cos(angle) * radius + (Math.random() - 0.5) * 20,
-          y: centerY + Math.sin(angle) * radius + (Math.random() - 0.5) * 20,
+          x: centerX + Math.cos(angle) * radius,
+          y: centerY + Math.sin(angle) * radius,
           vx: 0,
           vy: 0,
           r: 2.8 * devicePixelRatio,
@@ -59,12 +116,12 @@
         };
       });
 
-      // Calculate degrees
       krackhardt.edges.forEach(([from, to]) => {
         nodes[from - 1].degree++;
       });
 
-      // Create undirected edges
+      distMatrix = calculateDistanceMatrix();
+
       edges = [];
       const edgeSet = new Set();
       krackhardt.edges.forEach(([a, b]) => {
@@ -74,72 +131,18 @@
           edgeSet.add(key);
         }
       });
-    }
 
-    function applyForces() {
-      const centerX = width / 2;
-      const centerY = height / 2;
-      const repelDist = 80 * devicePixelRatio;
-      const attractDist = 150 * devicePixelRatio;
-
-      for (let i = 0; i < nodes.length; i++) {
-        const n = nodes[i];
-        let fx = 0, fy = 0;
-
-        // Center attraction
-        const dx = centerX - n.x;
-        const dy = centerY - n.y;
-        const dist = Math.sqrt(dx * dx + dy * dy) || 1;
-        fx += (dx / dist) * 0.08;
-        fy += (dy / dist) * 0.08;
-
-        // Node repulsion and edge attraction
-        for (let j = 0; j < nodes.length; j++) {
-          if (i === j) continue;
-          const dx2 = n.x - nodes[j].x;
-          const dy2 = n.y - nodes[j].y;
-          const dist2 = Math.sqrt(dx2 * dx2 + dy2 * dy2) || 1;
-
-          if (dist2 < repelDist) {
-            fx += (dx2 / dist2) * 0.6;
-            fy += (dy2 / dist2) * 0.6;
-          }
-        }
-
-        // Edge-based attraction
-        edges.forEach(([a, b]) => {
-          if (i === a) {
-            const dx3 = nodes[b].x - n.x;
-            const dy3 = nodes[b].y - n.y;
-            const dist3 = Math.sqrt(dx3 * dx3 + dy3 * dy3) || 1;
-            fx += (dx3 / dist3) * 0.15;
-            fy += (dy3 / dist3) * 0.15;
-          } else if (i === b) {
-            const dx3 = nodes[a].x - n.x;
-            const dy3 = nodes[a].y - n.y;
-            const dist3 = Math.sqrt(dx3 * dx3 + dy3 * dy3) || 1;
-            fx += (dx3 / dist3) * 0.15;
-            fy += (dy3 / dist3) * 0.15;
-          }
-        });
-
-        n.vx += fx;
-        n.vy += fy;
-        n.vx *= 0.9;
-        n.vy *= 0.9;
-      }
+      layoutIterations = 0;
     }
 
     function step() {
       ctx.clearRect(0, 0, width, height);
       if (!reduceMotion) time += 0.016;
 
-      if (!reduceMotion) {
-        applyForces();
-        for (const n of nodes) {
-          n.x += n.vx;
-          n.y += n.vy;
-        }
+      // Stress majorization iterations for better layout
+      if (!reduceMotion && layoutIterations < 300) {
+        stressIteration();
+        layoutIterations++;
       }
 
       // Draw edges
@@ -157,19 +160,17 @@
         ctx.stroke();
       });
 
-      // Draw nodes (size by degree)
+      // Draw nodes
       nodes.forEach(n => {
         const degreeScale = 0.8 + (n.degree / 21) * 0.8;
         const pulse = 1 + 0.15 * Math.sin(time + n.pulse);
         const r = n.r * degreeScale * pulse;
 
-        // Glow
         ctx.beginPath();
         ctx.fillStyle = "rgba(242, 169, 59, 0.15)";
         ctx.arc(n.x, n.y, r * 2.2, 0, Math.PI * 2);
         ctx.fill();
 
-        // Node
         const g = ctx.createRadialGradient(n.x - r * 0.3, n.y - r * 0.3, 0, n.x, n.y, r);
         g.addColorStop(0, "#f2aa55");
         g.addColorStop(0.6, "#f2a93b");

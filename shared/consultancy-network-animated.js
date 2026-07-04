@@ -1,12 +1,12 @@
-// Lazega Lawyers Network (Real dataset: 71 lawyers, collaboration & advice ties - sampled top 40 nodes)
+// Lazega Lawyers with Stress Majorization layout
 (function () {
   function initConsultancyNetwork(canvas) {
     const ctx = canvas.getContext("2d");
     const reduceMotion = window.matchMedia("(prefers-reduce-motion: reduce)").matches;
 
-    let width, height, nodes, edges, time = 0;
+    let width, height, nodes, edges, distMatrix, time = 0, layoutIterations = 0;
 
-    // Lazega lawyers collaboration network (high-degree subset for visualization)
+    // Lazega lawyers collaboration network (40-node subset)
     const lazega = {
       nodes: Array.from({ length: 40 }, (_, i) => ({ id: i + 1 })),
       edges: [
@@ -53,6 +53,61 @@
       ]
     };
 
+    function calculateDistanceMatrix() {
+      const n = lazega.nodes.length;
+      const dist = Array(n).fill(0).map(() => Array(n).fill(Infinity));
+
+      for (let i = 0; i < n; i++) dist[i][i] = 0;
+
+      lazega.edges.forEach(([a, b]) => {
+        if (a <= 40 && b <= 40) dist[a-1][b-1] = 1;
+      });
+
+      // Floyd-Warshall
+      for (let k = 0; k < n; k++) {
+        for (let i = 0; i < n; i++) {
+          for (let j = 0; j < n; j++) {
+            dist[i][j] = Math.min(dist[i][j], dist[i][k] + dist[k][j]);
+          }
+        }
+      }
+
+      return dist;
+    }
+
+    function stressIteration() {
+      const n = nodes.length;
+      const k = 3.5;
+
+      for (let i = 0; i < n; i++) {
+        const ni = nodes[i];
+        let fx = 0, fy = 0;
+
+        for (let j = 0; j < n; j++) {
+          if (i === j) continue;
+          const nj = nodes[j];
+          const dx = nj.x - ni.x;
+          const dy = nj.y - ni.y;
+          const d = Math.sqrt(dx * dx + dy * dy) || 0.01;
+          const dij = distMatrix[i][j];
+
+          if (dij < Infinity) {
+            const force = k * (d - dij) / dij;
+            fx += force * (dx / d);
+            fy += force * (dy / d);
+          }
+        }
+
+        ni.vx = fx * 0.1;
+        ni.vy = fy * 0.1;
+      }
+
+      for (let i = 0; i < n; i++) {
+        nodes[i].x += nodes[i].vx;
+        nodes[i].y += nodes[i].vy;
+      }
+    }
+
     function resize() {
       const rect = canvas.parentElement.getBoundingClientRect();
       width = canvas.width = rect.width * devicePixelRatio;
@@ -62,13 +117,15 @@
 
       const centerX = width / 2;
       const centerY = height / 2;
+      const scale = Math.min(width, height) * 0.32;
+
       nodes = lazega.nodes.map((n, i) => {
-        const angle = (i / lazega.nodes.length) * Math.PI * 2;
-        const radius = Math.min(width, height) * 0.35;
+        const angle = Math.random() * Math.PI * 2;
+        const radius = Math.random() * scale;
         return {
           id: n.id,
-          x: centerX + Math.cos(angle) * radius + (Math.random() - 0.5) * 30,
-          y: centerY + Math.sin(angle) * radius + (Math.random() - 0.5) * 30,
+          x: centerX + Math.cos(angle) * radius,
+          y: centerY + Math.sin(angle) * radius,
           vx: 0,
           vy: 0,
           r: 2.6 * devicePixelRatio,
@@ -77,12 +134,12 @@
         };
       });
 
-      // Calculate degrees
-      lazega.edges.forEach(([from, to]) => {
-        if (from <= 40) nodes[from - 1].degree++;
+      lazega.edges.forEach(([a, b]) => {
+        if (a <= 40) nodes[a - 1].degree++;
       });
 
-      // Create undirected edges
+      distMatrix = calculateDistanceMatrix();
+
       edges = [];
       const edgeSet = new Set();
       lazega.edges.forEach(([a, b]) => {
@@ -94,71 +151,18 @@
           }
         }
       });
-    }
 
-    function applyForces() {
-      const centerX = width / 2;
-      const centerY = height / 2;
-      const repelDist = 100 * devicePixelRatio;
-
-      for (let i = 0; i < nodes.length; i++) {
-        const n = nodes[i];
-        let fx = 0, fy = 0;
-
-        // Center attraction
-        const dx = centerX - n.x;
-        const dy = centerY - n.y;
-        const dist = Math.sqrt(dx * dx + dy * dy) || 1;
-        fx += (dx / dist) * 0.1;
-        fy += (dy / dist) * 0.1;
-
-        // Node repulsion
-        for (let j = 0; j < nodes.length; j++) {
-          if (i === j) continue;
-          const dx2 = n.x - nodes[j].x;
-          const dy2 = n.y - nodes[j].y;
-          const dist2 = Math.sqrt(dx2 * dx2 + dy2 * dy2) || 1;
-
-          if (dist2 < repelDist) {
-            fx += (dx2 / dist2) * 0.7;
-            fy += (dy2 / dist2) * 0.7;
-          }
-        }
-
-        // Edge attraction
-        edges.forEach(([a, b]) => {
-          if (i === a) {
-            const dx3 = nodes[b].x - n.x;
-            const dy3 = nodes[b].y - n.y;
-            const dist3 = Math.sqrt(dx3 * dx3 + dy3 * dy3) || 1;
-            fx += (dx3 / dist3) * 0.18;
-            fy += (dy3 / dist3) * 0.18;
-          } else if (i === b) {
-            const dx3 = nodes[a].x - n.x;
-            const dy3 = nodes[a].y - n.y;
-            const dist3 = Math.sqrt(dx3 * dx3 + dy3 * dy3) || 1;
-            fx += (dx3 / dist3) * 0.18;
-            fy += (dy3 / dist3) * 0.18;
-          }
-        });
-
-        n.vx += fx;
-        n.vy += fy;
-        n.vx *= 0.88;
-        n.vy *= 0.88;
-      }
+      layoutIterations = 0;
     }
 
     function step() {
       ctx.clearRect(0, 0, width, height);
       if (!reduceMotion) time += 0.016;
 
-      if (!reduceMotion) {
-        applyForces();
-        for (const n of nodes) {
-          n.x += n.vx;
-          n.y += n.vy;
-        }
+      // Stress majorization layout optimization
+      if (!reduceMotion && layoutIterations < 350) {
+        stressIteration();
+        layoutIterations++;
       }
 
       // Draw edges
@@ -177,19 +181,17 @@
         ctx.stroke();
       });
 
-      // Draw nodes (size by degree)
+      // Draw nodes
       nodes.forEach(n => {
         const degreeScale = 0.7 + (n.degree / 20) * 1;
         const pulse = 1 + 0.2 * Math.sin(time + n.pulse);
         const r = n.r * degreeScale * pulse;
 
-        // Glow
         ctx.beginPath();
         ctx.fillStyle = "rgba(122, 92, 197, 0.2)";
         ctx.arc(n.x, n.y, r * 2.4, 0, Math.PI * 2);
         ctx.fill();
 
-        // Gold glow for high-degree nodes
         if (n.degree > 15) {
           ctx.beginPath();
           ctx.fillStyle = `rgba(242, 169, 59, ${0.1 * (n.degree / 20)})`;
@@ -197,7 +199,6 @@
           ctx.fill();
         }
 
-        // Node
         const g = ctx.createRadialGradient(n.x - r * 0.3, n.y - r * 0.3, 0, n.x, n.y, r);
         g.addColorStop(0, "#b8a6e0");
         g.addColorStop(0.6, "#7a5cc5");
