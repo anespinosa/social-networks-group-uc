@@ -11,7 +11,7 @@ The Social Networks Group – UC contributes beyond academia through executive e
 <div class="snuc-stat"><span class="number">5</span><span class="label">Countries in our network</span></div>
 :::
 
-## Executive Education
+## Education & Training
 
 <div class="snuc-keynote">
 <div class="snuc-keynote-image"><div class="snuc-icon-badge gold">
@@ -19,14 +19,14 @@ The Social Networks Group – UC contributes beyond academia through executive e
 </div></div>
 <div class="snuc-keynote-content">
 ### Diplomado en Inteligencia Relacional para Organizaciones
-<div class="role">Continuing education for leaders and practitioners</div>
-<div class="bio">A continuing-education program applying social network analysis to organizations — helping leaders and practitioners diagnose and act on the relational structures inside their institutions, from informal influence networks to cross-team collaboration bottlenecks.</div>
+<div class="role">Professional training across sectors</div>
+<div class="bio">A comprehensive diploma program for professionals from diverse disciplines — HR, communications, innovation, consulting, organizational development, public affairs, research, and entrepreneurship. Learn to understand, measure, and visualize relational structures in organizations and collaboration ecosystems, from informal influence networks to knowledge exchange and strategic positioning.</div>
 </div>
 </div>
 
 <!-- TODO: add program length, intake dates, target audience, and enrollment link. -->
 
-We also offer specialized courses and workshops on social network analysis, statistical modeling of networks, and computational methods tailored to your organization's needs and audience.
+We also offer specialized courses and workshops on social network analysis, statistical modeling of networks, computational methods, and organizational network analysis — designed for professionals and organizations across all sectors seeking to leverage network science for collaboration, innovation, and strategic decision-making.
 
 ## Consultancy & Advisory
 

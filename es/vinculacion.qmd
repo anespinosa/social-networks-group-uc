@@ -11,7 +11,7 @@ El Grupo de Redes Sociales – UC contribuye más allá de la academia a través
 <div class="snuc-stat"><span class="number">5</span><span class="label">Países en nuestra red</span></div>
 :::
 
-## Educación Continua
+## Educación y Capacitación
 
 <div class="snuc-keynote">
 <div class="snuc-keynote-image"><div class="snuc-icon-badge gold">
@@ -19,14 +19,14 @@ El Grupo de Redes Sociales – UC contribuye más allá de la academia a través
 </div></div>
 <div class="snuc-keynote-content">
 ### Diplomado en Inteligencia Relacional para Organizaciones
-<div class="role">Educación continua para líderes y profesionales</div>
-<div class="bio">Un programa de educación continua que aplica el análisis de redes sociales a las organizaciones, ayudando a líderes y profesionales a diagnosticar y actuar sobre las estructuras relacionales dentro de sus instituciones, desde redes informales de influencia hasta cuellos de botella en la colaboración entre equipos.</div>
+<div class="role">Formación profesional para múltiples sectores</div>
+<div class="bio">Un programa de diplomado integral para profesionales de disciplinas diversas — gestión de personas, comunicaciones, innovación, consultoría, desarrollo organizacional, asuntos públicos, investigación social y emprendimiento. Aprende a comprender, medir y visualizar estructuras relacionales en organizaciones y ecosistemas de colaboración, desde redes informales de influencia hasta circulación de conocimiento y posicionamiento estratégico.</div>
 </div>
 </div>
 
 <!-- TODO: agregar duración del programa, fechas de inicio, público objetivo y enlace de inscripción. -->
 
-También ofrecemos cursos y talleres especializados sobre análisis de redes sociales, modelamiento estadístico de redes y métodos computacionales, adaptados a las necesidades e intereses de tu organización.
+También ofrecemos cursos y talleres especializados sobre análisis de redes sociales, modelamiento estadístico de redes, métodos computacionales y análisis de redes organizacionales — diseñados para profesionales y organizaciones de todos los sectores que deseen aprovechar la ciencia de redes para la colaboración, innovación y toma de decisiones estratégicas.
 
 ## Asesorías y Consultoría
 
