@@ -41,7 +41,7 @@
         type = "thesis";
       } else if (/(^|[.\s])(In|En)\s+<em>/.test(html) || /\(Eds?\.\)/.test(text) || /\(pp\.\s/.test(text)) {
         type = "chapter";
-      } else if (/SSRN|SocArXiv|arXiv|OSF|preprint/i.test(venue)) {
+      } else if (/SSRN|SocArXiv|arXiv|OSF|Research Square|preprint/i.test(venue)) {
         type = "preprint";
       }
       // Filter group: article | chapter | other

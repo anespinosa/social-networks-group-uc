@@ -707,7 +707,22 @@ h4{
   color: $ink;
 }
 .pub-body em{ color: $muted; }
-.pub-body a{ color: $link-color; }
+.pub-body a{
+  display: inline-block;
+  margin-left: .4rem;
+  font-size: .74rem;
+  font-weight: 700;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  color: $navy;
+  background: rgba(10,31,68,.06);
+  padding: .14rem .55rem;
+  border-radius: 6px;
+  text-decoration: none;
+  vertical-align: middle;
+  transition: background .15s ease, color .15s ease;
+}
+.pub-body a:hover{ background: $gold-bright; color: $navy-dark; }
 .pub-body .pub-me{
   font-weight: 700;
   color: $navy;

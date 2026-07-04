@@ -20,9 +20,10 @@ subtitle: "Artículos revisados por pares, libros y documentos de trabajo de mie
 ::: {.snuc-pubs}
 ### 2026
 
-- Jones, P., Verhoeven, D., & Espinosa-Rada, A. (2026). The role of film school collaboration in film industry network formation: an empirical analysis of data from the Australian Film, Television and Radio School (AFTRS). *Journal of Cultural Analytics.*
+- Jones, P., Verhoeven, D., & Espinosa-Rada, A. (2026). The role of film school collaboration in film industry network formation: an empirical analysis of data from the Australian Film, Television and Radio School (AFTRS). *Journal of Cultural Analytics.* [DOI](https://doi.org/10.22148/jca.1173)
 - Espinosa-Rada, A., Bargsted, M., & Ortiz Ruiz, F. (2026). Socioeconomic homogeneity in acquaintance networks: Occupational prestige, education, and intergenerational mobility. *Social Networks, 86.*
 - Espinosa-Rada, A. (2026). Network positions within scholars and intellectual networks. *SSRN.*
+- Vanhulst, J., & Espinosa-Rada, A. (2026). Constructing sustainability science: a reflexive analysis of the boundary problem to define a scientific field. *Research Square.* [DOI](https://doi.org/10.21203/rs.3.rs-9751043/v1)
 - Alieva, D., Ávila Molero, J., Bernard, H. R., Bidart, C., Carballo López, M., et al. (incl. Espinosa-Rada, A.). (2026). Liber amicorum del profesor José Luis Molina. *Redes. Revista hispana para el análisis de redes sociales, 37*(2).
 
 ### 2025
