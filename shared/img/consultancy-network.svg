@@ -1,0 +1,54 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .org-node { fill: #0a1f44; }
+      .insight-node { fill: #7a5cc5; opacity: 0.85; }
+      .highlight-node { fill: #f2a93b; }
+      .connection { stroke: rgba(10, 31, 68, 0.4); stroke-width: 1.2; }
+      .insight-line { stroke: #7a5cc5; stroke-width: 1.8; opacity: 0.6; stroke-dasharray: 3,2; }
+      @keyframes glow {
+        0%, 100% { r: 4; opacity: 0.8; }
+        50% { r: 5.5; opacity: 1; filter: drop-shadow(0 0 2px #f2a93b); }
+      }
+      .insight-glow { animation: glow 2.5s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- Organizational network structure -->
+  <!-- Upper tier -->
+  <circle cx="50" cy="40" r="4" class="org-node"/>
+  <circle cx="100" cy="35" r="4" class="org-node"/>
+  <circle cx="150" cy="40" r="4" class="org-node"/>
+
+  <!-- Middle tier -->
+  <circle cx="35" cy="90" r="4" class="org-node"/>
+  <circle cx="100" cy="95" r="4.5" class="org-node highlight-node"/>
+  <circle cx="165" cy="90" r="4" class="org-node"/>
+
+  <!-- Lower tier -->
+  <circle cx="60" cy="150" r="4" class="org-node"/>
+  <circle cx="120" cy="155" r="4" class="org-node"/>
+  <circle cx="170" cy="150" r="4" class="org-node"/>
+
+  <!-- Organizational connections -->
+  <line x1="50" y1="40" x2="100" y2="95" class="connection"/>
+  <line x1="100" y1="35" x2="100" y2="95" class="connection"/>
+  <line x1="150" y1="40" x2="100" y2="95" class="connection"/>
+  <line x1="35" y1="90" x2="100" y2="95" class="connection"/>
+  <line x1="165" y1="90" x2="100" y2="95" class="connection"/>
+  <line x1="100" y1="95" x2="60" y2="150" class="connection"/>
+  <line x1="100" y1="95" x2="120" y2="155" class="connection"/>
+  <line x1="100" y1="95" x2="170" y2="150" class="connection"/>
+
+  <!-- Insight/analysis layer (showing detected patterns) -->
+  <circle cx="75" cy="65" r="3.5" class="insight-node insight-glow"/>
+  <circle cx="125" cy="60" r="3.5" class="insight-node insight-glow"/>
+  <circle cx="70" cy="120" r="3.5" class="insight-node insight-glow"/>
+  <circle cx="140" cy="130" r="3.5" class="insight-node insight-glow"/>
+
+  <!-- Insight connections showing analysis flow -->
+  <line x1="100" y1="95" x2="75" y2="65" class="insight-line"/>
+  <line x1="100" y1="95" x2="125" y2="60" class="insight-line"/>
+  <line x1="100" y1="95" x2="70" y2="120" class="insight-line"/>
+  <line x1="100" y1="95" x2="140" y2="130" class="insight-line"/>
+</svg>

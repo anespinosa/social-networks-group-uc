@@ -14,9 +14,7 @@ The Social Networks Group – UC contributes beyond academia through executive e
 ## Education & Training
 
 <div class="snuc-keynote">
-<div class="snuc-keynote-image"><div class="snuc-icon-badge gold">
-<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9.5 12 5l10 4.5-10 4.5L2 9.5Z"/><path d="M6 11.5v4.5c0 1.4 2.7 2.5 6 2.5s6-1.1 6-2.5v-4.5"/><path d="M21 9.5v5.5"/></svg>
-</div></div>
+<div class="snuc-keynote-image network-viz"><img src="img/diplomado-network.svg" alt="Learning network visualization"/></div>
 <div class="snuc-keynote-content">
 ### Diplomado en Inteligencia Relacional para Organizaciones
 <div class="role">Professional training across sectors · May – December</div>
@@ -29,9 +27,7 @@ We also offer specialized courses and workshops on social network analysis, stat
 ## Consultancy & Advisory
 
 <div class="snuc-keynote">
-<div class="snuc-keynote-image"><div class="snuc-icon-badge navy">
-<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m7 15 4-5 3 3 5-7"/></svg>
-</div></div>
+<div class="snuc-keynote-image network-viz"><img src="img/consultancy-network.svg" alt="Organizational analysis network visualization"/></div>
 <div class="snuc-keynote-content">
 ### Bring network analysis to your organization
 <div class="role">Diagnostics, training, and applied research partnerships</div>

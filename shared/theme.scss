@@ -602,15 +602,43 @@ h4{
   font-weight: 600;
 }
 
+/* ---------- Network Visualization (Collaboration page) ---------- */
+.snuc-keynote-image.network-viz{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, rgba(10,31,68,.04) 0%, rgba(242,169,59,.06) 100%);
+  border-radius: 14px;
+  padding: 1.5rem;
+  border: 1px solid rgba(242,169,59,.2);
+}
+.snuc-keynote-image.network-viz img{
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
+  border-radius: 0;
+  border: none;
+  filter: drop-shadow(0 2px 4px rgba(10,31,68,.1));
+}
+.snuc-keynote:hover .snuc-keynote-image.network-viz img{
+  filter: drop-shadow(0 4px 8px rgba(242,169,59,.2));
+}
+
 /* ---------- Partner logo (CHISOCNET, etc.) ---------- */
 .snuc-keynote-image.logo{
-  display: flex; align-items: center; justify-content: center;
-  background: #f6f7fb;
-  border-radius: 12px;
-  padding: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #f6f7fb 0%, #fbfaf7 100%);
+  border-radius: 14px;
+  padding: 1.5rem;
+  border: 1px solid rgba(242,169,59,.15);
 }
 .snuc-keynote-image.logo img{
-  width: 100%; height: auto; border-radius: 0; border: none;
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+  border: none;
 }
 
 /* ---------- Alliance strip ---------- */
