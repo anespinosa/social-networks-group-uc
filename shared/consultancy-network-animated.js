@@ -179,30 +179,29 @@
         ctx.fill();
       }
 
+      // Gradient
+      const g = ctx.createRadialGradient(n.x - r * 0.3, n.y - r * 0.3, 0, n.x, n.y, r);
+      g.addColorStop(0, "#b8a6e0");
+      g.addColorStop(0.6, "#7a5cc5");
+      g.addColorStop(1, "#5a3fa5");
+      ctx.fillStyle = g;
+
       // Node shape: partner=diamond, counsel=square, associate=circle
       if (nodeType === 'partner') {
-        // Diamond
         ctx.beginPath();
         ctx.moveTo(n.x + r * 1.1, n.y);
         ctx.lineTo(n.x, n.y + r * 1.1);
         ctx.lineTo(n.x - r * 1.1, n.y);
         ctx.lineTo(n.x, n.y - r * 1.1);
         ctx.closePath();
+        ctx.fill();
       } else if (nodeType === 'counsel') {
-        // Square
         ctx.fillRect(n.x - r * 0.95, n.y - r * 0.95, r * 1.9, r * 1.9);
       } else {
-        // Circle
         ctx.beginPath();
         ctx.arc(n.x, n.y, r, 0, Math.PI * 2);
+        ctx.fill();
       }
-
-      const g = ctx.createRadialGradient(n.x - r * 0.3, n.y - r * 0.3, 0, n.x, n.y, r);
-      g.addColorStop(0, "#b8a6e0");
-      g.addColorStop(0.6, "#7a5cc5");
-      g.addColorStop(1, "#5a3fa5");
-      ctx.fillStyle = g;
-      ctx.fill();
 
       // Border
       ctx.strokeStyle = `rgba(242, 169, 59, ${0.5 + 0.5 * degreePercentile})`;

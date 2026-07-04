@@ -140,9 +140,9 @@
 
       // Determine node role by degree
       const degreePercentile = n.degree / 25;
-      let nodeType = 'peripheral'; // degree < 8
-      if (degreePercentile > 0.6) nodeType = 'broker'; // high degree
-      else if (degreePercentile > 0.3) nodeType = 'connector'; // medium-high
+      let nodeType = 'peripheral';
+      if (degreePercentile > 0.6) nodeType = 'broker';
+      else if (degreePercentile > 0.3) nodeType = 'connector';
 
       // Glow effect
       ctx.beginPath();
@@ -150,30 +150,29 @@
       ctx.arc(n.x, n.y, r * 2.5, 0, Math.PI * 2);
       ctx.fill();
 
+      // Gradient
+      const g = ctx.createRadialGradient(n.x - r * 0.3, n.y - r * 0.3, 0, n.x, n.y, r);
+      g.addColorStop(0, "#f2aa55");
+      g.addColorStop(0.6, "#f2a93b");
+      g.addColorStop(1, "#d48c2a");
+      ctx.fillStyle = g;
+
       // Node shape based on role
       if (nodeType === 'broker') {
-        // Diamond shape for central brokers (high degree)
         ctx.beginPath();
         ctx.moveTo(n.x + r, n.y);
         ctx.lineTo(n.x, n.y + r);
         ctx.lineTo(n.x - r, n.y);
         ctx.lineTo(n.x, n.y - r);
         ctx.closePath();
+        ctx.fill();
       } else if (nodeType === 'connector') {
-        // Square for connectors (medium-high degree)
         ctx.fillRect(n.x - r, n.y - r, r * 2, r * 2);
       } else {
-        // Circle for periphery (low degree)
         ctx.beginPath();
         ctx.arc(n.x, n.y, r, 0, Math.PI * 2);
+        ctx.fill();
       }
-
-      const g = ctx.createRadialGradient(n.x - r * 0.3, n.y - r * 0.3, 0, n.x, n.y, r);
-      g.addColorStop(0, "#f2aa55");
-      g.addColorStop(0.6, "#f2a93b");
-      g.addColorStop(1, "#d48c2a");
-      ctx.fillStyle = g;
-      ctx.fill();
 
       // Border
       ctx.strokeStyle = `rgba(242, 169, 59, ${0.6 + 0.4 * degreePercentile})`;
