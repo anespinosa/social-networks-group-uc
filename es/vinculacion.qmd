@@ -19,12 +19,10 @@ El Grupo de Redes Sociales – UC contribuye más allá de la academia a través
 </div></div>
 <div class="snuc-keynote-content">
 ### Diplomado en Inteligencia Relacional para Organizaciones
-<div class="role">Formación profesional para múltiples sectores</div>
-<div class="bio">Un programa de diplomado integral para profesionales de disciplinas diversas — gestión de personas, comunicaciones, innovación, consultoría, desarrollo organizacional, asuntos públicos, investigación social y emprendimiento. Aprende a comprender, medir y visualizar estructuras relacionales en organizaciones y ecosistemas de colaboración, desde redes informales de influencia hasta circulación de conocimiento y posicionamiento estratégico.</div>
+<div class="role">Formación profesional para múltiples sectores · Mayo – Diciembre</div>
+<div class="bio">Un programa de diplomado integral para profesionales de disciplinas diversas — gestión de personas, comunicaciones, innovación, consultoría, desarrollo organizacional, asuntos públicos, investigación social y emprendimiento. Aprende a comprender, medir y visualizar estructuras relacionales en organizaciones y ecosistemas de colaboración, desde redes informales de influencia hasta circulación de conocimiento y posicionamiento estratégico. Se ofrece sujeto a cantidad suficiente de participantes.</div>
 </div>
 </div>
-
-<!-- TODO: agregar duración del programa, fechas de inicio, público objetivo y enlace de inscripción. -->
 
 También ofrecemos cursos y talleres especializados sobre análisis de redes sociales, modelamiento estadístico de redes, métodos computacionales y análisis de redes organizacionales — diseñados para profesionales y organizaciones de todos los sectores que deseen aprovechar la ciencia de redes para la colaboración, innovación y toma de decisiones estratégicas.
 

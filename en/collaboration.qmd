@@ -19,12 +19,10 @@ The Social Networks Group – UC contributes beyond academia through executive e
 </div></div>
 <div class="snuc-keynote-content">
 ### Diplomado en Inteligencia Relacional para Organizaciones
-<div class="role">Professional training across sectors</div>
-<div class="bio">A comprehensive diploma program for professionals from diverse disciplines — HR, communications, innovation, consulting, organizational development, public affairs, research, and entrepreneurship. Learn to understand, measure, and visualize relational structures in organizations and collaboration ecosystems, from informal influence networks to knowledge exchange and strategic positioning.</div>
+<div class="role">Professional training across sectors · May – December</div>
+<div class="bio">A comprehensive diploma program for professionals from diverse disciplines — HR, communications, innovation, consulting, organizational development, public affairs, research, and entrepreneurship. Learn to understand, measure, and visualize relational structures in organizations and collaboration ecosystems, from informal influence networks to knowledge exchange and strategic positioning. Offered subject to sufficient enrollment.</div>
 </div>
 </div>
-
-<!-- TODO: add program length, intake dates, target audience, and enrollment link. -->
 
 We also offer specialized courses and workshops on social network analysis, statistical modeling of networks, computational methods, and organizational network analysis — designed for professionals and organizations across all sectors seeking to leverage network science for collaboration, innovation, and strategic decision-making.
 
