@@ -70,7 +70,7 @@
     // best satisfies pixel-scaled graph distances (weight 1/d_ij^2, localized moves).
     function stressStep(alpha) {
       const n = nodes.length;
-      const L = (Math.min(width, height) * 0.82) / maxDist; // pixels per graph-hop
+      const L = (Math.min(width, height) * 1.15) / maxDist; // pixels per graph-hop (spread out; clamp absorbs tails)
       for (let i = 0; i < n; i++) {
         const ni = nodes[i];
         let sumW = 0, tx = 0, ty = 0;
