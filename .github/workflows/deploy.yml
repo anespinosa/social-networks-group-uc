@@ -29,6 +29,10 @@ jobs:
           cp shared/hero-network.js es/hero-network.js
           cp shared/nav-drawer.js en/nav-drawer.js
           cp shared/nav-drawer.js es/nav-drawer.js
+          cp shared/diplomado-network-animated.js en/diplomado-network-animated.js
+          cp shared/diplomado-network-animated.js es/diplomado-network-animated.js
+          cp shared/consultancy-network-animated.js en/consultancy-network-animated.js
+          cp shared/consultancy-network-animated.js es/consultancy-network-animated.js
           cp shared/img/favicon.svg en/favicon.svg
           cp shared/img/favicon.svg es/favicon.svg
           mkdir -p en/img/team es/img/team en/img/partners es/img/partners en/img/brand es/img/brand
