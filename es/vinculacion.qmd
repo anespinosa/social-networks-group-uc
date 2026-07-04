@@ -26,6 +26,7 @@ page-layout: article
 <div class="network-container large">
 <canvas class="diplomado-network"></canvas>
 </div>
+<p class="network-caption">Red de consejos entre gerentes de alta tecnología (Krackhardt). Color = departamento · forma = jerarquía (◆ CEO, ■ VP, ● gerente) · tamaño = vínculos de consejo.</p>
 </div>
 <div class="snuc-org-text">
 <h3>Diplomado en Inteligencia Relacional para Organizaciones</h3>
@@ -61,6 +62,7 @@ page-layout: article
 <div class="network-container large">
 <canvas class="consultancy-network"></canvas>
 </div>
+<p class="network-caption">Red de colaboración en un estudio de abogados corporativo (Lazega). Color = área de práctica · ◆ socio, ● asociado · tamaño = vínculos de colaboración.</p>
 </div>
 :::
 

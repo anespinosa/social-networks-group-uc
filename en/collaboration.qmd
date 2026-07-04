@@ -26,6 +26,7 @@ page-layout: article
 <div class="network-container large">
 <canvas class="diplomado-network"></canvas>
 </div>
+<p class="network-caption">Krackhardt's high-tech managers advice network. Color = department · shape = hierarchy (◆ CEO, ■ VP, ● manager) · size = advice ties.</p>
 </div>
 <div class="snuc-org-text">
 <h3>Diplomado en Inteligencia Relacional para Organizaciones</h3>
@@ -61,6 +62,7 @@ page-layout: article
 <div class="network-container large">
 <canvas class="consultancy-network"></canvas>
 </div>
+<p class="network-caption">Lazega's corporate law firm collaboration network. Color = practice area · ◆ partner, ● associate · size = collaboration ties.</p>
 </div>
 :::
 

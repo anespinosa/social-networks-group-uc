@@ -799,8 +799,17 @@ h4{
 
 .snuc-org-visual{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.network-caption{
+  margin: .9rem auto 0;
+  max-width: 380px;
+  font-size: .78rem;
+  line-height: 1.5;
+  color: rgba(10,31,68,.55);
+  text-align: center;
 }
 .snuc-org-text h3{
   font-size: 2rem;
