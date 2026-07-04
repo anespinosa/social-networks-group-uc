@@ -1,0 +1,62 @@
+---
+title: "About"
+subtitle: "Who we are and how we work"
+---
+
+::: {.snuc-org-hero .compact}
+<div class="snuc-org-hero-content">
+<div class="snuc-eyebrow">Who We Are</div>
+<h1>About the Group</h1>
+<p class="lead">An interdisciplinary research group advancing the theory, methods, and applications of social network science at the Pontificia Universidad Católica de Chile.</p>
+</div>
+:::
+
+## Our Mission
+
+The Social Networks Group – UC brings together researchers from the social sciences, statistics, mathematics, computer science, engineering, and related fields to study complex relational systems. We advance social network science through theoretical development, statistical and computational innovation, and substantive research — with particular strengths in education, governance, the science of science, and organizations.
+
+We are committed to methodological rigor, reproducible research, and the development of open-source tools that make network science more accessible, including the R package [**netmem**](https://cran.r-project.org/web/packages/netmem/index.html).
+
+## What We Do
+
+::: {.snuc-cards .quad}
+<div class="snuc-card">
+### Research
+Theoretical and empirical work on social networks across sociology, governance, science, and organizations.
+[See our research →](research.qmd){.stretched}
+</div>
+<div class="snuc-card">
+### Methods & Software
+Statistical and computational network models, and open-source tools such as netmem.
+[Explore netmem →](research.qmd){.stretched}
+</div>
+<div class="snuc-card">
+### Teaching & Training
+Graduate courses and specialized training in social network analysis and statistical modeling.
+[View teaching →](teaching.qmd){.stretched}
+</div>
+<div class="snuc-card">
+### Advisory & Consulting
+Network analysis and strategic diagnostics for organizations, government, and civil society.
+[Work with us →](collaboration.qmd){.stretched}
+</div>
+:::
+
+## How We Work
+
+Social Networks – UC is a collaborative space for researchers working from a network perspective. We meet every other week at the San Joaquín Campus of the Pontificia Universidad Católica de Chile to discuss the theoretical and methodological challenges of ongoing research, and to support the development of each member's work.
+
+Our members span faculty, doctoral and master's students, postdoctoral researchers, and international visitors and associates. If you are interested in joining our meetings or pursuing graduate research with us, see [Prospective Students](prospective-students.qmd).
+
+## Our Alliance
+
+::: {.snuc-org-alliance}
+<div class="alliance-content">
+<h3>CHISOCNET — The Chilean Society for Social Network Science</h3>
+<p>The Social Networks Group – UC is an active partner of CHISOCNET, which aims to develop social network science in Chile into an internationally recognized field of reference for Ibero-America — through conferences, seminars, and a summer school.</p>
+<p><a href="https://www.chisocnet.org" class="btn-alliance">Visit CHISOCNET →</a></p>
+</div>
+<div class="alliance-logo">
+<img src="img/partners/chisocnet.svg" alt="CHISOCNET logo">
+</div>
+:::

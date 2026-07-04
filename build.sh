@@ -14,6 +14,8 @@ cp shared/consultancy-network-animated.js en/consultancy-network-animated.js
 cp shared/consultancy-network-animated.js es/consultancy-network-animated.js
 cp shared/ux-enhance.js en/ux-enhance.js
 cp shared/ux-enhance.js es/ux-enhance.js
+cp shared/publications.js en/publications.js
+cp shared/publications.js es/publications.js
 cp shared/img/favicon.svg en/favicon.svg
 cp shared/img/favicon.svg es/favicon.svg
 cp shared/img/og-image.png en/og-image.png

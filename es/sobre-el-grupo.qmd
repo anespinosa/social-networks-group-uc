@@ -1,0 +1,62 @@
+---
+title: "Sobre el Grupo"
+subtitle: "Quiénes somos y cómo trabajamos"
+---
+
+::: {.snuc-org-hero .compact}
+<div class="snuc-org-hero-content">
+<div class="snuc-eyebrow">Quiénes Somos</div>
+<h1>Sobre el Grupo</h1>
+<p class="lead">Un grupo de investigación interdisciplinario que avanza la teoría, los métodos y las aplicaciones de la ciencia de redes sociales en la Pontificia Universidad Católica de Chile.</p>
+</div>
+:::
+
+## Nuestra Misión
+
+El Grupo de Redes Sociales – UC reúne a investigadores de las ciencias sociales, la estadística, las matemáticas, la informática, la ingeniería y campos relacionados para estudiar sistemas relacionales complejos. Avanzamos la ciencia de redes sociales mediante el desarrollo teórico, la innovación estadística y computacional, y la investigación sustantiva — con fortalezas particulares en educación, gobernanza, ciencia de la ciencia y organizaciones.
+
+Estamos comprometidos con el rigor metodológico, la investigación reproducible y el desarrollo de herramientas de código abierto que hacen la ciencia de redes más accesible, incluyendo el paquete de R [**netmem**](https://cran.r-project.org/web/packages/netmem/index.html).
+
+## Qué Hacemos
+
+::: {.snuc-cards .quad}
+<div class="snuc-card">
+### Investigación
+Trabajo teórico y empírico sobre redes sociales en sociología, gobernanza, ciencia y organizaciones.
+[Ver nuestra investigación →](investigacion.qmd){.stretched}
+</div>
+<div class="snuc-card">
+### Métodos y Software
+Modelos estadísticos y computacionales de redes, y herramientas de código abierto como netmem.
+[Explorar netmem →](investigacion.qmd){.stretched}
+</div>
+<div class="snuc-card">
+### Docencia y Formación
+Cursos de posgrado y formación especializada en análisis de redes sociales y modelamiento estadístico.
+[Ver docencia →](docencia.qmd){.stretched}
+</div>
+<div class="snuc-card">
+### Asesoría y Consultoría
+Análisis de redes y diagnósticos estratégicos para organizaciones, gobierno y sociedad civil.
+[Trabaja con nosotros →](vinculacion.qmd){.stretched}
+</div>
+:::
+
+## Cómo Trabajamos
+
+Redes Sociales – UC es un espacio colaborativo para investigadores que trabajan desde la perspectiva de redes. Nos reunimos cada dos semanas en el Campus San Joaquín de la Pontificia Universidad Católica de Chile para discutir los desafíos teóricos y metodológicos de investigaciones en curso, y para apoyar el desarrollo del trabajo de cada integrante.
+
+Nuestros miembros incluyen académicos, estudiantes de doctorado y magíster, investigadores postdoctorales, y visitantes e investigadores asociados internacionales. Si te interesa sumarte a nuestras reuniones o desarrollar investigación de posgrado con nosotros, revisa [Futuros Estudiantes](futuros-estudiantes.qmd).
+
+## Nuestra Alianza
+
+::: {.snuc-org-alliance}
+<div class="alliance-content">
+<h3>CHISOCNET — Sociedad Chilena de Ciencia de Redes Sociales</h3>
+<p>El Grupo de Redes Sociales – UC es socio activo de CHISOCNET, que busca desarrollar la ciencia de redes sociales en Chile como un campo de referencia internacional para Iberoamérica, a través de conferencias, seminarios y una escuela de verano.</p>
+<p><a href="https://www.chisocnet.org" class="btn-alliance">Visita CHISOCNET →</a></p>
+</div>
+<div class="alliance-logo">
+<img src="img/partners/chisocnet.svg" alt="Logo CHISOCNET">
+</div>
+:::

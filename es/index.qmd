@@ -43,7 +43,7 @@ Invitamos a investigadores/as destacados/as en etapas tempranas de su carrera a 
 
 ## Explora el grupo
 
-::: {.snuc-cards}
+::: {.snuc-cards .quad}
 <div class="snuc-card">
 ### Equipo
 Profesores, estudiantes de doctorado y magíster, investigadores asociados y visitantes internacionales.

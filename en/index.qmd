@@ -43,7 +43,7 @@ We invite outstanding early-career researchers to apply for the ANID FONDECYT Po
 
 ## Explore the group
 
-::: {.snuc-cards}
+::: {.snuc-cards .quad}
 <div class="snuc-card">
 ### Team
 Faculty, doctoral and master's students, research associates, and international visitors.

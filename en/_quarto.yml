@@ -23,6 +23,8 @@ website:
     left:
       - text: Home
         file: index.qmd
+      - text: About
+        file: about.qmd
       - text: Team
         file: team.qmd
       - text: Research
@@ -49,6 +51,7 @@ website:
       </div>
       <div class="snuc-footer-col">
       <h4>Explore</h4>
+      <a href="about.html">About</a>
       <a href="team.html">Team</a>
       <a href="research.html">Research</a>
       <a href="publications.html">Publications</a>
@@ -83,6 +86,7 @@ format:
           <script src="diplomado-network-animated.js"></script>
           <script src="consultancy-network-animated.js"></script>
           <script src="ux-enhance.js" defer></script>
+          <script src="publications.js" defer></script>
     toc: false
     grid:
       body-width: 900px
