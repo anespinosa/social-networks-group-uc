@@ -95,6 +95,7 @@
       height = canvas.height = size * devicePixelRatio;
       canvas.style.width = size + "px";
       canvas.style.height = size + "px";
+      console.log("Diplomado: Resized canvas to", width, "x", height, "(CSS:", size, "x", size, ")");
 
       const centerX = width / 2;
       const centerY = height / 2;
@@ -218,6 +219,11 @@
   }
 
   document.addEventListener("DOMContentLoaded", function () {
-    document.querySelectorAll("canvas.diplomado-network").forEach(initDiplomadoNetwork);
+    const canvases = document.querySelectorAll("canvas.diplomado-network");
+    console.log("Diplomado: Found", canvases.length, "canvas elements");
+    canvases.forEach(function(canvas) {
+      console.log("Diplomado: Initializing canvas", canvas);
+      initDiplomadoNetwork(canvas);
+    });
   });
 })();

@@ -114,6 +114,7 @@
       height = canvas.height = size * devicePixelRatio;
       canvas.style.width = size + "px";
       canvas.style.height = size + "px";
+      console.log("Consultancy: Resized canvas to", width, "x", height, "(CSS:", size, "x", size, ")");
 
       const centerX = width / 2;
       const centerY = height / 2;
@@ -248,6 +249,11 @@
   }
 
   document.addEventListener("DOMContentLoaded", function () {
-    document.querySelectorAll("canvas.consultancy-network").forEach(initConsultancyNetwork);
+    const canvases = document.querySelectorAll("canvas.consultancy-network");
+    console.log("Consultancy: Found", canvases.length, "canvas elements");
+    canvases.forEach(function(canvas) {
+      console.log("Consultancy: Initializing canvas", canvas);
+      initConsultancyNetwork(canvas);
+    });
   });
 })();
