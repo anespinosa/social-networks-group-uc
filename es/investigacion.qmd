@@ -13,7 +13,7 @@ subtitle: "Líneas de investigación, proyectos en curso y software de código a
 
 ## Áreas de Investigación
 
-::: {.snuc-cards}
+::: {.snuc-cards .areas}
 <div class="snuc-card">**Análisis de Redes Sociales / Ciencia de Redes**</div>
 <div class="snuc-card">**Modelos Estadísticos de Redes**<br>ERGMs, SAOMs, Modelos de Eventos Relacionales, Modelos de Bloques Estocásticos, etc.</div>
 <div class="snuc-card">**Sociología Matemática**</div>
@@ -29,41 +29,37 @@ subtitle: "Líneas de investigación, proyectos en curso y software de código a
 
 ## Proyectos
 
-::: {.snuc-cards}
-<div class="snuc-card">
-### Group Dynamics
-**ANID/FONDECYT Nº3250037 · 2025–2027**
-
-*Cómo coevolucionan las redes sociales y las características individuales dentro de contextos grupales.*
-
-Investigador Responsable: Alejandro Espinosa-Rada.
+::: {.snuc-projects}
+<div class="snuc-project">
+<div class="proj-meta"><span class="grant">ANID/FONDECYT Nº3250037 · 2025–2027</span><h3>Group Dynamics</h3></div>
+<div class="proj-body">
+<p class="desc">Cómo coevolucionan las redes sociales y las características individuales dentro de contextos grupales.</p>
+<p class="investigators">Investigador Responsable: Alejandro Espinosa-Rada.</p>
+</div>
 </div>
 
-<div class="snuc-card">
-### New Approaches to the Study of Social Mobility
-**ANID/FONDECYT Nº1261889 · 2026–2028**
-
-*Ampliando la teoría, los datos y los métodos para el estudio de la movilidad social.*
-
-Investigador Responsable: Mauricio Bucca. Co-Investigadores: Xi Song, Alejandro Espinosa-Rada.
+<div class="snuc-project">
+<div class="proj-meta"><span class="grant">ANID/FONDECYT Nº1261889 · 2026–2028</span><h3>New Approaches to the Study of Social Mobility</h3></div>
+<div class="proj-body">
+<p class="desc">Ampliando la teoría, los datos y los métodos para el estudio de la movilidad social.</p>
+<p class="investigators">Investigador Responsable: Mauricio Bucca. Co-Investigadores: Xi Song, Alejandro Espinosa-Rada.</p>
+</div>
 </div>
 
-<div class="snuc-card">
-### Metropolitan Governance
-**ANID/FONDECYT Nº1261268 · 2026–2028**
-
-*La complejidad institucional de las redes de gobernanza metropolitana en Chile y Colombia.*
-
-Investigadora Responsable: Karina Arias Yurisch. Co-Investigadores: Karina Retamal, Alejandro Espinosa-Rada, Cristian Leyton.
+<div class="snuc-project">
+<div class="proj-meta"><span class="grant">ANID/FONDECYT Nº1261268 · 2026–2028</span><h3>Metropolitan Governance</h3></div>
+<div class="proj-body">
+<p class="desc">La complejidad institucional de las redes de gobernanza metropolitana en Chile y Colombia.</p>
+<p class="investigators">Investigadora Responsable: Karina Arias Yurisch. Co-Investigadores: Karina Retamal, Alejandro Espinosa-Rada, Cristian Leyton.</p>
+</div>
 </div>
 
-<div class="snuc-card">
-### Governing Complexity
-**Concurso Avanza UC 2025 · 2026–2027**
-
-*Aplicación del análisis de redes multinivel al marco institucional de la gobernanza ambiental metropolitana — parte de la línea de investigación SNA-SES (Social Networks and Socio-ecological Sustainability) del grupo, junto al Seed Fund UC-UNSW (2025–2026, con Pavel Krivitsky) y el anterior ANID/FONDECYT Nº1220560 (2022–2025).*
-
-Investigadora Responsable: Karina Arias. Investigador Principal: Alejandro Espinosa-Rada.
+<div class="snuc-project">
+<div class="proj-meta"><span class="grant">Concurso Avanza UC 2025 · 2026–2027</span><h3>Governing Complexity</h3></div>
+<div class="proj-body">
+<p class="desc">Aplicación del análisis de redes multinivel al marco institucional de la gobernanza ambiental metropolitana — parte de la línea de investigación SNA-SES (Social Networks and Socio-ecological Sustainability) del grupo, junto al Seed Fund UC-UNSW (2025–2026, con Pavel Krivitsky) y el anterior ANID/FONDECYT Nº1220560 (2022–2025).</p>
+<p class="investigators">Investigadora Responsable: Karina Arias. Investigador Principal: Alejandro Espinosa-Rada.</p>
+</div>
 </div>
 :::
 

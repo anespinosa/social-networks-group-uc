@@ -16,6 +16,7 @@ subtitle: "Peer-reviewed articles, books, and working papers by group members"
 </div>
 :::
 
+::: {.snuc-pubs}
 ### 2026
 
 - Jones, P., Verhoeven, D., & Espinosa-Rada, A. (2026). The role of film school collaboration in film industry network formation: an empirical analysis of data from the Australian Film, Television and Radio School (AFTRS). *Journal of Cultural Analytics.*
@@ -83,6 +84,7 @@ subtitle: "Peer-reviewed articles, books, and working papers by group members"
 
 - González Torralbo, H., Ortiz Ruiz, F. J., & Espinosa Rada, A. N. (2018). Redes de parentesco en las familias de Santiago de Chile. *Redes: revista hispana para el análisis de redes sociales.*
 - Finnigan, K. S., Luengo-Aravena, D. E., & Garrison, K. M. (2018). Social network analysis methods in educational policy research. In *Complementary Research Methods for Educational Leadership and Policy Studies.*
+:::
 
 ---
 

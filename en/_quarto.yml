@@ -34,14 +34,32 @@ website:
         href: ../es/index.html
   page-footer:
     left: |
-      <span class="snuc-footer-brand"><span class="snuc-footer-logo"><img src="img/brand/puc-crest.png" alt="Pontificia Universidad Católica de Chile"></span> © 2026 Social Networks Group – UC · Pontificia Universidad Católica de Chile</span>
-    right:
-      - text: "CHISOCNET"
-        href: https://www.chisocnet.org
-      - text: "netmem (CRAN)"
-        href: https://cran.r-project.org/web/packages/netmem/index.html
-      - text: "Español"
-        href: ../es/index.html
+      <div class="snuc-footer-grid">
+      <div class="snuc-footer-col snuc-footer-about">
+      <span class="snuc-footer-brand"><span class="snuc-footer-logo"><img src="img/brand/puc-crest.png" alt="Pontificia Universidad Católica de Chile"></span> Social Networks Group – UC</span>
+      <p class="snuc-footer-tagline">Advancing social network science through theory, methods, and data at the Institute of Sociology, Pontificia Universidad Católica de Chile.</p>
+      </div>
+      <div class="snuc-footer-col">
+      <h4>Explore</h4>
+      <a href="team.html">Team</a>
+      <a href="research.html">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="teaching.html">Teaching</a>
+      </div>
+      <div class="snuc-footer-col">
+      <h4>Engage</h4>
+      <a href="collaboration.html">Organizational Intelligence</a>
+      <a href="prospective-students.html">Prospective Students</a>
+      <a href="contact.html">Contact</a>
+      </div>
+      <div class="snuc-footer-col">
+      <h4>Connect</h4>
+      <a href="https://www.chisocnet.org">CHISOCNET</a>
+      <a href="https://cran.r-project.org/web/packages/netmem/index.html">netmem (CRAN)</a>
+      <a href="../es/index.html">Español</a>
+      </div>
+      </div>
+      <div class="snuc-footer-bottom">© 2026 Social Networks Group – UC · Pontificia Universidad Católica de Chile</div>
 
 format:
   html:

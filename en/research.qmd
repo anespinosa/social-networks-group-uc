@@ -13,7 +13,7 @@ subtitle: "Research lines, ongoing projects, and open-source software"
 
 ## Research Areas
 
-::: {.snuc-cards}
+::: {.snuc-cards .areas}
 <div class="snuc-card">**Social Network Analysis / Network Science**</div>
 <div class="snuc-card">**Statistical Network Models**<br>ERGMs, SAOMs, Relational Event Models, Stochastic Block Models, etc.</div>
 <div class="snuc-card">**Mathematical Sociology**</div>
@@ -29,41 +29,37 @@ subtitle: "Research lines, ongoing projects, and open-source software"
 
 ## Projects
 
-::: {.snuc-cards}
-<div class="snuc-card">
-### Group Dynamics
-**ANID/FONDECYT Nº3250037 · 2025–2027**
-
-*Understanding how social networks and individual characteristics co-evolve within group contexts.*
-
-Principal Investigator: Alejandro Espinosa-Rada.
+::: {.snuc-projects}
+<div class="snuc-project">
+<div class="proj-meta"><span class="grant">ANID/FONDECYT Nº3250037 · 2025–2027</span><h3>Group Dynamics</h3></div>
+<div class="proj-body">
+<p class="desc">Understanding how social networks and individual characteristics co-evolve within group contexts.</p>
+<p class="investigators">Principal Investigator: Alejandro Espinosa-Rada.</p>
+</div>
 </div>
 
-<div class="snuc-card">
-### New Approaches to the Study of Social Mobility
-**ANID/FONDECYT Nº1261889 · 2026–2028**
-
-*Expanding theory, data, and methods for the study of social mobility.*
-
-Principal Investigator: Mauricio Bucca. Co-Principal Investigators: Xi Song, Alejandro Espinosa-Rada.
+<div class="snuc-project">
+<div class="proj-meta"><span class="grant">ANID/FONDECYT Nº1261889 · 2026–2028</span><h3>New Approaches to the Study of Social Mobility</h3></div>
+<div class="proj-body">
+<p class="desc">Expanding theory, data, and methods for the study of social mobility.</p>
+<p class="investigators">Principal Investigator: Mauricio Bucca. Co-Principal Investigators: Xi Song, Alejandro Espinosa-Rada.</p>
+</div>
 </div>
 
-<div class="snuc-card">
-### Metropolitan Governance
-**ANID/FONDECYT Nº1261268 · 2026–2028**
-
-*The institutional complexity of metropolitan governance networks in Chile and Colombia.*
-
-Principal Investigator: Karina Arias Yurisch. Co-Principal Investigators: Karina Retamal, Alejandro Espinosa-Rada, Cristian Leyton.
+<div class="snuc-project">
+<div class="proj-meta"><span class="grant">ANID/FONDECYT Nº1261268 · 2026–2028</span><h3>Metropolitan Governance</h3></div>
+<div class="proj-body">
+<p class="desc">The institutional complexity of metropolitan governance networks in Chile and Colombia.</p>
+<p class="investigators">Principal Investigator: Karina Arias Yurisch. Co-Principal Investigators: Karina Retamal, Alejandro Espinosa-Rada, Cristian Leyton.</p>
+</div>
 </div>
 
-<div class="snuc-card">
-### Governing Complexity
-**Concurso Avanza UC 2025 · 2026–2027**
-
-*Applying multilevel network analysis to the institutional framework of metropolitan environmental governance — part of the group's broader SNA-SES (Social Networks and Socio-ecological Sustainability) research line, alongside the UC–UNSW Seed Fund (2025–2026, with Pavel Krivitsky) and prior ANID/FONDECYT Nº1220560 (2022–2025).*
-
-Responsible Investigator: Karina Arias. Principal Investigator: Alejandro Espinosa-Rada.
+<div class="snuc-project">
+<div class="proj-meta"><span class="grant">Concurso Avanza UC 2025 · 2026–2027</span><h3>Governing Complexity</h3></div>
+<div class="proj-body">
+<p class="desc">Applying multilevel network analysis to the institutional framework of metropolitan environmental governance — part of the group's broader SNA-SES (Social Networks and Socio-ecological Sustainability) research line, alongside the UC–UNSW Seed Fund (2025–2026, with Pavel Krivitsky) and prior ANID/FONDECYT Nº1220560 (2022–2025).</p>
+<p class="investigators">Responsible Investigator: Karina Arias. Principal Investigator: Alejandro Espinosa-Rada.</p>
+</div>
 </div>
 :::
 

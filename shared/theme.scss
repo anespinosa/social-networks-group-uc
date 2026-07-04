@@ -481,6 +481,151 @@ h4{
 }
 .snuc-card a.stretched::after{ content:""; position:absolute; inset:0; }
 
+/* ---------- Research Areas: numbered, uniform grid ---------- */
+.snuc-cards.areas{
+  counter-reset: area;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+.snuc-cards.areas .snuc-card{
+  counter-increment: area;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 118px;
+  padding: 1.4rem 1.4rem 1.4rem 1.4rem;
+}
+.snuc-cards.areas .snuc-card::after{
+  content: counter(area, decimal-leading-zero);
+  position: absolute;
+  top: .9rem; right: 1.1rem;
+  font-family: $headings-font-family;
+  font-size: .95rem;
+  font-weight: 700;
+  color: rgba(242,169,59,.55);
+  letter-spacing: .02em;
+}
+.snuc-cards.areas .snuc-card strong{
+  font-family: $headings-font-family;
+  font-weight: 700;
+  color: $navy;
+  font-size: 1.02rem;
+  line-height: 1.3;
+}
+.snuc-cards.areas .snuc-card br + *,
+.snuc-cards.areas .snuc-card{ font-size: .9rem; }
+
+/* ---------- Projects: full-width editorial cards ---------- */
+.snuc-projects{
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin: 2rem 0 3rem 0;
+}
+.snuc-project{
+  position: relative;
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 2rem;
+  padding: 2rem 2rem 2rem 2.25rem;
+  background: #fff;
+  border: 1px solid rgba(242,169,59,.15);
+  border-left: 3px solid $gold-bright;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(10,31,68,.04);
+  transition: box-shadow .25s ease, transform .25s ease, border-color .25s ease;
+}
+.snuc-project:hover{
+  box-shadow: 0 10px 28px rgba(10,31,68,.1);
+  transform: translateY(-3px);
+  border-color: rgba(242,169,59,.4);
+  border-left-color: $gold-bright;
+}
+.snuc-project .proj-meta .grant{
+  display: block;
+  font-size: .78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  color: $gold;
+  margin-bottom: .5rem;
+}
+.snuc-project h3{
+  margin: 0;
+  font-family: $headings-font-family;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: $navy;
+  line-height: 1.2;
+}
+.snuc-project .proj-body p{
+  margin: 0 0 .75rem 0;
+  font-size: .95rem;
+  line-height: 1.6;
+}
+.snuc-project .proj-body .desc{
+  font-style: italic;
+  color: $ink;
+}
+.snuc-project .proj-body .investigators{
+  font-size: .88rem;
+  color: $muted;
+  margin-bottom: 0;
+}
+@media (max-width: 760px){
+  .snuc-project{
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+/* ---------- Publications ---------- */
+.snuc-pubs h3{
+  position: relative;
+  font-family: $headings-font-family;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: $navy;
+  margin: 2.75rem 0 1.1rem 0;
+  padding-bottom: .5rem;
+  padding-left: .9rem;
+  border-bottom: 1px solid $hairline;
+}
+.snuc-pubs h3::before{
+  content: "";
+  position: absolute;
+  left: 0; top: .15rem;
+  width: 4px; height: 1.5rem;
+  background: $gold-bright;
+  border-radius: 2px;
+}
+.snuc-pubs ul{
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.snuc-pubs li{
+  position: relative;
+  padding: .55rem 0 .55rem 1.4rem;
+  border-bottom: 1px solid rgba(226,228,234,.6);
+  font-size: .95rem;
+  line-height: 1.6;
+  transition: background .15s ease, padding-left .15s ease;
+}
+.snuc-pubs li::before{
+  content: "";
+  position: absolute;
+  left: .2rem; top: 1.1rem;
+  width: 5px; height: 5px;
+  border-radius: 50%;
+  background: rgba(242,169,59,.55);
+}
+.snuc-pubs li:hover{
+  background: rgba(242,169,59,.05);
+  padding-left: 1.7rem;
+}
+.snuc-pubs li:last-child{ border-bottom: none; }
+
 /* ---------- Section labels ---------- */
 .snuc-eyebrow{
   text-transform: uppercase;
@@ -514,15 +659,21 @@ h4{
   transform: translateY(-2px);
 }
 .snuc-person .avatar{
-  width: 42px; height: 42px;
-  border: 2px solid $gold-bright;
-  background: rgba(242,169,59,.08);
-  color: $navy;
+  width: 56px; height: 56px;
+  border: none;
+  background: radial-gradient(circle at 32% 28%, #14315f 0%, $navy 55%, #071634 100%);
+  color: $gold-bright;
   display: flex; align-items: center; justify-content: center;
   font-family: $headings-font-family;
-  font-weight: 700; font-size: .82rem; letter-spacing: .02em;
-  margin-bottom: 1.25rem;
-  border-radius: 8px;
+  font-weight: 700; font-size: 1.05rem; letter-spacing: .02em;
+  margin-bottom: 1.1rem;
+  border-radius: 50%;
+  box-shadow: 0 3px 10px rgba(10,31,68,.18), inset 0 0 0 1px rgba(242,169,59,.35);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.snuc-person:hover .avatar{
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(10,31,68,.26), inset 0 0 0 1px rgba(242,169,59,.6);
 }
 .snuc-person .avatar.photo{
   width: 88px; height: 88px;
@@ -1096,3 +1247,72 @@ footer.footer:hover .snuc-footer-logo{
   border-color: rgba(242,169,59,.4);
 }
 .snuc-footer-logo img{ width: 100%; height: 100%; object-fit: contain; }
+
+/* Rich multi-column footer */
+footer.footer .nav-footer{
+  flex-direction: column;
+  align-items: stretch;
+}
+footer.footer .nav-footer-left{
+  width: 100%;
+  text-align: left;
+}
+footer.footer .nav-footer-center,
+footer.footer .nav-footer-right{ display: none; }
+
+.snuc-footer-grid{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 2.5rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem 0 2rem 0;
+  text-align: left;
+}
+.snuc-footer-col{ display: flex; flex-direction: column; }
+.snuc-footer-col h4{
+  font-family: $headings-font-family;
+  font-size: .95rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 1rem 0;
+}
+.snuc-footer-col a{
+  display: block;
+  font-size: .88rem;
+  padding: .28rem 0;
+  color: rgba(255,255,255,.72) !important;
+}
+.snuc-footer-col a:hover{ color: $gold-bright !important; }
+.snuc-footer-about .snuc-footer-brand{
+  font-family: $headings-font-family;
+  font-size: 1.05rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+.snuc-footer-tagline{
+  font-size: .88rem;
+  line-height: 1.6;
+  color: rgba(255,255,255,.6);
+  max-width: 34ch;
+  margin: 0;
+}
+.snuc-footer-bottom{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255,255,255,.1);
+  font-size: .8rem;
+  color: rgba(255,255,255,.5);
+  text-align: center;
+}
+@media (max-width: 800px){
+  .snuc-footer-grid{
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem 1.5rem;
+  }
+  .snuc-footer-about{ grid-column: 1 / -1; }
+}
+@media (max-width: 480px){
+  .snuc-footer-grid{ grid-template-columns: 1fr; }
+}

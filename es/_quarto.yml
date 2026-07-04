@@ -34,14 +34,32 @@ website:
         href: ../en/index.html
   page-footer:
     left: |
-      <span class="snuc-footer-brand"><span class="snuc-footer-logo"><img src="img/brand/puc-crest.png" alt="Pontificia Universidad Católica de Chile"></span> © 2026 Grupo de Redes Sociales – UC · Pontificia Universidad Católica de Chile</span>
-    right:
-      - text: "CHISOCNET"
-        href: https://www.chisocnet.org
-      - text: "netmem (CRAN)"
-        href: https://cran.r-project.org/web/packages/netmem/index.html
-      - text: "English"
-        href: ../en/index.html
+      <div class="snuc-footer-grid">
+      <div class="snuc-footer-col snuc-footer-about">
+      <span class="snuc-footer-brand"><span class="snuc-footer-logo"><img src="img/brand/puc-crest.png" alt="Pontificia Universidad Católica de Chile"></span> Grupo de Redes Sociales – UC</span>
+      <p class="snuc-footer-tagline">Avanzando la ciencia de redes sociales a través de la teoría, los métodos y los datos en el Instituto de Sociología, Pontificia Universidad Católica de Chile.</p>
+      </div>
+      <div class="snuc-footer-col">
+      <h4>Explora</h4>
+      <a href="equipo.html">Equipo</a>
+      <a href="investigacion.html">Investigación</a>
+      <a href="publicaciones.html">Publicaciones</a>
+      <a href="docencia.html">Docencia</a>
+      </div>
+      <div class="snuc-footer-col">
+      <h4>Participa</h4>
+      <a href="vinculacion.html">Inteligencia Organizacional</a>
+      <a href="futuros-estudiantes.html">Futuros Estudiantes</a>
+      <a href="contacto.html">Contacto</a>
+      </div>
+      <div class="snuc-footer-col">
+      <h4>Conecta</h4>
+      <a href="https://www.chisocnet.org">CHISOCNET</a>
+      <a href="https://cran.r-project.org/web/packages/netmem/index.html">netmem (CRAN)</a>
+      <a href="../en/index.html">English</a>
+      </div>
+      </div>
+      <div class="snuc-footer-bottom">© 2026 Grupo de Redes Sociales – UC · Pontificia Universidad Católica de Chile</div>
 
 format:
   html:
