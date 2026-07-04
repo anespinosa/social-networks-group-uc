@@ -1,4 +1,5 @@
 // Lazega Lawyers with Meaningful Node Sizes and Shapes
+console.log("✓ consultancy-network-animated.js loaded");
 (function () {
   function initConsultancyNetwork(canvas) {
     const ctx = canvas.getContext("2d");

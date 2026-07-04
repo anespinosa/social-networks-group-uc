@@ -1,4 +1,5 @@
 // Krackhardt High-Tech Managers with Stress Majorization + Meaningful Node Sizes/Shapes
+console.log("✓ diplomado-network-animated.js loaded");
 (function () {
   function initDiplomadoNetwork(canvas) {
     const ctx = canvas.getContext("2d");
