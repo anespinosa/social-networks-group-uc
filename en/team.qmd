@@ -155,9 +155,9 @@ Computational social science applied to design management, innovation ecosystems
 ::: {.snuc-table}
 | Name | Home institution | Visit period |
 |---|---|---|
-| Matías Montero | University of Oxford | April – October 2025 |
-| Daniel Trujillo Martins Fontes | Universidade de São Paulo | July – August 2025 |
 | Pavel Krivitsky | University of New South Wales | January 2026 |
+| Daniel Trujillo Martins Fontes | Universidade de São Paulo | July – August 2025 |
+| Matías Montero | University of Oxford | April – October 2025 |
 :::
 
 ## Internship

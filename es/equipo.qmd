@@ -155,9 +155,9 @@ Ciencia social computacional aplicada a la gestión del diseño, ecosistemas de 
 ::: {.snuc-table}
 | Nombre | Institución de origen | Período de visita |
 |---|---|---|
-| Matías Montero | University of Oxford | Abril – Octubre 2025 |
-| Daniel Trujillo Martins Fontes | Universidade de São Paulo | Julio – Agosto 2025 |
 | Pavel Krivitsky | University of New South Wales | Enero 2026 |
+| Daniel Trujillo Martins Fontes | Universidade de São Paulo | Julio – Agosto 2025 |
+| Matías Montero | University of Oxford | Abril – Octubre 2025 |
 :::
 
 ## Pasantía
