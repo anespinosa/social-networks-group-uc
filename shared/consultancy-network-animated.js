@@ -18,18 +18,22 @@
 
       nodes = [
         // Central hub
-        { x: centerX, y: centerY, r: 3 * devicePixelRatio, c: "#0a1f44", type: "hub", centerX, centerY },
-        // Org structure layer (navy)
-        { x: centerX - 35, y: centerY - 25, r: 2.2 * devicePixelRatio, c: "#0a1f44", type: "org", centerX, centerY },
-        { x: centerX + 35, y: centerY - 25, r: 2.2 * devicePixelRatio, c: "#0a1f44", type: "org", centerX, centerY },
-        { x: centerX - 40, y: centerY + 15, r: 2.2 * devicePixelRatio, c: "#0a1f44", type: "org", centerX, centerY },
-        { x: centerX + 40, y: centerY + 15, r: 2.2 * devicePixelRatio, c: "#0a1f44", type: "org", centerX, centerY },
-        { x: centerX, y: centerY + 40, r: 2.2 * devicePixelRatio, c: "#0a1f44", type: "org", centerX, centerY },
+        { x: centerX, y: centerY, r: 3.5 * devicePixelRatio, c: "#0a1f44", type: "hub", centerX, centerY },
+        // Org structure layer (navy) - expanded
+        { x: centerX - 45, y: centerY - 35, r: 2.4 * devicePixelRatio, c: "#0a1f44", type: "org", centerX, centerY },
+        { x: centerX + 45, y: centerY - 35, r: 2.4 * devicePixelRatio, c: "#0a1f44", type: "org", centerX, centerY },
+        { x: centerX - 50, y: centerY, r: 2.4 * devicePixelRatio, c: "#0a1f44", type: "org", centerX, centerY },
+        { x: centerX + 50, y: centerY, r: 2.4 * devicePixelRatio, c: "#0a1f44", type: "org", centerX, centerY },
+        { x: centerX - 35, y: centerY + 40, r: 2.4 * devicePixelRatio, c: "#0a1f44", type: "org", centerX, centerY },
+        { x: centerX + 35, y: centerY + 40, r: 2.4 * devicePixelRatio, c: "#0a1f44", type: "org", centerX, centerY },
+        { x: centerX, y: centerY + 50, r: 2.4 * devicePixelRatio, c: "#0a1f44", type: "org", centerX, centerY },
         // Insight layer (purple - analysis/discoveries)
-        { x: centerX - 15, y: centerY - 35, r: 2 * devicePixelRatio, c: "#7a5cc5", type: "insight", centerX, centerY },
-        { x: centerX + 15, y: centerY - 35, r: 2 * devicePixelRatio, c: "#7a5cc5", type: "insight", centerX, centerY },
-        { x: centerX - 45, y: centerY, r: 2 * devicePixelRatio, c: "#7a5cc5", type: "insight", centerX, centerY },
-        { x: centerX + 45, y: centerY, r: 2 * devicePixelRatio, c: "#7a5cc5", type: "insight", centerX, centerY },
+        { x: centerX - 20, y: centerY - 45, r: 2.2 * devicePixelRatio, c: "#7a5cc5", type: "insight", centerX, centerY },
+        { x: centerX + 20, y: centerY - 45, r: 2.2 * devicePixelRatio, c: "#7a5cc5", type: "insight", centerX, centerY },
+        { x: centerX - 55, y: centerY - 15, r: 2.2 * devicePixelRatio, c: "#7a5cc5", type: "insight", centerX, centerY },
+        { x: centerX + 55, y: centerY - 15, r: 2.2 * devicePixelRatio, c: "#7a5cc5", type: "insight", centerX, centerY },
+        { x: centerX - 50, y: centerY + 30, r: 2.2 * devicePixelRatio, c: "#7a5cc5", type: "insight", centerX, centerY },
+        { x: centerX + 50, y: centerY + 30, r: 2.2 * devicePixelRatio, c: "#7a5cc5", type: "insight", centerX, centerY },
       ];
     }
 

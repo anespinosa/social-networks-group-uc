@@ -1,9 +1,15 @@
 ---
-title: "Organizational Intelligence"
-subtitle: "Network analysis and strategic consulting for organizations, government, and collaborative ecosystems"
+title: ""
+page-layout: article
 ---
 
-The Social Networks Group – UC contributes beyond academia through executive education, advisory work, and an active alliance with the Chilean social network science community — bringing rigorous network methods to real organizational and policy decisions.
+::: {.snuc-org-hero}
+<div class="snuc-org-hero-content">
+<div class="snuc-eyebrow">Beyond Academia</div>
+<h1>Organizational Intelligence</h1>
+<p class="lead">Network analysis and strategic consulting for organizations, government, and collaborative ecosystems. We bring rigorous relational methods to real organizational and policy decisions.</p>
+</div>
+:::
 
 ::: {.snuc-stats}
 <div class="snuc-stat"><span class="number">11</span><span class="label">Research areas</span></div>
@@ -11,37 +17,64 @@ The Social Networks Group – UC contributes beyond academia through executive e
 <div class="snuc-stat"><span class="number">5</span><span class="label">Countries in our network</span></div>
 :::
 
-## Education & Training
+---
 
-<div class="snuc-keynote">
-<div class="snuc-keynote-image network-viz"><canvas class="diplomado-network"></canvas></div>
-<div class="snuc-keynote-content">
-### Diplomado en Inteligencia Relacional para Organizaciones
-<div class="role">Professional training across sectors · May – December</div>
-<div class="bio">A comprehensive diploma program for professionals from diverse disciplines — HR, communications, innovation, consulting, organizational development, public affairs, research, and entrepreneurship. Learn to understand, measure, and visualize relational structures in organizations and collaboration ecosystems, from informal influence networks to knowledge exchange and strategic positioning. Offered subject to sufficient enrollment.</div>
+## Education & Professional Training
+
+::: {.snuc-org-section .section-alternating}
+<div class="snuc-org-visual">
+<div class="network-container large">
+<canvas class="diplomado-network"></canvas>
 </div>
 </div>
+<div class="snuc-org-text">
+<h3>Diplomado en Inteligencia Relacional para Organizaciones</h3>
+<div class="role-large">Professional training across sectors · May – December</div>
+<p>A comprehensive diploma program for professionals from diverse disciplines — HR, communications, innovation, consulting, organizational development, public affairs, research, and entrepreneurship.</p>
+<p>Learn to understand, measure, and visualize relational structures in organizations and collaboration ecosystems, from informal influence networks to knowledge exchange and strategic positioning.</p>
+<p class="note">Offered subject to sufficient enrollment.</p>
 
-We also offer specialized courses and workshops on social network analysis, statistical modeling of networks, computational methods, and organizational network analysis — designed for professionals and organizations across all sectors seeking to leverage network science for collaboration, innovation, and strategic decision-making.
+<h4 style="margin-top: 2rem;">Specialized Courses & Workshops</h4>
+<p>We also offer targeted training on social network analysis, statistical modeling of networks, computational methods, and organizational network analysis — designed for professionals and organizations across all sectors seeking to leverage network science for collaboration, innovation, and strategic decision-making.</p>
+</div>
+:::
 
-## Consultancy & Advisory
+---
 
-<div class="snuc-keynote">
-<div class="snuc-keynote-image network-viz"><canvas class="consultancy-network"></canvas></div>
-<div class="snuc-keynote-content">
-### Bring network analysis to your organization
-<div class="role">Diagnostics, training, and applied research partnerships</div>
-<div class="bio">We are open to advisory and consultancy work applying network analysis to organizational, governmental, and civil-society settings — mapping collaboration structures, diagnosing governance networks, and designing data-informed interventions. If your organization is interested in a diagnostic or collaboration, [get in touch](contact.qmd).</div>
+## Consultancy & Organizational Diagnostics
+
+::: {.snuc-org-section}
+<div class="snuc-org-text">
+<h3>Bring Network Analysis to Your Organization</h3>
+<div class="role-large">Diagnostics, training, and applied research partnerships</div>
+<p>We are open to advisory and consultancy work applying network analysis to organizational, governmental, and civil-society settings:</p>
+<ul>
+<li><strong>Organizational mapping</strong> — visualize collaboration structures and communication flows</li>
+<li><strong>Governance diagnostics</strong> — analyze decision-making networks and identify bottlenecks</li>
+<li><strong>Strategic interventions</strong> — design data-informed organizational changes</li>
+<li><strong>Innovation ecosystems</strong> — understand and strengthen knowledge-sharing networks</li>
+<li><strong>Applied research</strong> — partner on custom network science projects</li>
+</ul>
+<p style="margin-top: 2rem;"><strong>Ready to explore organizational intelligence for your organization?</strong> <a href="contact.qmd">Get in touch with us</a>.</p>
+</div>
+<div class="snuc-org-visual">
+<div class="network-container large">
+<canvas class="consultancy-network"></canvas>
 </div>
 </div>
+:::
 
-## Alliance
+---
 
-<div class="snuc-keynote">
-<div class="snuc-keynote-image logo"><img src="img/partners/chisocnet.svg" alt="CHISOCNET logo"></div>
-<div class="snuc-keynote-content">
-### CHISOCNET — Chilean Society for Social Network Science
-<div class="role"><a href="https://www.chisocnet.org">chisocnet.org</a></div>
-<div class="bio">The Social Networks Group – UC is an active partner of CHISOCNET, which aims to develop social network science in Chile into an internationally recognized field of reference for Ibero-America — through conferences, seminars, and a summer school.</div>
+## Strategic Alliance
+
+::: {.snuc-org-alliance}
+<div class="alliance-content">
+<h3>CHISOCNET — Chilean Society for Social Network Science</h3>
+<p>The Social Networks Group – UC is an active partner of CHISOCNET, which aims to develop social network science in Chile into an internationally recognized field of reference for Ibero-America — through conferences, seminars, and a summer school.</p>
+<p><a href="https://www.chisocnet.org" class="btn-alliance">Visit CHISOCNET →</a></p>
 </div>
+<div class="alliance-logo">
+<img src="img/partners/chisocnet.svg" alt="CHISOCNET logo">
 </div>
+:::

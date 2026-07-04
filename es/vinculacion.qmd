@@ -1,9 +1,15 @@
 ---
-title: "Diagnóstico Relacional e Inteligencia Organizacional"
-subtitle: "Análisis de redes y consultoría estratégica para organizaciones, gobierno y ecosistemas colaborativos"
+title: ""
+page-layout: article
 ---
 
-El Grupo de Redes Sociales – UC contribuye más allá de la academia a través de educación continua, asesorías y una alianza activa con la comunidad chilena de ciencia de redes sociales — llevando métodos de redes rigurosos a decisiones organizacionales y de política pública reales.
+::: {.snuc-org-hero}
+<div class="snuc-org-hero-content">
+<div class="snuc-eyebrow">Más allá de la Academia</div>
+<h1>Inteligencia Organizacional</h1>
+<p class="lead">Análisis de redes y consultoría estratégica para organizaciones, gobierno y ecosistemas colaborativos. Llevamos métodos de redes rigurosos a decisiones organizacionales y de política pública reales.</p>
+</div>
+:::
 
 ::: {.snuc-stats}
 <div class="snuc-stat"><span class="number">11</span><span class="label">Áreas de investigación</span></div>
@@ -11,37 +17,64 @@ El Grupo de Redes Sociales – UC contribuye más allá de la academia a través
 <div class="snuc-stat"><span class="number">5</span><span class="label">Países en nuestra red</span></div>
 :::
 
-## Educación y Capacitación
+---
 
-<div class="snuc-keynote">
-<div class="snuc-keynote-image network-viz"><canvas class="diplomado-network"></canvas></div>
-<div class="snuc-keynote-content">
-### Diplomado en Inteligencia Relacional para Organizaciones
-<div class="role">Formación profesional para múltiples sectores · Mayo – Diciembre</div>
-<div class="bio">Un programa de diplomado integral para profesionales de disciplinas diversas — gestión de personas, comunicaciones, innovación, consultoría, desarrollo organizacional, asuntos públicos, investigación social y emprendimiento. Aprende a comprender, medir y visualizar estructuras relacionales en organizaciones y ecosistemas de colaboración, desde redes informales de influencia hasta circulación de conocimiento y posicionamiento estratégico. Se ofrece sujeto a cantidad suficiente de participantes.</div>
+## Educación y Capacitación Profesional
+
+::: {.snuc-org-section .section-alternating}
+<div class="snuc-org-visual">
+<div class="network-container large">
+<canvas class="diplomado-network"></canvas>
 </div>
 </div>
+<div class="snuc-org-text">
+<h3>Diplomado en Inteligencia Relacional para Organizaciones</h3>
+<div class="role-large">Formación profesional para múltiples sectores · Mayo – Diciembre</div>
+<p>Un programa de diplomado integral para profesionales de disciplinas diversas — gestión de personas, comunicaciones, innovación, consultoría, desarrollo organizacional, asuntos públicos, investigación social y emprendimiento.</p>
+<p>Aprende a comprender, medir y visualizar estructuras relacionales en organizaciones y ecosistemas de colaboración, desde redes informales de influencia hasta circulación de conocimiento y posicionamiento estratégico.</p>
+<p class="note">Se ofrece sujeto a cantidad suficiente de participantes.</p>
 
-También ofrecemos cursos y talleres especializados sobre análisis de redes sociales, modelamiento estadístico de redes, métodos computacionales y análisis de redes organizacionales — diseñados para profesionales y organizaciones de todos los sectores que deseen aprovechar la ciencia de redes para la colaboración, innovación y toma de decisiones estratégicas.
+<h4 style="margin-top: 2rem;">Cursos y Talleres Especializados</h4>
+<p>También ofrecemos capacitación en análisis de redes sociales, modelamiento estadístico de redes, métodos computacionales y análisis de redes organizacionales — diseñados para profesionales y organizaciones de todos los sectores que deseen aprovechar la ciencia de redes para la colaboración, innovación y toma de decisiones estratégicas.</p>
+</div>
+:::
 
-## Asesorías y Consultoría
+---
 
-<div class="snuc-keynote">
-<div class="snuc-keynote-image network-viz"><canvas class="consultancy-network"></canvas></div>
-<div class="snuc-keynote-content">
-### Lleva el análisis de redes a tu organización
-<div class="role">Diagnósticos, capacitación y colaboraciones de investigación aplicada</div>
-<div class="bio">Estamos abiertos a trabajos de asesoría y consultoría que apliquen el análisis de redes a contextos organizacionales, gubernamentales y de la sociedad civil — mapeando estructuras de colaboración, diagnosticando redes de gobernanza y diseñando intervenciones basadas en datos. Si tu organización está interesada en un diagnóstico o colaboración, [contáctanos](contacto.qmd).</div>
+## Asesorías y Diagnósticos Organizacionales
+
+::: {.snuc-org-section}
+<div class="snuc-org-text">
+<h3>Lleva el Análisis de Redes a tu Organización</h3>
+<div class="role-large">Diagnósticos, capacitación y colaboraciones de investigación aplicada</div>
+<p>Estamos abiertos a trabajos de asesoría y consultoría que apliquen el análisis de redes a contextos organizacionales, gubernamentales y de la sociedad civil:</p>
+<ul>
+<li><strong>Mapeo organizacional</strong> — visualiza estructuras de colaboración y flujos de comunicación</li>
+<li><strong>Diagnósticos de gobernanza</strong> — analiza redes de toma de decisiones e identifica cuellos de botella</li>
+<li><strong>Intervenciones estratégicas</strong> — diseña cambios organizacionales basados en datos</li>
+<li><strong>Ecosistemas de innovación</strong> — entiende y fortalece redes de intercambio de conocimiento</li>
+<li><strong>Investigación aplicada</strong> — colabora en proyectos personalizados de ciencia de redes</li>
+</ul>
+<p style="margin-top: 2rem;"><strong>¿Listo para explorar inteligencia organizacional en tu organización?</strong> <a href="contacto.qmd">Contáctanos</a>.</p>
+</div>
+<div class="snuc-org-visual">
+<div class="network-container large">
+<canvas class="consultancy-network"></canvas>
 </div>
 </div>
+:::
 
-## Alianza
+---
 
-<div class="snuc-keynote">
-<div class="snuc-keynote-image logo"><img src="img/partners/chisocnet.svg" alt="Logo CHISOCNET"></div>
-<div class="snuc-keynote-content">
-### CHISOCNET — Sociedad Chilena de Ciencia de Redes Sociales
-<div class="role"><a href="https://www.chisocnet.org">chisocnet.org</a></div>
-<div class="bio">El Grupo de Redes Sociales – UC es socio activo de CHISOCNET, que busca desarrollar la ciencia de redes sociales en Chile como un campo de referencia internacional para Iberoamérica, a través de conferencias, seminarios y una escuela de verano.</div>
+## Alianza Estratégica
+
+::: {.snuc-org-alliance}
+<div class="alliance-content">
+<h3>CHISOCNET — Sociedad Chilena de Ciencia de Redes Sociales</h3>
+<p>El Grupo de Redes Sociales – UC es socio activo de CHISOCNET, que busca desarrollar la ciencia de redes sociales en Chile como un campo de referencia internacional para Iberoamérica, a través de conferencias, seminarios y una escuela de verano.</p>
+<p><a href="https://www.chisocnet.org" class="btn-alliance">Visita CHISOCNET →</a></p>
 </div>
+<div class="alliance-logo">
+<img src="img/partners/chisocnet.svg" alt="Logo CHISOCNET">
 </div>
+:::

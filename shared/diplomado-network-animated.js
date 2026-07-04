@@ -16,9 +16,9 @@
 
       const centerX = width / 2;
       const centerY = height / 2;
-      const radius = Math.min(width, height) * 0.35;
+      const radius = Math.min(width, height) * 0.38;
 
-      nodes = Array.from({ length: 12 }, (_, i) => {
+      nodes = Array.from({ length: 18 }, (_, i) => {
         const angle = (i / 12) * Math.PI * 2;
         return {
           x: centerX + Math.cos(angle) * radius,
