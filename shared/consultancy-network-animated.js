@@ -1,4 +1,4 @@
-// Lazega Lawyers with Stress Majorization layout
+// Lazega Lawyers with Meaningful Node Sizes and Shapes
 (function () {
   function initConsultancyNetwork(canvas) {
     const ctx = canvas.getContext("2d");
@@ -6,7 +6,6 @@
 
     let width, height, nodes, edges, distMatrix, time = 0, layoutIterations = 0;
 
-    // Lazega lawyers collaboration network (40-node subset)
     const lazega = {
       nodes: Array.from({ length: 40 }, (_, i) => ({ id: i + 1 })),
       edges: [
@@ -63,7 +62,6 @@
         if (a <= 40 && b <= 40) dist[a-1][b-1] = 1;
       });
 
-      // Floyd-Warshall
       for (let k = 0; k < n; k++) {
         for (let i = 0; i < n; i++) {
           for (let j = 0; j < n; j++) {
@@ -128,7 +126,6 @@
           y: centerY + Math.sin(angle) * radius,
           vx: 0,
           vy: 0,
-          r: 2.6 * devicePixelRatio,
           degree: 0,
           pulse: Math.random() * Math.PI * 2,
         };
@@ -155,11 +152,68 @@
       layoutIterations = 0;
     }
 
+    function drawNode(n) {
+      // Size by degree: logarithmic scale
+      const sizeScale = Math.log(n.degree + 2) / Math.log(25);
+      const baseR = (3.2 + sizeScale * 5.2) * devicePixelRatio;
+      const pulse = 1 + 0.12 * Math.sin(time + n.pulse);
+      const r = baseR * pulse;
+
+      // Determine role by degree
+      const degreePercentile = n.degree / 20;
+      let nodeType = 'peripheral';
+      if (degreePercentile > 0.65) nodeType = 'partner'; // high degree = partner
+      else if (degreePercentile > 0.3) nodeType = 'counsel'; // medium
+
+      // Glow
+      ctx.beginPath();
+      ctx.fillStyle = `rgba(122, 92, 197, ${0.15 + 0.1 * degreePercentile})`;
+      ctx.arc(n.x, n.y, r * 2.6, 0, Math.PI * 2);
+      ctx.fill();
+
+      // Gold glow for partners
+      if (nodeType === 'partner') {
+        ctx.beginPath();
+        ctx.fillStyle = `rgba(242, 169, 59, ${0.08 * degreePercentile})`;
+        ctx.arc(n.x, n.y, r * 3.2, 0, Math.PI * 2);
+        ctx.fill();
+      }
+
+      // Node shape: partner=diamond, counsel=square, associate=circle
+      if (nodeType === 'partner') {
+        // Diamond
+        ctx.beginPath();
+        ctx.moveTo(n.x + r * 1.1, n.y);
+        ctx.lineTo(n.x, n.y + r * 1.1);
+        ctx.lineTo(n.x - r * 1.1, n.y);
+        ctx.lineTo(n.x, n.y - r * 1.1);
+        ctx.closePath();
+      } else if (nodeType === 'counsel') {
+        // Square
+        ctx.fillRect(n.x - r * 0.95, n.y - r * 0.95, r * 1.9, r * 1.9);
+      } else {
+        // Circle
+        ctx.beginPath();
+        ctx.arc(n.x, n.y, r, 0, Math.PI * 2);
+      }
+
+      const g = ctx.createRadialGradient(n.x - r * 0.3, n.y - r * 0.3, 0, n.x, n.y, r);
+      g.addColorStop(0, "#b8a6e0");
+      g.addColorStop(0.6, "#7a5cc5");
+      g.addColorStop(1, "#5a3fa5");
+      ctx.fillStyle = g;
+      ctx.fill();
+
+      // Border
+      ctx.strokeStyle = `rgba(242, 169, 59, ${0.5 + 0.5 * degreePercentile})`;
+      ctx.lineWidth = (1.2 + degreePercentile * 1.8) * devicePixelRatio;
+      ctx.stroke();
+    }
+
     function step() {
       ctx.clearRect(0, 0, width, height);
       if (!reduceMotion) time += 0.016;
 
-      // Stress majorization layout optimization
       if (!reduceMotion && layoutIterations < 350) {
         stressIteration();
         layoutIterations++;
@@ -170,10 +224,10 @@
         const n1 = nodes[a];
         const n2 = nodes[b];
         const strength = Math.min(n1.degree, n2.degree) / 20;
-        const alpha = 0.15 + 0.15 * strength;
+        const alpha = 0.13 + 0.17 * strength;
 
         ctx.strokeStyle = `rgba(122, 92, 197, ${alpha})`;
-        ctx.lineWidth = (0.8 + 0.6 * strength) * devicePixelRatio;
+        ctx.lineWidth = (0.8 + 0.7 * strength) * devicePixelRatio;
         ctx.lineCap = "round";
         ctx.beginPath();
         ctx.moveTo(n1.x, n1.y);
@@ -181,37 +235,8 @@
         ctx.stroke();
       });
 
-      // Draw nodes
-      nodes.forEach(n => {
-        const degreeScale = 0.7 + (n.degree / 20) * 1;
-        const pulse = 1 + 0.2 * Math.sin(time + n.pulse);
-        const r = n.r * degreeScale * pulse;
-
-        ctx.beginPath();
-        ctx.fillStyle = "rgba(122, 92, 197, 0.2)";
-        ctx.arc(n.x, n.y, r * 2.4, 0, Math.PI * 2);
-        ctx.fill();
-
-        if (n.degree > 15) {
-          ctx.beginPath();
-          ctx.fillStyle = `rgba(242, 169, 59, ${0.1 * (n.degree / 20)})`;
-          ctx.arc(n.x, n.y, r * 3, 0, Math.PI * 2);
-          ctx.fill();
-        }
-
-        const g = ctx.createRadialGradient(n.x - r * 0.3, n.y - r * 0.3, 0, n.x, n.y, r);
-        g.addColorStop(0, "#b8a6e0");
-        g.addColorStop(0.6, "#7a5cc5");
-        g.addColorStop(1, "#5a3fa5");
-        ctx.beginPath();
-        ctx.fillStyle = g;
-        ctx.arc(n.x, n.y, r, 0, Math.PI * 2);
-        ctx.fill();
-
-        ctx.strokeStyle = `rgba(242, 169, 59, ${0.4 + 0.4 * (n.degree / 20)})`;
-        ctx.lineWidth = 1.4 * devicePixelRatio;
-        ctx.stroke();
-      });
+      // Draw all nodes
+      nodes.forEach(drawNode);
 
       if (!reduceMotion) requestAnimationFrame(step);
     }

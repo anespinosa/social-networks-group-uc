@@ -1,4 +1,4 @@
-// Krackhardt High-Tech Managers with Stress Majorization layout
+// Krackhardt High-Tech Managers with Stress Majorization + Meaningful Node Sizes/Shapes
 (function () {
   function initDiplomadoNetwork(canvas) {
     const ctx = canvas.getContext("2d");
@@ -6,7 +6,6 @@
 
     let width, height, nodes, edges, distMatrix, time = 0, layoutIterations = 0;
 
-    // Krackhardt network: 21 managers
     const krackhardt = {
       nodes: Array.from({ length: 21 }, (_, i) => ({ id: i + 1 })),
       edges: [
@@ -44,7 +43,6 @@
         dist[a-1][b-1] = 1;
       });
 
-      // Floyd-Warshall for all-pairs shortest paths
       for (let k = 0; k < n; k++) {
         for (let i = 0; i < n; i++) {
           for (let j = 0; j < n; j++) {
@@ -58,7 +56,7 @@
 
     function stressIteration() {
       const n = nodes.length;
-      const k = 3; // Spring constant scaling factor
+      const k = 3;
 
       for (let i = 0; i < n; i++) {
         const ni = nodes[i];
@@ -100,7 +98,6 @@
       const centerY = height / 2;
       const scale = Math.min(width, height) * 0.3;
 
-      // Initialize with random positions
       nodes = krackhardt.nodes.map((n, i) => {
         const angle = Math.random() * Math.PI * 2;
         const radius = Math.random() * scale;
@@ -110,7 +107,6 @@
           y: centerY + Math.sin(angle) * radius,
           vx: 0,
           vy: 0,
-          r: 2.8 * devicePixelRatio,
           degree: 0,
           pulse: Math.random() * Math.PI * 2,
         };
@@ -135,11 +131,60 @@
       layoutIterations = 0;
     }
 
+    function drawNode(n) {
+      // Size by degree: log scale for better visual differentiation
+      const sizeScale = Math.log(n.degree + 2) / Math.log(25);
+      const baseR = (3.5 + sizeScale * 5.5) * devicePixelRatio;
+      const pulse = 1 + 0.12 * Math.sin(time + n.pulse);
+      const r = baseR * pulse;
+
+      // Determine node role by degree
+      const degreePercentile = n.degree / 25;
+      let nodeType = 'peripheral'; // degree < 8
+      if (degreePercentile > 0.6) nodeType = 'broker'; // high degree
+      else if (degreePercentile > 0.3) nodeType = 'connector'; // medium-high
+
+      // Glow effect
+      ctx.beginPath();
+      ctx.fillStyle = `rgba(242, 169, 59, ${0.12 + 0.08 * degreePercentile})`;
+      ctx.arc(n.x, n.y, r * 2.5, 0, Math.PI * 2);
+      ctx.fill();
+
+      // Node shape based on role
+      if (nodeType === 'broker') {
+        // Diamond shape for central brokers (high degree)
+        ctx.beginPath();
+        ctx.moveTo(n.x + r, n.y);
+        ctx.lineTo(n.x, n.y + r);
+        ctx.lineTo(n.x - r, n.y);
+        ctx.lineTo(n.x, n.y - r);
+        ctx.closePath();
+      } else if (nodeType === 'connector') {
+        // Square for connectors (medium-high degree)
+        ctx.fillRect(n.x - r, n.y - r, r * 2, r * 2);
+      } else {
+        // Circle for periphery (low degree)
+        ctx.beginPath();
+        ctx.arc(n.x, n.y, r, 0, Math.PI * 2);
+      }
+
+      const g = ctx.createRadialGradient(n.x - r * 0.3, n.y - r * 0.3, 0, n.x, n.y, r);
+      g.addColorStop(0, "#f2aa55");
+      g.addColorStop(0.6, "#f2a93b");
+      g.addColorStop(1, "#d48c2a");
+      ctx.fillStyle = g;
+      ctx.fill();
+
+      // Border
+      ctx.strokeStyle = `rgba(242, 169, 59, ${0.6 + 0.4 * degreePercentile})`;
+      ctx.lineWidth = (1 + degreePercentile * 1.5) * devicePixelRatio;
+      ctx.stroke();
+    }
+
     function step() {
       ctx.clearRect(0, 0, width, height);
       if (!reduceMotion) time += 0.016;
 
-      // Stress majorization iterations for better layout
       if (!reduceMotion && layoutIterations < 300) {
         stressIteration();
         layoutIterations++;
@@ -149,10 +194,10 @@
       edges.forEach(([a, b]) => {
         const n1 = nodes[a];
         const n2 = nodes[b];
-        const alpha = 0.15 + 0.1 * (Math.min(n1.degree, n2.degree) / 21);
+        const alpha = 0.12 + 0.12 * (Math.min(n1.degree, n2.degree) / 25);
 
         ctx.strokeStyle = `rgba(242, 169, 59, ${alpha})`;
-        ctx.lineWidth = (0.8 + 0.4 * (Math.min(n1.degree, n2.degree) / 21)) * devicePixelRatio;
+        ctx.lineWidth = (0.8 + 0.5 * (Math.min(n1.degree, n2.degree) / 25)) * devicePixelRatio;
         ctx.lineCap = "round";
         ctx.beginPath();
         ctx.moveTo(n1.x, n1.y);
@@ -160,30 +205,8 @@
         ctx.stroke();
       });
 
-      // Draw nodes
-      nodes.forEach(n => {
-        const degreeScale = 0.8 + (n.degree / 21) * 0.8;
-        const pulse = 1 + 0.15 * Math.sin(time + n.pulse);
-        const r = n.r * degreeScale * pulse;
-
-        ctx.beginPath();
-        ctx.fillStyle = "rgba(242, 169, 59, 0.15)";
-        ctx.arc(n.x, n.y, r * 2.2, 0, Math.PI * 2);
-        ctx.fill();
-
-        const g = ctx.createRadialGradient(n.x - r * 0.3, n.y - r * 0.3, 0, n.x, n.y, r);
-        g.addColorStop(0, "#f2aa55");
-        g.addColorStop(0.6, "#f2a93b");
-        g.addColorStop(1, "#d48c2a");
-        ctx.beginPath();
-        ctx.fillStyle = g;
-        ctx.arc(n.x, n.y, r, 0, Math.PI * 2);
-        ctx.fill();
-
-        ctx.strokeStyle = "rgba(242, 169, 59, 0.8)";
-        ctx.lineWidth = 1.2 * devicePixelRatio;
-        ctx.stroke();
-      });
+      // Draw all nodes
+      nodes.forEach(drawNode);
 
       if (!reduceMotion) requestAnimationFrame(step);
     }
