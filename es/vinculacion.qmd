@@ -1,6 +1,6 @@
 ---
-title: "Alianzas e Impacto"
-subtitle: "Trabajando con organizaciones, gobierno y la comunidad de ciencia de redes sociales"
+title: "Diagnóstico Relacional e Inteligencia Organizacional"
+subtitle: "Análisis de redes y consultoría estratégica para organizaciones, gobierno y ecosistemas colaborativos"
 ---
 
 El Grupo de Redes Sociales – UC contribuye más allá de la academia a través de educación continua, asesorías y una alianza activa con la comunidad chilena de ciencia de redes sociales — llevando métodos de redes rigurosos a decisiones organizacionales y de política pública reales.

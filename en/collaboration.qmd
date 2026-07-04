@@ -1,6 +1,6 @@
 ---
-title: "Partnerships & Impact"
-subtitle: "Working with organizations, government, and the wider social network science community"
+title: "Organizational Intelligence"
+subtitle: "Network analysis and strategic consulting for organizations, government, and collaborative ecosystems"
 ---
 
 The Social Networks Group – UC contributes beyond academia through executive education, advisory work, and an active alliance with the Chilean social network science community — bringing rigorous network methods to real organizational and policy decisions.
