@@ -41,7 +41,11 @@ $footer-fg: rgba(255,255,255,0.68);
 }
 
 html { scroll-behavior: smooth; }
-body { -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  background: linear-gradient(180deg, #fdfdfc 0%, #fbfaf7 100%);
+}
 
 #title-block-header{
   border-bottom: 1px solid $hairline;
@@ -63,45 +67,85 @@ body { -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; 
 .page-layout-article #title-block-header{ display: none; }
 
 main.content{ max-width: 860px; }
-main.content > p{ font-size: 1.05rem; line-height: 1.7; color: $ink; }
+main.content > p{
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: $ink;
+}
+
+/* Enhanced link styling */
+a{
+  color: $link-color;
+  text-decoration: none;
+  transition: color .15s ease;
+  border-bottom: 1px solid rgba(160,106,31,.3);
+}
+a:hover{
+  color: $gold-bright;
+  border-bottom-color: $gold-bright;
+}
+
+/* Subtle focus states for accessibility */
+a:focus{
+  outline: 2px solid $gold-bright;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
 
 h2{
-  font-size: 1.55rem;
-  font-weight: 600;
-  margin-top: 3.25rem;
-  margin-bottom: 1.25rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid $hairline;
-  letter-spacing: -.01em;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-top: 3.5rem;
+  margin-bottom: 1.5rem;
+  padding-top: 1.75rem;
+  border-top: 2px solid $gold-bright;
+  letter-spacing: -.012em;
+  color: $navy;
 }
 h2:first-of-type{ margin-top: 2rem; }
-h3{ font-weight: 600; letter-spacing: -.005em; }
+h3{
+  font-weight: 700;
+  letter-spacing: -.005em;
+  color: $navy;
+}
+h4{
+  font-weight: 650;
+  letter-spacing: -.003em;
+  color: $navy;
+}
 
 /* ---------- Navbar ---------- */
 .navbar{
-  padding-top: .65rem;
-  padding-bottom: .65rem;
-  box-shadow: none;
-  border-bottom: 1px solid rgba(255,255,255,.08);
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  box-shadow: 0 2px 12px rgba(6,21,48,.08);
+  border-bottom: 1px solid rgba(255,255,255,.12);
+  background: linear-gradient(180deg, $navy 0%, #0a1f44 100%);
 }
 .navbar-brand{
   font-family: $headings-font-family;
-  font-weight: 600;
-  font-size: 1.15rem;
+  font-weight: 700;
+  font-size: 1.2rem;
   letter-spacing: .01em;
+  color: #fff !important;
 }
 .navbar .navbar-nav .nav-link{
-  font-size: .95rem;
+  font-size: .9rem;
   text-transform: uppercase;
-  letter-spacing: .06em;
-  font-weight: 500;
-  padding-top: .55rem;
-  padding-bottom: .55rem;
-  color: rgba(255,255,255,.82);
+  letter-spacing: .07em;
+  font-weight: 600;
+  padding-top: .6rem;
+  padding-bottom: .6rem;
+  color: rgba(255,255,255,.80);
+  transition: color .15s ease;
+  position: relative;
 }
-.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:hover{
+  color: $gold-bright;
+}
 .navbar .navbar-nav .nav-link.active{
-  color: #fff;
+  color: $gold-bright;
+  font-weight: 700;
 }
 .navbar .nav-link .lang-switch{
   display: inline-block;
@@ -289,61 +333,88 @@ h3{ font-weight: 600; letter-spacing: -.005em; }
 .snuc-pillars{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 0;
-  margin: 2.75rem 0;
-  border-top: 1px solid $hairline;
-  border-left: 1px solid $hairline;
+  gap: 1.25rem;
+  margin: 3rem 0;
 }
 @media (max-width: 900px){
   .snuc-pillars{ grid-template-columns: repeat(2, 1fr); }
 }
+@media (max-width: 600px){
+  .snuc-pillars{ grid-template-columns: 1fr; }
+}
 .snuc-pillar{
   text-align: center;
-  padding: 2rem 1rem;
-  border-right: 1px solid $hairline;
-  border-bottom: 1px solid $hairline;
+  padding: 2.25rem 1.5rem;
+  border-radius: 12px;
   background: #fff;
+  box-shadow: 0 2px 8px rgba(10,31,68,.05);
+  transition: transform .2s ease, box-shadow .2s ease;
+  border: 1px solid rgba(242,169,59,.12);
 }
-.snuc-pillar .icon{ margin-bottom: .85rem; display:flex; justify-content:center; color: $gold; }
-.snuc-pillar .icon svg{ width: 26px; height: 26px; stroke-width: 1.4; }
+.snuc-pillar:hover{
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(10,31,68,.12);
+  border-color: rgba(242,169,59,.25);
+}
+.snuc-pillar .icon{
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  color: $gold-bright;
+  height: 48px;
+}
+.snuc-pillar .icon svg{ width: 32px; height: 32px; stroke-width: 1.3; }
 .snuc-pillar strong{
   font-family: $headings-font-family;
-  font-weight: 600;
-  font-size: .95rem;
+  font-weight: 700;
+  font-size: 1rem;
   color: $navy;
+  line-height: 1.4;
 }
 
 /* ---------- Cards ---------- */
 .snuc-cards{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 1rem;
-  margin: 1.5rem 0 2.5rem 0;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0 3rem 0;
 }
 .snuc-card{
   position: relative;
-  padding: 1.6rem 1.5rem;
+  padding: 2rem 1.75rem;
   background: #fff;
-  border: 1px solid $hairline;
-  transition: background .15s ease, border-color .15s ease;
+  border: 1px solid rgba(242,169,59,.15);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(10,31,68,.04);
+  transition: all .25s ease;
 }
 .snuc-card::before{
   content: "";
   position: absolute;
   top: 0; left: 0; right: 0;
-  height: 2px;
-  background: $gold-bright;
+  height: 3px;
+  background: linear-gradient(90deg, $gold-bright, transparent);
+  border-radius: 12px 12px 0 0;
   transform: scaleX(0);
   transform-origin: left;
-  transition: transform .2s ease;
+  transition: transform .25s ease;
 }
-.snuc-card:hover{ background: #fbfaf7; }
+.snuc-card:hover{
+  background: #fbfaf7;
+  border-color: $gold-bright;
+  box-shadow: 0 8px 24px rgba(10,31,68,.1);
+  transform: translateY(-4px);
+}
 .snuc-card:hover::before{ transform: scaleX(1); }
 .snuc-card h3{
   margin-top: 0;
-  font-size: 1.05rem;
+  margin-bottom: .75rem;
+  font-size: 1.15rem;
   font-family: $headings-font-family;
+  font-weight: 700;
+  color: $navy;
 }
+.snuc-card p{ font-size: .95rem; line-height: 1.6; color: $ink; }
 .snuc-card a.stretched{
   color: inherit; text-decoration: none;
 }
@@ -364,34 +435,62 @@ h3{ font-weight: 600; letter-spacing: -.005em; }
 /* ---------- People ---------- */
 .snuc-people{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1rem;
-  margin: 1.25rem 0 2rem 0;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0 2.5rem 0;
 }
 .snuc-person{
-  padding: 1.5rem;
+  padding: 1.75rem;
   background: #fff;
-  border: 1px solid $hairline;
+  border: 1px solid rgba(242,169,59,.12);
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(10,31,68,.04);
+  transition: all .2s ease;
+}
+.snuc-person:hover{
+  border-color: rgba(242,169,59,.25);
+  box-shadow: 0 6px 16px rgba(10,31,68,.08);
+  transform: translateY(-2px);
 }
 .snuc-person .avatar{
   width: 42px; height: 42px;
-  border: 1px solid $navy;
+  border: 2px solid $gold-bright;
+  background: rgba(242,169,59,.08);
   color: $navy;
   display: flex; align-items: center; justify-content: center;
   font-family: $headings-font-family;
-  font-weight: 600; font-size: .85rem; letter-spacing: .02em;
-  margin-bottom: 1rem;
+  font-weight: 700; font-size: .82rem; letter-spacing: .02em;
+  margin-bottom: 1.25rem;
+  border-radius: 8px;
 }
 .snuc-person .avatar.photo{
   width: 88px; height: 88px;
-  padding: 0; border-color: $hairline; overflow: hidden;
+  padding: 0; border-color: $gold-bright; overflow: hidden;
+  border-radius: 50%;
+  background: none;
+  color: inherit;
 }
 .snuc-person .avatar.photo img{
   width: 100%; height: 100%; object-fit: cover; display: block;
 }
-.snuc-person h3{ margin: 0 0 .2rem 0; font-size: 1rem; }
-.snuc-person .role{ font-size: .82rem; color: $muted; margin-bottom: .5rem; line-height: 1.4; }
-.snuc-person .bio{ font-size: .88rem; color: $ink; line-height: 1.55; }
+.snuc-person h3{
+  margin: 0 0 .25rem 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: $navy;
+}
+.snuc-person .role{
+  font-size: .85rem;
+  color: $muted;
+  margin-bottom: .6rem;
+  line-height: 1.4;
+  font-weight: 500;
+}
+.snuc-person .bio{
+  font-size: .88rem;
+  color: $ink;
+  line-height: 1.6;
+}
 
 /* ---------- Keynote-style cards (Core Faculty) ---------- */
 .snuc-keynote{
@@ -399,39 +498,52 @@ h3{ font-weight: 600; letter-spacing: -.005em; }
   flex-direction: row;
   align-items: flex-start;
   background: #fff;
-  border: 1px solid $hairline;
-  border-radius: 12px;
-  padding: 1.75rem;
-  margin-bottom: 1.5rem;
-  box-shadow: 0 4px 14px rgba(10,31,68,.06);
-  transition: transform .2s ease, box-shadow .2s ease;
+  border: 1px solid rgba(242,169,59,.15);
+  border-radius: 16px;
+  padding: 2.25rem;
+  margin-bottom: 1.75rem;
+  box-shadow: 0 4px 16px rgba(10,31,68,.08);
+  transition: all .25s ease;
 }
 .snuc-keynote:hover{
-  transform: translateY(-3px);
-  box-shadow: 0 10px 26px rgba(10,31,68,.12);
+  transform: translateY(-5px);
+  box-shadow: 0 12px 32px rgba(10,31,68,.15);
+  border-color: $gold-bright;
+  background: #fbfaf7;
 }
-.snuc-keynote-image{ flex: 0 0 160px; margin-right: 2rem; }
+.snuc-keynote-image{
+  flex: 0 0 180px;
+  margin-right: 2.5rem;
+  position: relative;
+}
 .snuc-keynote-image img{
-  width: 160px; height: 160px;
+  width: 180px; height: 180px;
   object-fit: cover;
   border-radius: 50%;
-  border: 3px solid $hairline;
+  border: 4px solid rgba(242,169,59,.2);
   display: block;
+  transition: border-color .25s ease;
+}
+.snuc-keynote:hover .snuc-keynote-image img{
+  border-color: $gold-bright;
 }
 .snuc-keynote-content{ flex: 1; }
 .snuc-keynote-content h3{
-  font-size: 1.35rem;
-  margin: 0 0 .25rem 0;
+  font-size: 1.45rem;
+  margin: 0 0 .35rem 0;
+  font-weight: 700;
+  color: $navy;
 }
 .snuc-keynote-content .role{
   font-style: italic;
   color: $muted;
-  margin-bottom: .85rem;
-  font-size: .95rem;
+  margin-bottom: 1rem;
+  font-size: .98rem;
+  font-weight: 500;
 }
 .snuc-keynote-content .bio{
-  font-size: .95rem;
-  line-height: 1.6;
+  font-size: .96rem;
+  line-height: 1.65;
   color: $ink;
 }
 @media (max-width: 700px){
@@ -453,34 +565,41 @@ h3{ font-weight: 600; letter-spacing: -.005em; }
 .snuc-stats{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 0;
-  margin: 2rem 0 3rem 0;
-  border-top: 1px solid $hairline;
-  border-left: 1px solid $hairline;
+  gap: 1.5rem;
+  margin: 2.5rem 0 3.5rem 0;
 }
 @media (max-width: 700px){
   .snuc-stats{ grid-template-columns: 1fr; }
 }
 .snuc-stat{
   text-align: center;
-  padding: 2rem 1rem;
-  border-right: 1px solid $hairline;
-  border-bottom: 1px solid $hairline;
+  padding: 2.25rem 1.5rem;
+  background: #fff;
+  border: 1px solid rgba(242,169,59,.15);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(10,31,68,.04);
+  transition: all .25s ease;
+}
+.snuc-stat:hover{
+  border-color: $gold-bright;
+  box-shadow: 0 8px 20px rgba(10,31,68,.1);
+  transform: translateY(-3px);
 }
 .snuc-stat .number{
   font-family: $headings-font-family;
-  font-size: 2.75rem;
-  font-weight: 700;
-  color: $navy;
+  font-size: 3rem;
+  font-weight: 800;
+  color: $gold-bright;
   line-height: 1;
   display: block;
-  margin-bottom: .5rem;
+  margin-bottom: .6rem;
 }
 .snuc-stat .label{
-  font-size: .82rem;
+  font-size: .84rem;
   text-transform: uppercase;
-  letter-spacing: .06em;
+  letter-spacing: .08em;
   color: $muted;
+  font-weight: 600;
 }
 
 /* ---------- Partner logo (CHISOCNET, etc.) ---------- */
@@ -496,75 +615,139 @@ h3{ font-weight: 600; letter-spacing: -.005em; }
 
 /* ---------- Alliance strip ---------- */
 .snuc-alliance{
-  display:flex; align-items:center; gap:1.25rem; flex-wrap: wrap;
-  border-top: 1px solid $hairline; border-bottom: 1px solid $hairline;
-  padding: 1.5rem 0; background: transparent;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  border-top: 2px solid $gold-bright;
+  border-bottom: 1px solid $hairline;
+  padding: 2rem 1.5rem;
+  background: rgba(242,169,59,.03);
+  border-radius: 10px;
+  margin: 2rem 0;
 }
+.snuc-alliance strong{ color: $navy; font-weight: 700; }
+.snuc-alliance a{ border-bottom-color: $gold-bright; }
 
 /* ---------- Featured callout (e.g. postdoc call) ---------- */
 .snuc-callout{
-  background: $navy;
+  background: linear-gradient(135deg, $navy 0%, #0d2860 100%);
   color: #fff;
-  border-left: 4px solid $gold-bright;
-  padding: 1.75rem 2rem;
-  margin: 1.5rem 0 2.5rem 0;
+  border-left: 5px solid $gold-bright;
+  border-radius: 12px;
+  padding: 2.25rem 2.5rem;
+  margin: 2rem 0 3rem 0;
+  box-shadow: 0 8px 24px rgba(10,31,68,.15);
 }
 .snuc-callout .kicker{
   text-transform: uppercase;
-  letter-spacing: .1em;
-  font-size: .74rem;
-  font-weight: 600;
+  letter-spacing: .12em;
+  font-size: .76rem;
+  font-weight: 700;
   color: $gold-bright;
-  margin-bottom: .6rem;
+  margin-bottom: .75rem;
 }
 .snuc-callout h3{
   color: #fff;
-  font-size: 1.25rem;
-  margin: 0 0 .6rem 0;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 0 0 .75rem 0;
 }
-.snuc-callout p{ color: rgba(255,255,255,.85); margin-bottom: .5rem; }
-.snuc-callout a:not(.snuc-callout-btn){ color: $gold-bright; }
+.snuc-callout p{
+  color: rgba(255,255,255,.88);
+  margin-bottom: .75rem;
+  font-size: .96rem;
+  line-height: 1.6;
+}
+.snuc-callout a:not(.snuc-callout-btn){ color: $gold-bright; font-weight: 600; }
 .snuc-callout-btn{
   display: inline-block;
-  margin-top: .5rem;
-  padding: .55rem 1.2rem;
-  border: 1px solid rgba(255,255,255,.6);
-  color: #fff !important;
+  margin-top: 1rem;
+  padding: .7rem 1.6rem;
+  border: 2px solid $gold-bright;
+  background: $gold-bright;
+  color: $navy !important;
   text-decoration: none !important;
-  font-size: .85rem;
-  letter-spacing: .03em;
+  font-size: .87rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+  border-radius: 6px;
+  transition: all .2s ease;
 }
-.snuc-callout-btn:hover{ background: rgba(255,255,255,.12); }
+.snuc-callout-btn:hover{
+  background: #fff;
+  color: $navy !important;
+  box-shadow: 0 4px 12px rgba(242,169,59,.3);
+}
 
 /* ---------- Tables ---------- */
-.snuc-table table{ width: 100%; font-size: .95rem; }
-.snuc-table th{
-  color: $navy; border-bottom: 1px solid $navy;
-  text-transform: uppercase; font-size: .72rem; letter-spacing: .06em; font-weight: 600;
-  padding-bottom: .6rem;
+.snuc-table{
+  background: #fff;
+  border: 1px solid rgba(242,169,59,.15);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 2rem 0 3rem 0;
+  box-shadow: 0 2px 8px rgba(10,31,68,.04);
 }
-.snuc-table td{ border-bottom: 1px solid $hairline; padding: .7rem 1rem .7rem 0; }
+.snuc-table table{
+  width: 100%;
+  font-size: .95rem;
+  border-collapse: collapse;
+}
+.snuc-table th{
+  color: #fff;
+  background: $navy;
+  border-bottom: 2px solid rgba(242,169,59,.3);
+  text-transform: uppercase;
+  font-size: .73rem;
+  letter-spacing: .07em;
+  font-weight: 700;
+  padding: 1rem 1.25rem;
+}
+.snuc-table td{
+  border-bottom: 1px solid $hairline;
+  padding: .9rem 1.25rem;
+}
+.snuc-table tbody tr:hover{
+  background: #fbfaf7;
+}
 
 footer.footer{
-  background: $footer-bg !important;
+  background: linear-gradient(180deg, $footer-bg 0%, #040d1f 100%) !important;
   color: $footer-fg !important;
   font-size: .82rem;
+  border-top: 1px solid rgba(255,255,255,.1);
+  padding-top: 2.5rem !important;
+  padding-bottom: 2.5rem !important;
 }
-footer.footer a{ color: rgba(255,255,255,.9) !important; }
+footer.footer a{
+  color: rgba(255,255,255,.88) !important;
+  transition: color .15s ease;
+}
+footer.footer a:hover{
+  color: $gold-bright !important;
+}
 .snuc-footer-brand{
   display: inline-flex;
   align-items: center;
-  gap: .6rem;
+  gap: .8rem;
+  font-weight: 600;
 }
 .snuc-footer-logo{
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 28px;
-  height: 28px;
-  background: #fff;
+  width: 32px;
+  height: 32px;
+  background: rgba(255,255,255,.1);
+  border: 1px solid rgba(255,255,255,.2);
   border-radius: 50%;
-  padding: 3px;
+  padding: 4px;
   flex: 0 0 auto;
+  transition: background .15s ease;
+}
+footer.footer:hover .snuc-footer-logo{
+  background: rgba(242,169,59,.2);
+  border-color: rgba(242,169,59,.4);
 }
 .snuc-footer-logo img{ width: 100%; height: 100%; object-fit: contain; }
