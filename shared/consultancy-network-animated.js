@@ -1,12 +1,12 @@
-// Lazega Lawyers with Meaningful Node Sizes and Shapes
-console.log("✓ consultancy-network-animated.js loaded");
+// Lazega Lawyers Network (Real dataset: 71 lawyers, collaboration & advice ties - sampled top 40 nodes)
 (function () {
   function initConsultancyNetwork(canvas) {
     const ctx = canvas.getContext("2d");
     const reduceMotion = window.matchMedia("(prefers-reduce-motion: reduce)").matches;
 
-    let width, height, nodes, edges, distMatrix, time = 0, layoutIterations = 0;
+    let width, height, nodes, edges, time = 0;
 
+    // Lazega lawyers collaboration network (high-degree subset for visualization)
     const lazega = {
       nodes: Array.from({ length: 40 }, (_, i) => ({ id: i + 1 })),
       edges: [
@@ -53,94 +53,36 @@ console.log("✓ consultancy-network-animated.js loaded");
       ]
     };
 
-    function calculateDistanceMatrix() {
-      const n = lazega.nodes.length;
-      const dist = Array(n).fill(0).map(() => Array(n).fill(Infinity));
-
-      for (let i = 0; i < n; i++) dist[i][i] = 0;
-
-      lazega.edges.forEach(([a, b]) => {
-        if (a <= 40 && b <= 40) dist[a-1][b-1] = 1;
-      });
-
-      for (let k = 0; k < n; k++) {
-        for (let i = 0; i < n; i++) {
-          for (let j = 0; j < n; j++) {
-            dist[i][j] = Math.min(dist[i][j], dist[i][k] + dist[k][j]);
-          }
-        }
-      }
-
-      return dist;
-    }
-
-    function stressIteration() {
-      const n = nodes.length;
-      const k = 3.5;
-
-      for (let i = 0; i < n; i++) {
-        const ni = nodes[i];
-        let fx = 0, fy = 0;
-
-        for (let j = 0; j < n; j++) {
-          if (i === j) continue;
-          const nj = nodes[j];
-          const dx = nj.x - ni.x;
-          const dy = nj.y - ni.y;
-          const d = Math.sqrt(dx * dx + dy * dy) || 0.01;
-          const dij = distMatrix[i][j];
-
-          if (dij < Infinity) {
-            const force = k * (d - dij) / dij;
-            fx += force * (dx / d);
-            fy += force * (dy / d);
-          }
-        }
-
-        ni.vx = fx * 0.1;
-        ni.vy = fy * 0.1;
-      }
-
-      for (let i = 0; i < n; i++) {
-        nodes[i].x += nodes[i].vx;
-        nodes[i].y += nodes[i].vy;
-      }
-    }
-
     function resize() {
-      // Use CSS dimensions directly (340x340)
-      const size = 340;
-
-      width = canvas.width = size;
-      height = canvas.height = size;
-      canvas.style.width = size + "px";
-      canvas.style.height = size + "px";
-      console.log("Consultancy: Canvas", size, "x", size, "initialized");
+      const rect = canvas.parentElement.getBoundingClientRect();
+      width = canvas.width = rect.width * devicePixelRatio;
+      height = canvas.height = rect.height * devicePixelRatio;
+      canvas.style.width = rect.width + "px";
+      canvas.style.height = rect.height + "px";
 
       const centerX = width / 2;
       const centerY = height / 2;
-      const scale = Math.min(width, height) * 0.25;
-
       nodes = lazega.nodes.map((n, i) => {
-        const angle = Math.random() * Math.PI * 2;
-        const radius = Math.random() * scale;
+        const angle = (i / lazega.nodes.length) * Math.PI * 2;
+        const radius = Math.min(width, height) * 0.35;
         return {
           id: n.id,
-          x: centerX + Math.cos(angle) * radius,
-          y: centerY + Math.sin(angle) * radius,
+          x: centerX + Math.cos(angle) * radius + (Math.random() - 0.5) * 30,
+          y: centerY + Math.sin(angle) * radius + (Math.random() - 0.5) * 30,
           vx: 0,
           vy: 0,
+          r: 2.6 * devicePixelRatio,
           degree: 0,
           pulse: Math.random() * Math.PI * 2,
         };
       });
 
-      lazega.edges.forEach(([a, b]) => {
-        if (a <= 40) nodes[a - 1].degree++;
+      // Calculate degrees
+      lazega.edges.forEach(([from, to]) => {
+        if (from <= 40) nodes[from - 1].degree++;
       });
 
-      distMatrix = calculateDistanceMatrix();
-
+      // Create undirected edges
       edges = [];
       const edgeSet = new Set();
       lazega.edges.forEach(([a, b]) => {
@@ -152,74 +94,71 @@ console.log("✓ consultancy-network-animated.js loaded");
           }
         }
       });
-
-      layoutIterations = 0;
     }
 
-    function drawNode(n) {
-      // Size by degree: logarithmic scale
-      const sizeScale = Math.log(n.degree + 2) / Math.log(25);
-      const baseR = 3.2 + sizeScale * 5.2;
-      const pulse = 1 + 0.12 * Math.sin(time + n.pulse);
-      const r = baseR * pulse;
+    function applyForces() {
+      const centerX = width / 2;
+      const centerY = height / 2;
+      const repelDist = 100 * devicePixelRatio;
 
-      // Determine role by degree
-      const degreePercentile = n.degree / 20;
-      let nodeType = 'peripheral';
-      if (degreePercentile > 0.65) nodeType = 'partner'; // high degree = partner
-      else if (degreePercentile > 0.3) nodeType = 'counsel'; // medium
+      for (let i = 0; i < nodes.length; i++) {
+        const n = nodes[i];
+        let fx = 0, fy = 0;
 
-      // Glow
-      ctx.beginPath();
-      ctx.fillStyle = `rgba(122, 92, 197, ${0.15 + 0.1 * degreePercentile})`;
-      ctx.arc(n.x, n.y, r * 2.6, 0, Math.PI * 2);
-      ctx.fill();
+        // Center attraction
+        const dx = centerX - n.x;
+        const dy = centerY - n.y;
+        const dist = Math.sqrt(dx * dx + dy * dy) || 1;
+        fx += (dx / dist) * 0.1;
+        fy += (dy / dist) * 0.1;
 
-      // Gold glow for partners
-      if (nodeType === 'partner') {
-        ctx.beginPath();
-        ctx.fillStyle = `rgba(242, 169, 59, ${0.08 * degreePercentile})`;
-        ctx.arc(n.x, n.y, r * 3.2, 0, Math.PI * 2);
-        ctx.fill();
+        // Node repulsion
+        for (let j = 0; j < nodes.length; j++) {
+          if (i === j) continue;
+          const dx2 = n.x - nodes[j].x;
+          const dy2 = n.y - nodes[j].y;
+          const dist2 = Math.sqrt(dx2 * dx2 + dy2 * dy2) || 1;
+
+          if (dist2 < repelDist) {
+            fx += (dx2 / dist2) * 0.7;
+            fy += (dy2 / dist2) * 0.7;
+          }
+        }
+
+        // Edge attraction
+        edges.forEach(([a, b]) => {
+          if (i === a) {
+            const dx3 = nodes[b].x - n.x;
+            const dy3 = nodes[b].y - n.y;
+            const dist3 = Math.sqrt(dx3 * dx3 + dy3 * dy3) || 1;
+            fx += (dx3 / dist3) * 0.18;
+            fy += (dy3 / dist3) * 0.18;
+          } else if (i === b) {
+            const dx3 = nodes[a].x - n.x;
+            const dy3 = nodes[a].y - n.y;
+            const dist3 = Math.sqrt(dx3 * dx3 + dy3 * dy3) || 1;
+            fx += (dx3 / dist3) * 0.18;
+            fy += (dy3 / dist3) * 0.18;
+          }
+        });
+
+        n.vx += fx;
+        n.vy += fy;
+        n.vx *= 0.88;
+        n.vy *= 0.88;
       }
-
-      // Gradient
-      const g = ctx.createRadialGradient(n.x - r * 0.3, n.y - r * 0.3, 0, n.x, n.y, r);
-      g.addColorStop(0, "#b8a6e0");
-      g.addColorStop(0.6, "#7a5cc5");
-      g.addColorStop(1, "#5a3fa5");
-      ctx.fillStyle = g;
-
-      // Node shape: partner=diamond, counsel=square, associate=circle
-      if (nodeType === 'partner') {
-        ctx.beginPath();
-        ctx.moveTo(n.x + r * 1.1, n.y);
-        ctx.lineTo(n.x, n.y + r * 1.1);
-        ctx.lineTo(n.x - r * 1.1, n.y);
-        ctx.lineTo(n.x, n.y - r * 1.1);
-        ctx.closePath();
-        ctx.fill();
-      } else if (nodeType === 'counsel') {
-        ctx.fillRect(n.x - r * 0.95, n.y - r * 0.95, r * 1.9, r * 1.9);
-      } else {
-        ctx.beginPath();
-        ctx.arc(n.x, n.y, r, 0, Math.PI * 2);
-        ctx.fill();
-      }
-
-      // Border
-      ctx.strokeStyle = `rgba(242, 169, 59, ${0.5 + 0.5 * degreePercentile})`;
-      ctx.lineWidth = 1.2 + degreePercentile * 1.8;
-      ctx.stroke();
     }
 
     function step() {
       ctx.clearRect(0, 0, width, height);
       if (!reduceMotion) time += 0.016;
 
-      if (!reduceMotion && layoutIterations < 350) {
-        stressIteration();
-        layoutIterations++;
+      if (!reduceMotion) {
+        applyForces();
+        for (const n of nodes) {
+          n.x += n.vx;
+          n.y += n.vy;
+        }
       }
 
       // Draw edges
@@ -227,10 +166,10 @@ console.log("✓ consultancy-network-animated.js loaded");
         const n1 = nodes[a];
         const n2 = nodes[b];
         const strength = Math.min(n1.degree, n2.degree) / 20;
-        const alpha = 0.13 + 0.17 * strength;
+        const alpha = 0.15 + 0.15 * strength;
 
         ctx.strokeStyle = `rgba(122, 92, 197, ${alpha})`;
-        ctx.lineWidth = 0.8 + 0.7 * strength;
+        ctx.lineWidth = (0.8 + 0.6 * strength) * devicePixelRatio;
         ctx.lineCap = "round";
         ctx.beginPath();
         ctx.moveTo(n1.x, n1.y);
@@ -238,8 +177,40 @@ console.log("✓ consultancy-network-animated.js loaded");
         ctx.stroke();
       });
 
-      // Draw all nodes
-      nodes.forEach(drawNode);
+      // Draw nodes (size by degree)
+      nodes.forEach(n => {
+        const degreeScale = 0.7 + (n.degree / 20) * 1;
+        const pulse = 1 + 0.2 * Math.sin(time + n.pulse);
+        const r = n.r * degreeScale * pulse;
+
+        // Glow
+        ctx.beginPath();
+        ctx.fillStyle = "rgba(122, 92, 197, 0.2)";
+        ctx.arc(n.x, n.y, r * 2.4, 0, Math.PI * 2);
+        ctx.fill();
+
+        // Gold glow for high-degree nodes
+        if (n.degree > 15) {
+          ctx.beginPath();
+          ctx.fillStyle = `rgba(242, 169, 59, ${0.1 * (n.degree / 20)})`;
+          ctx.arc(n.x, n.y, r * 3, 0, Math.PI * 2);
+          ctx.fill();
+        }
+
+        // Node
+        const g = ctx.createRadialGradient(n.x - r * 0.3, n.y - r * 0.3, 0, n.x, n.y, r);
+        g.addColorStop(0, "#b8a6e0");
+        g.addColorStop(0.6, "#7a5cc5");
+        g.addColorStop(1, "#5a3fa5");
+        ctx.beginPath();
+        ctx.fillStyle = g;
+        ctx.arc(n.x, n.y, r, 0, Math.PI * 2);
+        ctx.fill();
+
+        ctx.strokeStyle = `rgba(242, 169, 59, ${0.4 + 0.4 * (n.degree / 20)})`;
+        ctx.lineWidth = 1.4 * devicePixelRatio;
+        ctx.stroke();
+      });
 
       if (!reduceMotion) requestAnimationFrame(step);
     }
@@ -250,11 +221,6 @@ console.log("✓ consultancy-network-animated.js loaded");
   }
 
   document.addEventListener("DOMContentLoaded", function () {
-    const canvases = document.querySelectorAll("canvas.consultancy-network");
-    console.log("Consultancy: Found", canvases.length, "canvas elements");
-    canvases.forEach(function(canvas) {
-      console.log("Consultancy: Initializing canvas", canvas);
-      initConsultancyNetwork(canvas);
-    });
+    document.querySelectorAll("canvas.consultancy-network").forEach(initConsultancyNetwork);
   });
 })();
