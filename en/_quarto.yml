@@ -7,9 +7,17 @@ lang: en
 website:
   title: "Social Networks Group – UC"
   description: "Social Networks Group – UC, Institute of Sociology, Pontificia Universidad Católica de Chile."
+  site-url: https://anespinosa.github.io/social-networks-group-uc/en
+  image: og-image.png
   favicon: favicon.svg
   page-navigation: true
   back-to-top-navigation: true
+  open-graph:
+    image: og-image.png
+    locale: en_US
+  twitter-card:
+    image: og-image.png
+    card-style: summary_large_image
   navbar:
     background: dark
     left:
@@ -23,7 +31,7 @@ website:
         file: publications.qmd
       - text: Teaching
         file: teaching.qmd
-      - text: Collaboration
+      - text: Advisory & Consulting
         file: collaboration.qmd
       - text: Prospective Students
         file: prospective-students.qmd
@@ -48,7 +56,7 @@ website:
       </div>
       <div class="snuc-footer-col">
       <h4>Engage</h4>
-      <a href="collaboration.html">Organizational Intelligence</a>
+      <a href="collaboration.html">Advisory &amp; Consulting</a>
       <a href="prospective-students.html">Prospective Students</a>
       <a href="contact.html">Contact</a>
       </div>
@@ -74,6 +82,7 @@ format:
           <script src="nav-drawer.js"></script>
           <script src="diplomado-network-animated.js"></script>
           <script src="consultancy-network-animated.js"></script>
+          <script src="ux-enhance.js" defer></script>
     toc: false
     grid:
       body-width: 900px

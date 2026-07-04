@@ -75,7 +75,7 @@ page-layout: article
 
 ::: {.snuc-org-alliance}
 <div class="alliance-content">
-<h3>CHISOCNET — Chilean Society for Social Network Science</h3>
+<h3>CHISOCNET — The Chilean Society for Social Network Science</h3>
 <p>The Social Networks Group – UC is an active partner of CHISOCNET, which aims to develop social network science in Chile into an internationally recognized field of reference for Ibero-America — through conferences, seminars, and a summer school.</p>
 <p><a href="https://www.chisocnet.org" class="btn-alliance">Visit CHISOCNET →</a></p>
 </div>

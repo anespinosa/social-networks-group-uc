@@ -1,5 +1,6 @@
 ---
-title: ""
+title: "Social Networks Group – UC"
+pagetitle: "Social Networks Group – UC"
 page-layout: article
 ---
 
@@ -54,8 +55,8 @@ Research lines, ongoing projects, and open-source software for network analysis.
 [See our research →](research.qmd){.stretched}
 </div>
 <div class="snuc-card">
-### Collaboration & Impact
-Executive education, consultancy, and our alliance with CHISOCNET.
+### Advisory & Consulting
+Network analysis and strategic consulting for organizations, plus our alliance with CHISOCNET.
 [Work with us →](collaboration.qmd){.stretched}
 </div>
 <div class="snuc-card">
@@ -68,7 +69,7 @@ Graduate supervision across Sociology, Government, and Education.
 ## Alliance
 
 ::: {.snuc-alliance}
-**[CHISOCNET — Chilean Society for Social Network Science](https://www.chisocnet.org)**   ·   We are proud partners of CHISOCNET, working to develop social network science as a field of reference across Chile and Ibero-America.
+**[CHISOCNET — The Chilean Society for Social Network Science](https://www.chisocnet.org)**   ·   We are proud partners of CHISOCNET, working to develop social network science as a field of reference across Chile and Ibero-America.
 :::
 
 <!-- TODO: add a short "Latest" strip here once news/highlights start flowing:

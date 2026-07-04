@@ -10,7 +10,7 @@ subtitle: "Peer-reviewed articles, books, and working papers by group members"
 
 ::: {.snuc-org-hero .compact}
 <div class="snuc-org-hero-content">
-<div class="snuc-eyebrow">Scholarship</div>
+<div class="snuc-eyebrow">Research Output</div>
 <h1>Publications</h1>
 <p class="lead">Peer-reviewed articles, books, and working papers by members of the Social Networks Group – UC.</p>
 </div>

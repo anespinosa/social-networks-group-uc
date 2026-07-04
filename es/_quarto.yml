@@ -7,9 +7,17 @@ lang: es
 website:
   title: "Grupo de Redes Sociales – UC"
   description: "Grupo de Redes Sociales – UC, Instituto de Sociología, Pontificia Universidad Católica de Chile."
+  site-url: https://anespinosa.github.io/social-networks-group-uc/es
+  image: og-image.png
   favicon: favicon.svg
   page-navigation: true
   back-to-top-navigation: true
+  open-graph:
+    image: og-image.png
+    locale: es_ES
+  twitter-card:
+    image: og-image.png
+    card-style: summary_large_image
   navbar:
     background: dark
     left:
@@ -23,7 +31,7 @@ website:
         file: publicaciones.qmd
       - text: Docencia
         file: docencia.qmd
-      - text: Vinculación
+      - text: Asesoría y Consultoría
         file: vinculacion.qmd
       - text: Futuros Estudiantes
         file: futuros-estudiantes.qmd
@@ -48,7 +56,7 @@ website:
       </div>
       <div class="snuc-footer-col">
       <h4>Participa</h4>
-      <a href="vinculacion.html">Inteligencia Organizacional</a>
+      <a href="vinculacion.html">Asesoría y Consultoría</a>
       <a href="futuros-estudiantes.html">Futuros Estudiantes</a>
       <a href="contacto.html">Contacto</a>
       </div>
@@ -74,6 +82,7 @@ format:
           <script src="nav-drawer.js"></script>
           <script src="diplomado-network-animated.js"></script>
           <script src="consultancy-network-animated.js"></script>
+          <script src="ux-enhance.js" defer></script>
     toc: false
     grid:
       body-width: 900px

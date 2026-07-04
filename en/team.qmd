@@ -28,7 +28,7 @@ subtitle: "Faculty, students, research associates, and visitors of the Social Ne
 <div class="snuc-keynote-content">
 ### Karina Arias
 <div class="role">Associate Professor · School of Government, PUC</div>
-<div class="bio">PhD in Public Administration and Policy, Florida State University. Research: metropolitan governance, inter-municipal cooperation, and network analysis applied to public administration. Board member, Chilean Society for Social Network Science (CHISOCNET).</div>
+<div class="bio">PhD in Public Administration and Policy, Florida State University. Research: metropolitan governance, inter-municipal cooperation, and network analysis applied to public administration. Board member of the Chilean Society for Social Network Science (CHISOCNET).</div>
 [Faculty profile →](https://gobierno.uc.cl/profesores/karina-arias/)
 </div>
 </div>

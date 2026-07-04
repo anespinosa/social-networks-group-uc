@@ -1,5 +1,6 @@
 ---
-title: ""
+title: "Grupo de Redes Sociales – UC"
+pagetitle: "Grupo de Redes Sociales – UC"
 page-layout: article
 ---
 
@@ -54,8 +55,8 @@ Líneas de investigación, proyectos en curso y software de código abierto para
 [Ver nuestra investigación →](investigacion.qmd){.stretched}
 </div>
 <div class="snuc-card">
-### Vinculación
-Educación continua, asesorías y nuestra alianza con CHISOCNET.
+### Asesoría y Consultoría
+Análisis de redes y consultoría estratégica para organizaciones, además de nuestra alianza con CHISOCNET.
 [Trabaja con nosotros →](vinculacion.qmd){.stretched}
 </div>
 <div class="snuc-card">

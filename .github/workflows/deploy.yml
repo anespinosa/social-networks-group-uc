@@ -33,8 +33,12 @@ jobs:
           cp shared/diplomado-network-animated.js es/diplomado-network-animated.js
           cp shared/consultancy-network-animated.js en/consultancy-network-animated.js
           cp shared/consultancy-network-animated.js es/consultancy-network-animated.js
+          cp shared/ux-enhance.js en/ux-enhance.js
+          cp shared/ux-enhance.js es/ux-enhance.js
           cp shared/img/favicon.svg en/favicon.svg
           cp shared/img/favicon.svg es/favicon.svg
+          cp shared/img/og-image.png en/og-image.png
+          cp shared/img/og-image.png es/og-image.png
           mkdir -p en/img/team es/img/team en/img/partners es/img/partners en/img/brand es/img/brand
           cp shared/img/team/*.jpg en/img/team/
           cp shared/img/team/*.jpg es/img/team/
