@@ -88,6 +88,14 @@ subtitle: "Líneas de investigación, proyectos en curso y software de código a
 <p class="investigators"><span class="snuc-member">Daniela Luengo</span>.</p>
 </div>
 </div>
+
+<div class="snuc-project">
+<div class="proj-meta"><span class="grant">ANID/FONDECYT Regular Nº1250594 · 2025–2027</span><h3>Movilidad Docente en la Educación Media Técnico-Profesional</h3></div>
+<div class="proj-body">
+<p class="desc">Análisis de patrones y factores determinantes de la movilidad docente en la educación media técnico-profesional.</p>
+<p class="investigators">Investigadora Responsable: María Beatriz Fernández Cofré. Co-Investigadores: Gabriel Gutiérrez, <span class="snuc-member">Daniela Luengo</span>.</p>
+</div>
+</div>
 :::
 
 ## Software

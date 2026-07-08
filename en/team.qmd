@@ -28,7 +28,7 @@ subtitle: "Faculty, students, research associates, and visitors of the Social Ne
 <div class="snuc-keynote-content">
 ### Karina Arias
 <div class="role">Associate Professor · School of Government, PUC</div>
-<div class="bio">PhD in Public Administration and Policy, Florida State University. Research: metropolitan governance, inter-municipal cooperation, and network analysis applied to public administration. Board member of the Chilean Society for Social Network Science (CHISOCNET); member of [REDgob — Grupo de Investigación en Redes de Gobierno](https://redgob.cl).</div>
+<div class="bio">PhD in Public Administration and Policy, Florida State University. Her research examines metropolitan governance, inter-municipal cooperation, and the application of network analysis to public administration, focusing on how local governments coordinate around shared policy challenges. She is Principal Investigator of the ANID/FONDECYT project on metropolitan governance networks in Chile and Colombia, and Responsible Investigator of the Avanza UC initiative on governing environmental complexity. Board member of the Chilean Society for Social Network Science (CHISOCNET); member of [REDgob — Grupo de Investigación en Redes de Gobierno](https://redgob.cl).</div>
 [Faculty profile →](https://gobierno.uc.cl/profesores/karina-arias/)
 </div>
 </div>
@@ -38,7 +38,7 @@ subtitle: "Faculty, students, research associates, and visitors of the Social Ne
 <div class="snuc-keynote-content">
 ### Daniela Luengo
 <div class="role">Assistant Professor · College UC & Faculty of Education, PUC</div>
-<div class="bio">PhD in Educational Policy, University of Rochester. Research combines the economics of education, quasi-experimental methods, and network analysis to study educational-labor trajectories, equity and inclusion, and the adoption of innovations in school systems.</div>
+<div class="bio">PhD in Educational Policy, University of Rochester. Her research combines the economics of education, quasi-experimental methods, and network analysis to study educational-labor trajectories, equity and inclusion, and the adoption of innovations in school systems. She leads an ANID/FONDECYT Postdoctoral project on social networks among educational actors in the Magallanes region, and a William T. Grant Foundation grant studying housing, networks, and youth mobility in Detroit. She is also a co-investigator on an ANID/FONDECYT Regular project examining teacher mobility in technical-vocational secondary education.</div>
 [College UC profile →](https://college.uc.cl/academicas-y-academicos/daniela-luengo/) · [Faculty of Education profile →](https://educacion.uc.cl/cuerpo-academico/planta-ordinaria/luengo-daniela/)
 </div>
 </div>

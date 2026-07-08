@@ -88,6 +88,14 @@ subtitle: "Research lines, ongoing projects, and open-source software"
 <p class="investigators"><span class="snuc-member">Daniela Luengo</span>.</p>
 </div>
 </div>
+
+<div class="snuc-project">
+<div class="proj-meta"><span class="grant">ANID/FONDECYT Regular Nº1250594 · 2025–2027</span><h3>Teacher Mobility in Technical-Vocational Secondary Education</h3></div>
+<div class="proj-body">
+<p class="desc">Analyzing patterns and determining factors of teacher mobility in technical-vocational secondary education.</p>
+<p class="investigators">Principal Investigator: María Beatriz Fernández Cofré. Co-Investigators: Gabriel Gutiérrez, <span class="snuc-member">Daniela Luengo</span>.</p>
+</div>
+</div>
 :::
 
 ## Software
