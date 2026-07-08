@@ -18,7 +18,7 @@ subtitle: "Faculty, students, research associates, and visitors of the Social Ne
 <div class="snuc-keynote-content">
 ### Alejandro Espinosa-Rada
 <div class="role">Assistant Professor · Institute of Sociology, PUC</div>
-<div class="bio">PhD in Sociology, University of Manchester (Mitchell Centre for Social Network Analysis); previously postdoctoral researcher and lecturer at ETH Zürich's Social Networks Lab. Research: sociology of social networks, group dynamics, sociology of science and knowledge, and statistical models for social networks. Author and maintainer of [netmem](https://cran.r-project.org/web/packages/netmem/index.html).</div>
+<div class="bio">PhD in Sociology, University of Manchester (Mitchell Centre for Social Network Analysis); previously postdoctoral researcher and lecturer at ETH Zürich's Social Networks Lab, and currently Visiting Professor at CESO, KU Leuven. His research integrates the sociology of organizations, the sociology of science and knowledge, group dynamics, and social network analysis — focusing on how relational structures shape coordination, inequality, and institutional dynamics, and on computational methods and software for network analysis. Author and maintainer of [netmem](https://cran.r-project.org/web/packages/netmem/index.html); Director of CHISOCNET; Co-Editor-in-Chief of *Connections*; and Scientific Communications Editor of *Network Science*.</div>
 [Faculty profile →](https://sociologia.uc.cl/academicos-as/planta-academica/alejandro-espinosa-rada/)
 </div>
 </div>
@@ -71,7 +71,7 @@ subtitle: "Faculty, students, research associates, and visitors of the Social Ne
 <div class="snuc-person">
 <div class="avatar">DT</div>
 ### Daniel Toro
-<div class="role">PhD Student · Industrial & Systems Engineering, Universidad de Chile</div>
+<div class="role">PhD Student · Industrial & Systems Engineering, Universidad de Chile; Computer Science, University of Manchester</div>
 </div>
 
 <div class="snuc-person">

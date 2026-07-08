@@ -632,6 +632,15 @@ h4{
   color: $muted;
   margin-bottom: 0;
 }
+/* Group members highlighted in investigator lists */
+.snuc-member{
+  font-weight: 700;
+  color: $navy;
+  text-decoration: underline;
+  text-decoration-color: $gold-bright;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+}
 @media (max-width: 760px){
   .snuc-project{
     grid-template-columns: 1fr;

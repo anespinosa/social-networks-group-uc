@@ -18,7 +18,7 @@ subtitle: "Profesores, estudiantes, investigadores asociados y visitantes del Gr
 <div class="snuc-keynote-content">
 ### Alejandro Espinosa-Rada
 <div class="role">Profesor Asistente · Instituto de Sociología, UC</div>
-<div class="bio">Doctor en Sociología, Universidad de Manchester (Mitchell Centre for Social Network Analysis); anteriormente investigador postdoctoral y profesor en el Social Networks Lab de ETH Zúrich. Investigación: sociología de las redes sociales, dinámica de grupos, sociología de la ciencia y el conocimiento, y modelos estadísticos para redes sociales. Autor y mantenedor de [netmem](https://cran.r-project.org/web/packages/netmem/index.html).</div>
+<div class="bio">Doctor en Sociología, Universidad de Manchester (Mitchell Centre for Social Network Analysis); anteriormente investigador postdoctoral y profesor en el Social Networks Lab de ETH Zúrich, y actualmente Profesor Visitante en CESO, KU Leuven. Su investigación integra la sociología de las organizaciones, la sociología de la ciencia y el conocimiento, la dinámica de grupos y el análisis de redes sociales — con foco en cómo las estructuras relacionales moldean la coordinación, la desigualdad y las dinámicas institucionales, y en métodos computacionales y software para el análisis de redes. Autor y mantenedor de [netmem](https://cran.r-project.org/web/packages/netmem/index.html); Director de CHISOCNET; Co-Editor-in-Chief de *Connections*; y Scientific Communications Editor de *Network Science*.</div>
 [Perfil académico →](https://sociologia.uc.cl/academicos-as/planta-academica/alejandro-espinosa-rada/)
 </div>
 </div>
@@ -71,7 +71,7 @@ subtitle: "Profesores, estudiantes, investigadores asociados y visitantes del Gr
 <div class="snuc-person">
 <div class="avatar">DT</div>
 ### Daniel Toro
-<div class="role">Estudiante de Doctorado · Sistemas de Ingeniería, Universidad de Chile</div>
+<div class="role">Estudiante de Doctorado · Sistemas de Ingeniería, Universidad de Chile; Ciencias de la Computación, University of Manchester</div>
 </div>
 
 <div class="snuc-person">
