@@ -16,7 +16,7 @@ page-layout: article
 
 ::: {.snuc-stats}
 <div class="snuc-stat"><span class="number">11</span><span class="label">Research areas</span></div>
-<div class="snuc-stat"><span class="number">4</span><span class="label">Active research grants</span></div>
+<div class="snuc-stat"><span class="number">6</span><span class="label">Active research grants</span></div>
 <div class="snuc-stat"><span class="number">5</span><span class="label">Countries in our network</span></div>
 :::
 

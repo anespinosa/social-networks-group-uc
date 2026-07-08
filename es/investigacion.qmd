@@ -72,6 +72,22 @@ subtitle: "Líneas de investigación, proyectos en curso y software de código a
 <p class="investigators">Investigadora Responsable: <span class="snuc-member">Karina Arias</span>. Investigador Principal: <span class="snuc-member">Alejandro Espinosa-Rada</span>.</p>
 </div>
 </div>
+
+<div class="snuc-project">
+<div class="proj-meta"><span class="grant">ANID/FONDECYT Postdoctorado Nº3240333 · 2024–2027</span><h3>Innovación en las Aulas de Magallanes</h3></div>
+<div class="proj-body">
+<p class="desc">Análisis de redes sociales entre actores educacionales en la región de Magallanes y su influencia en la difusión de innovaciones en las aulas.</p>
+<p class="investigators">Investigadora Responsable: <span class="snuc-member">Daniela Luengo</span>.</p>
+</div>
+</div>
+
+<div class="snuc-project">
+<div class="proj-meta"><span class="grant">William T. Grant Foundation, Reducing Inequality Research Grant · 2024–2027</span><h3>Vivienda, Redes y Movilidad para Jóvenes de Bajos Ingresos</h3></div>
+<div class="proj-body">
+<p class="desc">Un estudio sobre la implementación de inversiones federales en vivienda para reducir la desigualdad en Detroit.</p>
+<p class="investigators"><span class="snuc-member">Daniela Luengo</span>.</p>
+</div>
+</div>
 :::
 
 ## Software

@@ -16,7 +16,7 @@ page-layout: article
 
 ::: {.snuc-stats}
 <div class="snuc-stat"><span class="number">11</span><span class="label">Áreas de investigación</span></div>
-<div class="snuc-stat"><span class="number">4</span><span class="label">Proyectos de investigación activos</span></div>
+<div class="snuc-stat"><span class="number">6</span><span class="label">Proyectos de investigación activos</span></div>
 <div class="snuc-stat"><span class="number">5</span><span class="label">Países en nuestra red</span></div>
 :::
 
