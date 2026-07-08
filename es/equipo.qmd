@@ -28,7 +28,7 @@ subtitle: "Profesores, estudiantes, investigadores asociados y visitantes del Gr
 <div class="snuc-keynote-content">
 ### Karina Arias
 <div class="role">Profesora Asociada · Escuela de Gobierno, UC</div>
-<div class="bio">Doctora en Administración y Políticas Públicas, Florida State University. Investigación: gobernanza metropolitana, cooperación intermunicipal y análisis de redes aplicado a la administración pública. Integrante de la directiva de la Sociedad Chilena de Ciencia de Redes Sociales (CHISOCNET).</div>
+<div class="bio">Doctora en Administración y Políticas Públicas, Florida State University. Investigación: gobernanza metropolitana, cooperación intermunicipal y análisis de redes aplicado a la administración pública. Integrante de la directiva de la Sociedad Chilena de Ciencia de Redes Sociales (CHISOCNET); integrante de [REDgob — Grupo de Investigación en Redes de Gobierno](https://redgob.cl).</div>
 [Perfil académico →](https://gobierno.uc.cl/profesores/karina-arias/)
 </div>
 </div>
@@ -39,7 +39,7 @@ subtitle: "Profesores, estudiantes, investigadores asociados y visitantes del Gr
 ### Daniela Luengo
 <div class="role">Profesora Asistente · College UC y Facultad de Educación, UC</div>
 <div class="bio">Doctora en Política Educativa, Universidad de Rochester. Su investigación combina economía de la educación, métodos cuasi-experimentales y análisis de redes para estudiar trayectorias formativo-laborales, equidad e inclusión, y la adopción de innovaciones en sistemas escolares.</div>
-[Perfil académico →](https://educacion.uc.cl/cuerpo-academico/planta-ordinaria/luengo-daniela/)
+[Perfil en College UC →](https://college.uc.cl/academicas-y-academicos/daniela-luengo/) · [Perfil en Facultad de Educación →](https://educacion.uc.cl/cuerpo-academico/planta-ordinaria/luengo-daniela/)
 </div>
 </div>
 
