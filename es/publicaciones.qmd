@@ -21,24 +21,24 @@ subtitle: "Artículos revisados por pares, libros y documentos de trabajo de mie
 ### 2026
 
 - Jones, P., Verhoeven, D., & Espinosa-Rada, A. (2026). The role of film school collaboration in film industry network formation: an empirical analysis of data from the Australian Film, Television and Radio School (AFTRS). *Journal of Cultural Analytics.* [DOI](https://doi.org/10.22148/jca.1173)
-- Espinosa-Rada, A., Bargsted, M., & Ortiz Ruiz, F. (2026). Socioeconomic homogeneity in acquaintance networks: Occupational prestige, education, and intergenerational mobility. *Social Networks, 86.*
-- Espinosa-Rada, A. (2026). Network positions within scholars and intellectual networks. *SSRN.*
+- Espinosa-Rada, A., Bargsted, M., & Ortiz Ruiz, F. (2026). Socioeconomic homogeneity in acquaintance networks: Occupational prestige, education, and intergenerational mobility. *Social Networks, 86.* [DOI](https://doi.org/10.1016/j.socnet.2026.04.012)
+- Espinosa-Rada, A. (2026). Network positions within scholars and intellectual networks. *SSRN.* [SSRN](https://ssrn.com/abstract=6051794)
 - Vanhulst, J., & Espinosa-Rada, A. (2026). Constructing sustainability science: a reflexive analysis of the boundary problem to define a scientific field. *Research Square.* [DOI](https://doi.org/10.21203/rs.3.rs-9751043/v1)
-- Alieva, D., Ávila Molero, J., Bernard, H. R., Bidart, C., Carballo López, M., et al. (incl. Espinosa-Rada, A.). (2026). Liber amicorum del profesor José Luis Molina. *Redes. Revista hispana para el análisis de redes sociales, 37*(2).
+- Alieva, D., Ávila Molero, J., Bernard, H. R., Bidart, C., Carballo López, M., et al. (incl. Espinosa-Rada, A.). (2026). Liber amicorum del profesor José Luis Molina. *Redes. Revista hispana para el análisis de redes sociales, 37*(2). [DOI](https://doi.org/10.5565/rev/redes.1183)
 
 ### 2025
 
-- Espinosa-Rada, A., Lerner, J., & Fritz, C. (2025). Socio-cognitive networks between researchers: Investigating scientific dualities with the group-oriented relational hyperevent model. *Social Networks, 83.*
-- Bellotti, E., & Espinosa-Rada, A. (2025). Scientific networks. In *Handbook of Culture and Social Networks.*
-- Vanhulst, J., Padilla, P., Espinosa-Rada, A., Cantillán, R., Velásquez, R., et al. (2025). The reflexive process in sustainability science: A short critical review. *Environmental Science & Policy.*
+- Espinosa-Rada, A., Lerner, J., & Fritz, C. (2025). Socio-cognitive networks between researchers: Investigating scientific dualities with the group-oriented relational hyperevent model. *Social Networks, 83.* [DOI](https://doi.org/10.1016/j.socnet.2025.04.005)
+- Bellotti, E., & Espinosa-Rada, A. (2025). Scientific networks. In *Handbook of Culture and Social Networks.* [DOI](https://doi.org/10.4337/9781803928784.00018)
+- Vanhulst, J., Padilla, P., Espinosa-Rada, A., Cantillán, R., Velásquez, R., et al. (2025). The reflexive process in sustainability science: A short critical review. *Environmental Science & Policy.* [DOI](https://doi.org/10.1016/j.envsci.2025.104145)
 - Ramos-Fuenzalida, C., Retamal-Soto, K., & Arias-Yurisch, K. (2025). Explaining partner selection in planned emergency management networks. *International Journal of Public Administration*, 1–13.
 - Arias-Yurisch, K., Retamal-Soto, K., & Ramos-Fuenzalida, C. (2025). Insights into collaborative networks in Latin American public administrations. In *Handbook of Public Management in Latin America and the Caribbean* (pp. 239–257).
 - Díaz, B., Luengo-Aravena, D., Barahona, P., & Felmer, P. (2025). Assessing the impact of online collaborative problem solving on a calculus class for first-year engineering students: A communities of practice lens. *Journal of Engineering Education, 114*(1), e20622.
 
 ### 2024
 
-- Espinosa-Rada, A., Bellotti, E., Everett, M. G., & Stadtfeld, C. (2024). Co-evolution of a socio-cognitive scientific network: A case study of citation dynamics among astronomers. *Social Networks.*
-- Arias-Yurisch, K., Retamal-Soto, K., Ramos-Fuenzalida, C., & Espinosa-Rada, A. (2024). Participation in multiple policy venues in governance of Chile's Santiago Metropolitan Region: When institutional attributes can make the difference. *Policy Studies Journal, 52*(3), 583–602.
+- Espinosa-Rada, A., Bellotti, E., Everett, M. G., & Stadtfeld, C. (2024). Co-evolution of a socio-cognitive scientific network: A case study of citation dynamics among astronomers. *Social Networks.* [DOI](https://doi.org/10.1016/j.socnet.2023.11.008)
+- Arias-Yurisch, K., Retamal-Soto, K., Ramos-Fuenzalida, C., & Espinosa-Rada, A. (2024). Participation in multiple policy venues in governance of Chile's Santiago Metropolitan Region: When institutional attributes can make the difference. *Policy Studies Journal, 52*(3), 583–602. [DOI](https://doi.org/10.1111/psj.12527)
 - Arias-Yurisch, K., Retamal-Soto, K., & Ramos-Fuenzalida, C. (2024). The prevalence of a bonding strategy in COVID-19 response networks. *Regional Studies, 58*(2), 381–392.
 - Luengo-Aravena, D., Cabello, P., & Bachino, B. R. M. (2024). Online collaborative problem-solving as a tangible outcome of digital skills in technical and vocational higher education. *Computers & Education, 218*, 105079.
 - Sevilla, M. P., Luengo-Aravena, D., & Madero, C. (2024). Transitioning from industry to teaching in VET: profiles of VET teachers in Chile. *Education + Training, 66*(5), 477–493.
@@ -49,20 +49,20 @@ subtitle: "Artículos revisados por pares, libros y documentos de trabajo de mie
 - Espinosa-Rada, A. (2023). Usos contemporáneos de los modelos estocásticos orientados en el actor (SAOMs) para redes dinámicas. In *Redes Sociales: teoría, métodos y aplicaciones en América Latina.*
 - Ortiz Ruiz, F., & Espinosa-Rada, A. (2023). Las redes del mundo digital: noción, recolección de datos y análisis relacional. In *Redes Sociales: teoría, métodos y aplicaciones en América Latina.*
 - Ortiz Ruiz, F., & Espinosa-Rada, A. (2023). Ciencias de redes sociales en América Latina: énfasis y nuevas directrices en el campo de las ciencias sociales. In *Redes Sociales: teoría, métodos y aplicaciones en América Latina.*
-- Espinosa-Rada, A., Ortiz Ruiz, F., & Palacios, D. (2023). Social network researchers in South America: The Chilean Society for Social Network Science (ChiSocNet). *AWARI — Revista de la Asociación Latinoamericana de Análisis de Redes.*
-- Espinosa-Rada, A., & Ortiz Ruiz, F. (2023). Why is the world small? Comment on how the POPNET project can leverage computational social science. *SocArXiv.*
-- Uzaheta, A., & Espinosa-Rada, A. (2023). Modelos estocásticos orientados en el actor utilizando RSiena (V): Estimación de un modelo para la evolución de redes sociales. *Redes. Revista hispana para el análisis de redes sociales, 34*(1).
-- Espinosa-Rada, A., & Uzaheta, A. (2023). Modelos estocásticos orientados en el actor utilizando RSiena (VI): Coevolución de redes sociales y comportamientos individuales. *Redes. Revista hispana para el análisis de redes sociales, 34*(1).
+- Espinosa-Rada, A., Ortiz Ruiz, F., & Palacios, D. (2023). Social network researchers in South America: The Chilean Society for Social Network Science (ChiSocNet). *AWARI — Revista de la Asociación Latinoamericana de Análisis de Redes.* [DOI](https://doi.org/10.47909/awari.48)
+- Espinosa-Rada, A., & Ortiz Ruiz, F. (2023). Why is the world small? Comment on how the POPNET project can leverage computational social science. *SocArXiv.* [DOI](https://doi.org/10.31235/osf.io/m4srd)
+- Uzaheta, A., & Espinosa-Rada, A. (2023). Modelos estocásticos orientados en el actor utilizando RSiena (V): Estimación de un modelo para la evolución de redes sociales. *Redes. Revista hispana para el análisis de redes sociales, 34*(1). [DOI](https://doi.org/10.5565/rev/redes.989)
+- Espinosa-Rada, A., & Uzaheta, A. (2023). Modelos estocásticos orientados en el actor utilizando RSiena (VI): Coevolución de redes sociales y comportamientos individuales. *Redes. Revista hispana para el análisis de redes sociales, 34*(1). [DOI](https://doi.org/10.5565/rev/redes.988)
 - Retamal-Soto, K., Arias-Yurisch, K., & Ramos-Fuenzalida, C. (2023). Inter-municipal governance networks: application of exponential random graph models in Los Lagos, Chile. *Revista de Administração Pública, 57*, e2022-0271.
 - Arias-Yurisch, K., Retamal-Soto, K., & Ramos-Fuenzalida, C. (2023). América Latina frente aos desafios da governança em rede. Fundação João Pinheiro.
 - Sevilla, M. P., Luengo-Aravena, D., & Farías, M. (2023). Gender gap in STEM pathways: The role of secondary curricula in a highly differentiated school system — the case of Chile. *International Journal of STEM Education, 10*(1), 58.
 
 ### 2022
 
-- Espinosa-Rada, A., & Ortiz, F. (2022). Gender and researchers with institutional affiliations in the global south/north in social network science. *Applied Network Science.*
-- Espinosa-Rada, A. (2022). Modelos estocásticos orientados en el actor utilizando RSiena (I): Guión básico introductorio. *Redes. Revista hispana para el análisis de redes sociales.*
-- Espinosa-Rada, A. (2022). Modelos estocásticos orientados en el actor utilizando RSiena (II): Formato de los datos. *Redes. Revista hispana para el análisis de redes sociales.*
-- Uzaheta, A., & Espinosa-Rada, A. (2022). Modelos estocásticos orientados en el actor utilizando RSiena (IV): Formato de las variables. *Redes. Revista hispana para el análisis de redes sociales.*
+- Espinosa-Rada, A., & Ortiz, F. (2022). Gender and researchers with institutional affiliations in the global south/north in social network science. *Applied Network Science.* [DOI](https://doi.org/10.1007/s41109-022-00478-8)
+- Espinosa-Rada, A. (2022). Modelos estocásticos orientados en el actor utilizando RSiena (I): Guión básico introductorio. *Redes. Revista hispana para el análisis de redes sociales.* [DOI](https://doi.org/10.5565/rev/redes.936)
+- Espinosa-Rada, A. (2022). Modelos estocásticos orientados en el actor utilizando RSiena (II): Formato de los datos. *Redes. Revista hispana para el análisis de redes sociales.* [DOI](https://doi.org/10.5565/rev/redes.937)
+- Uzaheta, A., & Espinosa-Rada, A. (2022). Modelos estocásticos orientados en el actor utilizando RSiena (IV): Formato de las variables. *Redes. Revista hispana para el análisis de redes sociales.* [DOI](https://doi.org/10.5565/rev/redes.957)
 - Ramos Fuenzalida, C. P., Retamal Soto, K. M., & Arias Yurisch, K. A. (2022). Colaborar para gobernar en pandemia: El caso de la red de gobernanza intermunicipal de Santiago de Chile. *Estado, Gobierno y Gestión Pública, 20*(39).
 
 ### 2021
@@ -77,14 +77,14 @@ subtitle: "Artículos revisados por pares, libros y documentos de trabajo de mie
 
 ### 2019
 
-- Espinosa-Rada, A., Ortiz, F., & Cereceda, T. (2019). Astroinformática y prospección de la astronomía chilena: Sub-disciplina en el escenario global y desarrollo científico local. *CUHSO Cultura-Hombre-Sociedad.*
+- Espinosa-Rada, A., Ortiz, F., & Cereceda, T. (2019). Astroinformática y prospección de la astronomía chilena: Sub-disciplina en el escenario global y desarrollo científico local. *CUHSO Cultura-Hombre-Sociedad.* [DOI](https://doi.org/10.7770/0719-2789.2019.CUHSO.0.0A00)
 - Arias-Yurisch, K., Retamal-Soto, K., & Ramos-Fuenzalida, C. (2019). Inter-municipal cooperation in Latin America: current situation and future research challenges. *Revista de Administração Pública, 53*, 575–591.
 - Arias-Yurisch, K., & Garrido-Vergara, L. (2019). What propels municipal governments to collaborate? The case of thematic environmental association in Chile. *Lex Localis: Journal of Local Self-Government, 17*(1).
 - Arias-Yurisch, K. (2019). Exploring public network's operation from a cultural approach: the case of an inter-local association in Chile. *Public Organization Review, 19*(1), 65–83.
 
 ### 2018
 
-- González Torralbo, H., Ortiz Ruiz, F. J., & Espinosa Rada, A. N. (2018). Redes de parentesco en las familias de Santiago de Chile. *Redes: revista hispana para el análisis de redes sociales.*
+- González Torralbo, H., Ortiz Ruiz, F. J., & Espinosa Rada, A. N. (2018). Redes de parentesco en las familias de Santiago de Chile. *Redes: revista hispana para el análisis de redes sociales.* [DOI](https://doi.org/10.5565/rev/redes.741)
 - Finnigan, K. S., Luengo-Aravena, D. E., & Garrison, K. M. (2018). Social network analysis methods in educational policy research. In *Complementary Research Methods for Educational Leadership and Policy Studies.*
 :::
 
