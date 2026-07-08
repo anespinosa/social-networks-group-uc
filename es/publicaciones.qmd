@@ -45,7 +45,7 @@ subtitle: "Artículos revisados por pares, libros y documentos de trabajo de mie
 
 ### 2023
 
-- Ortiz Ruiz, F., & Espinosa-Rada, A. (Eds.). (2023). *Redes Sociales: teoría, métodos y aplicaciones en América Latina.* Centro de Investigaciones Sociológicas (CIS).
+- Ortiz Ruiz, F., & Espinosa-Rada, A. (Eds.). (2023). *Redes Sociales: teoría, métodos y aplicaciones en América Latina.* Centro de Investigaciones Sociológicas (CIS). [ISBN](https://search.worldcat.org/search?q=bn:9788474769067)
 - Espinosa-Rada, A. (2023). Usos contemporáneos de los modelos estocásticos orientados en el actor (SAOMs) para redes dinámicas. In *Redes Sociales: teoría, métodos y aplicaciones en América Latina.*
 - Ortiz Ruiz, F., & Espinosa-Rada, A. (2023). Las redes del mundo digital: noción, recolección de datos y análisis relacional. In *Redes Sociales: teoría, métodos y aplicaciones en América Latina.*
 - Ortiz Ruiz, F., & Espinosa-Rada, A. (2023). Ciencias de redes sociales en América Latina: énfasis y nuevas directrices en el campo de las ciencias sociales. In *Redes Sociales: teoría, métodos y aplicaciones en América Latina.*
@@ -67,7 +67,7 @@ subtitle: "Artículos revisados por pares, libros y documentos de trabajo de mie
 
 ### 2021
 
-- Espinosa-Rada, A. (2021). *A network approach for the sociological study of science and knowledge: Modelling a dynamic multilevel network* [Tesis doctoral, The University of Manchester].
+- Espinosa-Rada, A. (2021). *A network approach for the sociological study of science and knowledge: Modelling a dynamic multilevel network* [Tesis doctoral, The University of Manchester]. [Enlace](https://research.manchester.ac.uk/en/studentTheses/a-network-approach-for-the-sociological-study-of-science-and-know/)
 - Sevilla, M. P., Farías, M., & Luengo-Aravena, D. (2021). Patterns and persistence of educational mismatch: a trajectory approach using Chilean panel data. *Social Sciences, 10*(9), 333. [DOI](https://doi.org/10.3390/socsci10090333)
 
 ### 2020
@@ -84,6 +84,7 @@ subtitle: "Artículos revisados por pares, libros y documentos de trabajo de mie
 
 ### 2018
 
+- Espinosa-Rada, A., Ortiz Ruiz, F., & Sanhueza, N. (Eds.). (2018). *Tecnopolíticas: Aproximaciones a los estudios de Ciencia, Tecnología y Sociedad en Chile.* Universidad Alberto Hurtado. [ISBN](https://search.worldcat.org/search?q=bn:9789563571721)
 - González Torralbo, H., Ortiz Ruiz, F. J., & Espinosa Rada, A. N. (2018). Redes de parentesco en las familias de Santiago de Chile. *Redes: revista hispana para el análisis de redes sociales.* [DOI](https://doi.org/10.5565/rev/redes.741)
 - Finnigan, K. S., Luengo-Aravena, D. E., & Garrison, K. M. (2018). Social network analysis methods in educational policy research. In *Complementary Research Methods for Educational Leadership and Policy Studies.* [DOI](https://doi.org/10.1007/978-3-319-93539-3_12)
 :::
