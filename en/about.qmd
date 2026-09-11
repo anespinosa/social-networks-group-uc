@@ -46,6 +46,13 @@ Network analysis and strategic diagnostics for organizations, government, and ci
 
 Social Networks – UC is a collaborative space for researchers working from a network perspective. We meet every other week at the San Joaquín Campus of the Pontificia Universidad Católica de Chile to discuss the theoretical and methodological challenges of ongoing research, and to support the development of each member's work.
 
+<div class="snuc-gallery two">
+<figure><a href="img/photos/meeting-session.jpg"><img src="img/photos/meeting-session.jpg" alt="Group members around a meeting table, following a presentation on a wall screen" width="1200" height="1600" loading="lazy"></a><figcaption>A regular group meeting.</figcaption></figure>
+<figure><a href="img/photos/meeting-discussion.jpg"><img src="img/photos/meeting-discussion.jpg" alt="Two group members in a meeting room discussing a presentation shown on a wall screen" width="1200" height="1600" loading="lazy"></a><figcaption>Discussing research in progress.</figcaption></figure>
+<figure><a href="img/photos/meeting-pizza.jpg"><img src="img/photos/meeting-pizza.jpg" alt="Group members smiling around a table with laptops and pizza boxes" width="1600" height="1200" loading="lazy"></a><figcaption>Working session.</figcaption></figure>
+<figure><a href="img/photos/meeting-dinner.jpg"><img src="img/photos/meeting-dinner.jpg" alt="Group members sharing a meal at an outdoor restaurant table" width="1600" height="1200" loading="lazy"></a><figcaption>Group dinner.</figcaption></figure>
+</div>
+
 Our members span faculty, doctoral and master's students, postdoctoral researchers, and international visitors and associates. If you are interested in joining our meetings or pursuing graduate research with us, see [Prospective Students](prospective-students.qmd).
 
 ## Our Alliance

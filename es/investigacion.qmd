@@ -108,4 +108,22 @@ Un paquete de R para el manejo y transformación de datos de redes entre los for
 - Instalación: `install.packages("netmem")`
 :::
 
+::: {.snuc-card .snuc-software}
+<span class="snuc-status">Próximamente</span>
+
+### ER Visual Lab
+Un motor de visualización científica de redes que funciona en el navegador, construido desde cero en TypeScript y sin dependencias en tiempo de ejecución. Lee listas de aristas, matrices de adyacencia, GraphML, archivos Pajek y tablas bimodales o multinivel, y las presenta como visualizaciones interactivas en canvas HTML5 o en un pipeline WebGL acelerado por GPU.
+
+<div class="snuc-software-media">
+<figure><a href="img/software/er-visual-lab.jpg"><img src="img/software/er-visual-lab.jpg" alt="Interfaz de ER Visual Lab mostrando una red de dos niveles, laboratorios y científicos, en planos 3D apilados" width="1280" height="751" loading="lazy"></a><figcaption>Visualización multinivel: laboratorios y científicos en planos 3D rotables.</figcaption></figure>
+<figure><video src="img/software/er-visual-lab-demo.mp4" poster="img/software/er-visual-lab-poster.jpg" width="832" height="448" autoplay muted loop playsinline controls preload="metadata" aria-label="Demostración de ER Visual Lab: disposición dirigida por fuerzas en vivo de un modelo de bloques estocásticos, coloreada por comunidades Louvain"></video><figcaption>Disposición dirigida por fuerzas en vivo, coloreada por comunidades Louvain.</figcaption></figure>
+</div>
+
+- **Detección de comunidades:** Louvain, Leiden, Infomap, propagación de etiquetas, Girvan–Newman
+- **Centralidad:** grado, intermediación, cercanía, vector propio, PageRank, k-core
+- **Disposiciones:** dirigidas por fuerzas (Fruchterman–Reingold, Kamada–Kawai, stress majorization), vistas concéntricas de ego y centralidad, proyecciones geográficas y vistas multinivel con planos 3D rotables
+- **Exportación:** SVG, PNG o HTML interactivo autocontenido
+- [Página del proyecto](https://www.aespinosarada.com/visualizing-art-networks)
+:::
+
 <!-- TODO: agregar otras herramientas/paquetes de software a medida que se publiquen. -->

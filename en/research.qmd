@@ -108,4 +108,22 @@ An R package for handling and transforming network data across formats commonly 
 - Install: `install.packages("netmem")`
 :::
 
+::: {.snuc-card .snuc-software}
+<span class="snuc-status">Coming soon</span>
+
+### ER Visual Lab
+A browser-based engine for scientific network visualization, built from first principles in TypeScript with no runtime dependencies. It reads edge lists, adjacency matrices, GraphML, Pajek files, and two-mode or multilevel tables, and renders them as interactive visualizations on HTML5 canvas or a GPU-accelerated WebGL pipeline.
+
+<div class="snuc-software-media">
+<figure><a href="img/software/er-visual-lab.jpg"><img src="img/software/er-visual-lab.jpg" alt="ER Visual Lab interface showing a two-level network of labs and scientists drawn on stacked 3D planes" width="1280" height="751" loading="lazy"></a><figcaption>Multilevel layout: labs and scientists on rotatable 3D planes.</figcaption></figure>
+<figure><video src="img/software/er-visual-lab-demo.mp4" poster="img/software/er-visual-lab-poster.jpg" width="832" height="448" autoplay muted loop playsinline controls preload="metadata" aria-label="ER Visual Lab demo: a live force-directed layout of a stochastic block model, colored by Louvain communities"></video><figcaption>Live force-directed layout, colored by Louvain communities.</figcaption></figure>
+</div>
+
+- **Community detection:** Louvain, Leiden, Infomap, label propagation, Girvan–Newman
+- **Centrality:** degree, betweenness, closeness, eigenvector, PageRank, k-core
+- **Layouts:** force-directed (Fruchterman–Reingold, Kamada–Kawai, stress majorization), concentric ego and centrality views, geographic projections, and multilevel views with rotatable 3D planes
+- **Export:** SVG, PNG, or self-contained interactive HTML
+- [Project page](https://www.aespinosarada.com/visualizing-art-networks)
+:::
+
 <!-- TODO: add further software tools/packages as they are released. -->

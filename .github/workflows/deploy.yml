@@ -48,6 +48,12 @@ jobs:
           cp shared/img/partners/*.svg es/img/partners/
           cp shared/img/brand/*.png en/img/brand/
           cp shared/img/brand/*.png es/img/brand/
+          mkdir -p en/img/photos es/img/photos
+          cp shared/img/photos/*.jpg en/img/photos/
+          cp shared/img/photos/*.jpg es/img/photos/
+          mkdir -p en/img/software es/img/software
+          cp shared/img/software/* en/img/software/
+          cp shared/img/software/* es/img/software/
           (cd en && quarto render)
           (cd es && quarto render)
           cp root-index.html _site/index.html

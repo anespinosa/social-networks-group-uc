@@ -27,6 +27,12 @@ cp shared/img/partners/*.svg en/img/partners/
 cp shared/img/partners/*.svg es/img/partners/
 cp shared/img/brand/*.png en/img/brand/
 cp shared/img/brand/*.png es/img/brand/
+mkdir -p en/img/photos es/img/photos
+cp shared/img/photos/*.jpg en/img/photos/
+cp shared/img/photos/*.jpg es/img/photos/
+mkdir -p en/img/software es/img/software
+cp shared/img/software/* en/img/software/
+cp shared/img/software/* es/img/software/
 cp shared/img/*-network.svg en/img/
 cp shared/img/*-network.svg es/img/
 

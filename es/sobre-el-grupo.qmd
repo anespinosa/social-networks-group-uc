@@ -46,6 +46,13 @@ Análisis de redes y diagnósticos estratégicos para organizaciones, gobierno y
 
 Redes Sociales – UC es un espacio colaborativo para investigadores que trabajan desde la perspectiva de redes. Nos reunimos cada dos semanas en el Campus San Joaquín de la Pontificia Universidad Católica de Chile para discutir los desafíos teóricos y metodológicos de investigaciones en curso, y para apoyar el desarrollo del trabajo de cada integrante.
 
+<div class="snuc-gallery two">
+<figure><a href="img/photos/meeting-session.jpg"><img src="img/photos/meeting-session.jpg" alt="Integrantes del grupo alrededor de una mesa de reuniones, siguiendo una presentación en pantalla" width="1200" height="1600" loading="lazy"></a><figcaption>Reunión regular del grupo.</figcaption></figure>
+<figure><a href="img/photos/meeting-discussion.jpg"><img src="img/photos/meeting-discussion.jpg" alt="Dos integrantes del grupo en una sala de reuniones conversando sobre una presentación en pantalla" width="1200" height="1600" loading="lazy"></a><figcaption>Discusión de una investigación en curso.</figcaption></figure>
+<figure><a href="img/photos/meeting-pizza.jpg"><img src="img/photos/meeting-pizza.jpg" alt="Integrantes del grupo sonriendo alrededor de una mesa con computadores y cajas de pizza" width="1600" height="1200" loading="lazy"></a><figcaption>Sesión de trabajo.</figcaption></figure>
+<figure><a href="img/photos/meeting-dinner.jpg"><img src="img/photos/meeting-dinner.jpg" alt="Integrantes del grupo compartiendo una comida en la terraza de un restaurante" width="1600" height="1200" loading="lazy"></a><figcaption>Cena del grupo.</figcaption></figure>
+</div>
+
 Nuestros miembros incluyen académicos, estudiantes de doctorado y magíster, investigadores postdoctorales, y visitantes e investigadores asociados internacionales. Si te interesa sumarte a nuestras reuniones o desarrollar investigación de posgrado con nosotros, revisa [Futuros Estudiantes](futuros-estudiantes.qmd).
 
 ## Nuestra Alianza

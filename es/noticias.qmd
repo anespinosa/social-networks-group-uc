@@ -1,0 +1,31 @@
+---
+title: "Noticias"
+subtitle: "Eventos, seminarios y anuncios del grupo"
+---
+
+::: {.snuc-org-hero .compact}
+<div class="snuc-org-hero-content">
+<div class="snuc-eyebrow">Actualidad</div>
+<h1>Noticias</h1>
+<p class="lead">Eventos, seminarios y anuncios del Grupo de Redes Sociales – UC.</p>
+</div>
+:::
+
+<!-- Más recientes primero. Las noticias reutilizan el estilo de tarjeta .snuc-project de la página de Investigación. -->
+
+::: {.snuc-projects}
+<div class="snuc-project">
+<div class="proj-meta"><span class="grant">Seminario · 12 de agosto de 2026</span><h3>Seminario de Investigación en Ciencia de Redes Sociales</h3></div>
+<div class="proj-body">
+<p class="desc">ChiSocNet realizó una jornada de investigación en el Campus San Joaquín de la UC, organizada en dos paneles: perspectivas metodológicas en el análisis de redes, y la relación entre redes, instituciones y estructuras sociales. Organizado junto al Instituto de Sociología, College UC, la Escuela de Gobierno y la Facultad de Educación.</p>
+<p class="investigators">Panel 1: <span class="snuc-member">Alejandro Espinosa-Rada</span>, <span class="snuc-member">Daniela Luengo</span>, <span class="snuc-member">Lorenzo Vives</span>, <span class="snuc-member">Daniel Toro</span>. Panel 2: <span class="snuc-member">Karina Arias</span>, <span class="snuc-member">Alberto Durán</span>, <span class="snuc-member">Diego Caro</span>, <span class="snuc-member">Roberto Cantillán</span>.</p>
+<p><a href="https://www.uc.cl/agenda/actividad/investigacion-en-ciencia-de-redes-sociales">Ver en la Agenda UC →</a></p>
+</div>
+<div class="snuc-gallery">
+<figure class="wide"><a href="img/photos/seminar-2026-group.jpg"><img src="img/photos/seminar-2026-group.jpg" alt="Foto grupal de participantes del seminario en una sala, frente a una pantalla de proyección y un pendón de ChiSocNet" width="1600" height="900" loading="lazy"></a><figcaption>Participantes del seminario, 12 de agosto de 2026.</figcaption></figure>
+<figure><a href="img/photos/seminar-2026-opening.jpg"><img src="img/photos/seminar-2026-opening.jpg" alt="Un expositor presenta el Grupo de Redes Sociales – UC ante el público" width="1152" height="648" loading="lazy"></a><figcaption>Presentación del Grupo de Redes Sociales – UC.</figcaption></figure>
+<figure><a href="img/photos/seminar-2026-panel.jpg"><img src="img/photos/seminar-2026-panel.jpg" alt="Una expositora presenta sobre redes de colaboración mandatada en la gobernanza metropolitana de la calidad del aire" width="1200" height="1600" loading="lazy"></a><figcaption>Ponencia sobre redes de colaboración en la gobernanza metropolitana de la calidad del aire.</figcaption></figure>
+<figure><a href="img/photos/seminar-2026-chisocnet.jpg"><img src="img/photos/seminar-2026-chisocnet.jpg" alt="Pendón de ChiSocNet en la entrada de la sala, con asistentes siguiendo una presentación" width="1280" height="720" loading="lazy"></a><figcaption>ChiSocNet organizó el seminario.</figcaption></figure>
+</div>
+</div>
+:::

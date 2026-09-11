@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: ../_site/en
+  resources:
+    - img/software/*
 
 lang: en
 
@@ -31,6 +33,8 @@ website:
         file: research.qmd
       - text: Publications
         file: publications.qmd
+      - text: News
+        file: news.qmd
       - text: Teaching
         file: teaching.qmd
       - text: Advisory & Consulting
@@ -55,6 +59,7 @@ website:
       <a href="team.html">Team</a>
       <a href="research.html">Research</a>
       <a href="publications.html">Publications</a>
+      <a href="news.html">News</a>
       <a href="teaching.html">Teaching</a>
       </div>
       <div class="snuc-footer-col">

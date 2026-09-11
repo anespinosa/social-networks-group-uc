@@ -1,0 +1,31 @@
+---
+title: "News"
+subtitle: "Events, seminars, and announcements from the group"
+---
+
+::: {.snuc-org-hero .compact}
+<div class="snuc-org-hero-content">
+<div class="snuc-eyebrow">Latest</div>
+<h1>News</h1>
+<p class="lead">Events, seminars, and announcements from the Social Networks Group – UC.</p>
+</div>
+:::
+
+<!-- Newest first. Items reuse the .snuc-project card style from the Research page. -->
+
+::: {.snuc-projects}
+<div class="snuc-project">
+<div class="proj-meta"><span class="grant">Seminar · 12 August 2026</span><h3>Social Network Science Research Seminar</h3></div>
+<div class="proj-body">
+<p class="desc">ChiSocNet held a one-day research seminar at UC's San Joaquín campus, organized around two panels: methodological perspectives in network analysis, and the relationship between networks, institutions, and social structures. Co-organized by the Institute of Sociology, College UC, the School of Government, and the Faculty of Education.</p>
+<p class="investigators">Panel 1: <span class="snuc-member">Alejandro Espinosa-Rada</span>, <span class="snuc-member">Daniela Luengo</span>, <span class="snuc-member">Lorenzo Vives</span>, <span class="snuc-member">Daniel Toro</span>. Panel 2: <span class="snuc-member">Karina Arias</span>, <span class="snuc-member">Alberto Durán</span>, <span class="snuc-member">Diego Caro</span>, <span class="snuc-member">Roberto Cantillán</span>.</p>
+<p><a href="https://www.uc.cl/agenda/actividad/investigacion-en-ciencia-de-redes-sociales">Event page on UC Agenda →</a></p>
+</div>
+<div class="snuc-gallery">
+<figure class="wide"><a href="img/photos/seminar-2026-group.jpg"><img src="img/photos/seminar-2026-group.jpg" alt="Group photo of seminar participants in a classroom, in front of a projection screen and a ChiSocNet banner" width="1600" height="900" loading="lazy"></a><figcaption>Seminar participants, 12 August 2026.</figcaption></figure>
+<figure><a href="img/photos/seminar-2026-opening.jpg"><img src="img/photos/seminar-2026-opening.jpg" alt="A speaker presenting the Social Networks Group – UC to a seated audience" width="1152" height="648" loading="lazy"></a><figcaption>Presenting the Social Networks Group – UC.</figcaption></figure>
+<figure><a href="img/photos/seminar-2026-panel.jpg"><img src="img/photos/seminar-2026-panel.jpg" alt="A speaker presenting a talk on mandated collaboration networks in metropolitan air-quality governance" width="1200" height="1600" loading="lazy"></a><figcaption>Panel talk on collaboration networks in metropolitan air-quality governance.</figcaption></figure>
+<figure><a href="img/photos/seminar-2026-chisocnet.jpg"><img src="img/photos/seminar-2026-chisocnet.jpg" alt="ChiSocNet banner at the seminar room entrance, with attendees following a presentation" width="1280" height="720" loading="lazy"></a><figcaption>ChiSocNet hosted the seminar.</figcaption></figure>
+</div>
+</div>
+:::
