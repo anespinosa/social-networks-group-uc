@@ -75,12 +75,6 @@ subtitle: "Faculty, students, research associates, and visitors of the Social Ne
 </div>
 
 <div class="snuc-person">
-<div class="avatar">DC</div>
-### Diego Caro
-<div class="role">PhD Student · Sociology, University of Manchester</div>
-</div>
-
-<div class="snuc-person">
 <div class="avatar">RC</div>
 ### Roberto Cantillán
 <div class="role">PhD Student · Sociology, PUC</div>
@@ -94,6 +88,12 @@ subtitle: "Faculty, students, research associates, and visitors of the Social Ne
 <div class="avatar">LV</div>
 ### Lorenzo Vives
 <div class="role">MA, Sociology, PUC</div>
+</div>
+
+<div class="snuc-person">
+<div class="avatar">DC</div>
+### Diego Caro
+<div class="role">MA, Sociology, UCH</div>
 </div>
 
 <div class="snuc-person">

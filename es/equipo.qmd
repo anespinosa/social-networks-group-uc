@@ -75,12 +75,6 @@ subtitle: "Profesores, estudiantes, investigadores asociados y visitantes del Gr
 </div>
 
 <div class="snuc-person">
-<div class="avatar">DC</div>
-### Diego Caro
-<div class="role">Estudiante de Doctorado · Sociología, University of Manchester</div>
-</div>
-
-<div class="snuc-person">
 <div class="avatar">RC</div>
 ### Roberto Cantillán
 <div class="role">Estudiante de Doctorado · Sociología, UC</div>
@@ -94,6 +88,12 @@ subtitle: "Profesores, estudiantes, investigadores asociados y visitantes del Gr
 <div class="avatar">LV</div>
 ### Lorenzo Vives
 <div class="role">Magíster en Sociología, UC</div>
+</div>
+
+<div class="snuc-person">
+<div class="avatar">DC</div>
+### Diego Caro
+<div class="role">Magíster en Sociología, UCH</div>
 </div>
 
 <div class="snuc-person">
