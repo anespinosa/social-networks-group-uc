@@ -8,7 +8,7 @@ lang: es
 
 website:
   title: "Grupo de Redes Sociales – UC"
-  description: "Grupo de Redes Sociales – UC, Instituto de Sociología, Pontificia Universidad Católica de Chile."
+  description: "Grupo de Redes Sociales – UC, Pontificia Universidad Católica de Chile."
   site-url: https://anespinosa.github.io/social-networks-group-uc/es
   image: og-image.png
   favicon: favicon.svg
@@ -51,7 +51,7 @@ website:
       <div class="snuc-footer-grid">
       <div class="snuc-footer-col snuc-footer-about">
       <span class="snuc-footer-brand"><span class="snuc-footer-logo"><img src="img/brand/puc-crest.png" alt="Pontificia Universidad Católica de Chile"></span> Grupo de Redes Sociales – UC</span>
-      <p class="snuc-footer-tagline">Avanzando la ciencia de redes sociales a través de la teoría, los métodos y los datos en el Instituto de Sociología, Pontificia Universidad Católica de Chile.</p>
+      <p class="snuc-footer-tagline">Avanzando la ciencia de redes sociales a través de la teoría, los métodos y los datos en la Pontificia Universidad Católica de Chile.</p>
       </div>
       <div class="snuc-footer-col">
       <h4>Explora</h4>

@@ -8,7 +8,7 @@ lang: en
 
 website:
   title: "Social Networks Group – UC"
-  description: "Social Networks Group – UC, Institute of Sociology, Pontificia Universidad Católica de Chile."
+  description: "Social Networks Group – UC, Pontificia Universidad Católica de Chile."
   site-url: https://anespinosa.github.io/social-networks-group-uc/en
   image: og-image.png
   favicon: favicon.svg
@@ -51,7 +51,7 @@ website:
       <div class="snuc-footer-grid">
       <div class="snuc-footer-col snuc-footer-about">
       <span class="snuc-footer-brand"><span class="snuc-footer-logo"><img src="img/brand/puc-crest.png" alt="Pontificia Universidad Católica de Chile"></span> Social Networks Group – UC</span>
-      <p class="snuc-footer-tagline">Advancing social network science through theory, methods, and data at the Institute of Sociology, Pontificia Universidad Católica de Chile.</p>
+      <p class="snuc-footer-tagline">Advancing social network science through theory, methods, and data at the Pontificia Universidad Católica de Chile.</p>
       </div>
       <div class="snuc-footer-col">
       <h4>Explore</h4>
