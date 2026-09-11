@@ -15,6 +15,14 @@ subtitle: "Eventos, seminarios y anuncios del grupo"
 
 ::: {.snuc-projects}
 <div class="snuc-project">
+<div class="proj-meta"><span class="grant">Llamado cerrado · 14 de agosto de 2026</span><h3>Beca Postdoctoral ANID FONDECYT 2027</h3></div>
+<div class="proj-body">
+<p class="desc">El grupo invitó a investigadores/as en etapas tempranas de su carrera a expresar su interés en postular a la Beca Postdoctoral ANID FONDECYT 2027 con el Grupo de Redes Sociales – UC como institución patrocinante, en áreas como análisis de redes sociales, modelos estadísticos de redes, sociología matemática, ciencia social computacional y desarrollo metodológico y de software para el análisis de redes. El llamado cerró el 14 de agosto de 2026.</p>
+<p>Las próximas oportunidades postdoctorales se anunciarán aquí y en la página <a href="futuros-estudiantes.html">Futuros Estudiantes</a>.</p>
+</div>
+</div>
+
+<div class="snuc-project">
 <div class="proj-meta"><span class="grant">Seminario · 12 de agosto de 2026</span><h3>Seminario de Investigación en Ciencia de Redes Sociales</h3></div>
 <div class="proj-body">
 <p class="desc">ChiSocNet realizó una jornada de investigación en el Campus San Joaquín de la UC, organizada en dos paneles: perspectivas metodológicas en el análisis de redes, y la relación entre redes, instituciones y estructuras sociales. Organizado junto al Instituto de Sociología, College UC, la Escuela de Gobierno y la Facultad de Educación.</p>

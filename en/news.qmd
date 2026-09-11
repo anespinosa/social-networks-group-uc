@@ -15,6 +15,14 @@ subtitle: "Events, seminars, and announcements from the group"
 
 ::: {.snuc-projects}
 <div class="snuc-project">
+<div class="proj-meta"><span class="grant">Call closed · 14 August 2026</span><h3>ANID FONDECYT Postdoctoral Fellowship 2027</h3></div>
+<div class="proj-body">
+<p class="desc">The group invited expressions of interest from early-career researchers wishing to apply for the ANID FONDECYT Postdoctoral Fellowship 2027 with the Social Networks Group – UC as host institution, in areas including social network analysis, statistical network models, mathematical sociology, computational social science, and methodological and software development for network analysis. The call closed on 14 August 2026.</p>
+<p>Future postdoctoral opportunities will be announced here and on the <a href="prospective-students.html">Prospective Students</a> page.</p>
+</div>
+</div>
+
+<div class="snuc-project">
 <div class="proj-meta"><span class="grant">Seminar · 12 August 2026</span><h3>Social Network Science Research Seminar</h3></div>
 <div class="proj-body">
 <p class="desc">ChiSocNet held a one-day research seminar at UC's San Joaquín campus, organized around two panels: methodological perspectives in network analysis, and the relationship between networks, institutions, and social structures. Co-organized by the Institute of Sociology, College UC, the School of Government, and the Faculty of Education.</p>
