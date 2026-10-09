@@ -49,7 +49,7 @@ subtitle: "Faculty, students, research associates, and visitors of the Social Ne
 
 ## Affiliated Researchers
 
-Researchers with a doctorate who collaborate with the group without a faculty appointment.
+Researchers who collaborate with the group from other centers and units at UC and beyond.
 
 ::: {.snuc-people}
 <div class="snuc-person">

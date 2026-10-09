@@ -49,7 +49,7 @@ subtitle: "Profesores, estudiantes, investigadores asociados y visitantes del Gr
 
 ## Investigadores Afiliados
 
-Investigadores con doctorado que colaboran con el grupo sin un cargo académico.
+Investigadores que colaboran con el grupo desde otros centros y unidades, en la UC y fuera de ella.
 
 ::: {.snuc-people}
 <div class="snuc-person">
