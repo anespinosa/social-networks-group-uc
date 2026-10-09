@@ -47,6 +47,19 @@ subtitle: "Profesores, estudiantes, investigadores asociados y visitantes del Gr
 **¿Eres académico/a de planta de la UC?** Damos la bienvenida a profesores/as de cualquier unidad cuyo trabajo se relacione con redes sociales — de forma cuantitativa, computacional o sustantiva — a sumarse al grupo. Escribe a [anespinosa@uc.cl](mailto:anespinosa@uc.cl?subject=Sumarse%20al%20Grupo%20de%20Redes%20Sociales%20%E2%80%93%20UC) para conversarlo.
 :::
 
+## Investigadores Afiliados
+
+Investigadores con doctorado que colaboran con el grupo sin un cargo académico.
+
+::: {.snuc-people}
+<div class="snuc-person">
+<div class="avatar">MQ</div>
+### [Máximo Quiero](https://ceppe.uc.cl/index.php/personas/investigadores-adjuntos/1093-quiero-maximo)
+<div class="role">Coordinador de Investigación Avanzada · CEPPE UC, Pontificia Universidad Católica de Chile</div>
+Políticas educativas, regímenes de política social y sociología política.
+</div>
+:::
+
 ## Estudiantes de Doctorado
 
 ::: {.snuc-people}

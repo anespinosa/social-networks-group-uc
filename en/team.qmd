@@ -47,6 +47,19 @@ subtitle: "Faculty, students, research associates, and visitors of the Social Ne
 **Are you a permanent academic at UC?** We welcome faculty from any unit whose work touches social networks — quantitatively, computationally, or substantively — to join the group. Email [anespinosa@uc.cl](mailto:anespinosa@uc.cl?subject=Joining%20the%20Social%20Networks%20Group%20%E2%80%93%20UC) to talk about it.
 :::
 
+## Affiliated Researchers
+
+Researchers with a doctorate who collaborate with the group without a faculty appointment.
+
+::: {.snuc-people}
+<div class="snuc-person">
+<div class="avatar">MQ</div>
+### [Máximo Quiero](https://ceppe.uc.cl/index.php/personas/investigadores-adjuntos/1093-quiero-maximo)
+<div class="role">Advanced Research Coordinator · CEPPE UC, Pontificia Universidad Católica de Chile</div>
+Education policy, social policy regimes, and political sociology.
+</div>
+:::
+
 ## Doctoral Students
 
 ::: {.snuc-people}
