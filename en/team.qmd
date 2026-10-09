@@ -57,12 +57,6 @@ subtitle: "Faculty, students, research associates, and visitors of the Social Ne
 </div>
 
 <div class="snuc-person">
-<div class="avatar">LH</div>
-### Liliana Hurtado
-<div class="role">PhD Student · Communications, PUC</div>
-</div>
-
-<div class="snuc-person">
 <div class="avatar">VR</div>
 ### Valquiria Ramos
 <div class="role">PhD Student · Communications, PUC</div>
