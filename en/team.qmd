@@ -79,6 +79,12 @@ subtitle: "Faculty, students, research associates, and visitors of the Social Ne
 ### Roberto Cantillán
 <div class="role">PhD Student · Sociology, PUC</div>
 </div>
+
+<div class="snuc-person">
+<div class="avatar">GT</div>
+### Gonzalo Torres
+<div class="role">PhD Student · Sociology, PUC</div>
+</div>
 :::
 
 ## Master's Students & Research Assistants
@@ -94,6 +100,12 @@ subtitle: "Faculty, students, research associates, and visitors of the Social Ne
 <div class="avatar">DC</div>
 ### Diego Caro
 <div class="role">MA, Sociology, UCH</div>
+</div>
+
+<div class="snuc-person">
+<div class="avatar">ID</div>
+### M. Ignacia Devia
+<div class="role">MA, Sociology, PUC</div>
 </div>
 
 <div class="snuc-person">

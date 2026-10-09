@@ -79,6 +79,12 @@ subtitle: "Profesores, estudiantes, investigadores asociados y visitantes del Gr
 ### Roberto Cantillán
 <div class="role">Estudiante de Doctorado · Sociología, UC</div>
 </div>
+
+<div class="snuc-person">
+<div class="avatar">GT</div>
+### Gonzalo Torres
+<div class="role">Estudiante de Doctorado · Sociología, UC</div>
+</div>
 :::
 
 ## Estudiantes de Magíster y Ayudantes de Investigación
@@ -94,6 +100,12 @@ subtitle: "Profesores, estudiantes, investigadores asociados y visitantes del Gr
 <div class="avatar">DC</div>
 ### Diego Caro
 <div class="role">Magíster en Sociología, UCH</div>
+</div>
+
+<div class="snuc-person">
+<div class="avatar">ID</div>
+### M. Ignacia Devia
+<div class="role">Magíster en Sociología, UC</div>
 </div>
 
 <div class="snuc-person">
